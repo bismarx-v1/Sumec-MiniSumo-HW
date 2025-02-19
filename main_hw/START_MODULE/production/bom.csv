@@ -1,0 +1,11 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+C1,CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder,1,10uF,
+C2,0805,1,100nF,
+"D1, D2",0805,2,LED,
+J1,PinHeader_1x03_P2.54mm_Vertical,1,Conn_01x03_Pin,
+J2,PinHeader_1x04_P2.54mm_Vertical,1,Conn_01x04_Pin,
+"R1, R3",0805,2,220R,
+R2,0805,1,10k,
+SW1,SW_SPST_EVQPE1,1,SW_Push,
+U1,SOIC-8W_5.3x5.3mm_P1.27mm,1,ATtiny85-20S,
+U2,Vishay_MINICAST-3Pin,1,TSOP382xx,
