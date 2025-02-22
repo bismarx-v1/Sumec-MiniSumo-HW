@@ -1872,7 +1872,6 @@
 			(at 50.165 125.73 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 			)
@@ -1881,7 +1880,6 @@
 			(at 50.165 127.635 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 			)
@@ -1890,7 +1888,6 @@
 			(at 55.118 127 90)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -1900,7 +1897,6 @@
 			(at 53.34 127 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -1944,7 +1940,6 @@
 			(at 66.04 148.59 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -1954,7 +1949,6 @@
 			(at 66.04 146.05 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 			)
@@ -1963,7 +1957,6 @@
 			(at 66.04 142.24 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -1973,7 +1966,6 @@
 			(at 66.04 142.24 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2013,7 +2005,6 @@
 			(at 62.23 156.21 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2023,7 +2014,6 @@
 			(at 54.61 156.21 90)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -2033,7 +2023,6 @@
 			(at 58.42 156.21 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2043,7 +2032,6 @@
 			(at 58.42 156.21 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2083,7 +2071,6 @@
 			(at 57.785 140.97 90)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -2093,7 +2080,6 @@
 			(at 57.785 142.875 90)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -2103,7 +2089,6 @@
 			(at 63.5 138.7348 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2113,7 +2098,6 @@
 			(at 59.69 139.7 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2157,7 +2141,6 @@
 			(at 59.69 128.905 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 			)
@@ -2166,7 +2149,6 @@
 			(at 59.69 129.54 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2176,7 +2158,6 @@
 			(at 59.69 128.27 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2186,7 +2167,6 @@
 			(at 59.69 128.27 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2229,7 +2209,6 @@
 			(at 67.31 159.385 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 			)
@@ -2238,7 +2217,6 @@
 			(at 67.31 160.02 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2248,7 +2226,6 @@
 			(at 67.31 158.75 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2258,7 +2235,6 @@
 			(at 67.31 158.75 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2368,7 +2344,6 @@
 			(at 84.455 140.97 90)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -2378,7 +2353,6 @@
 			(at 84.455 142.875 90)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -2388,7 +2362,6 @@
 			(at 78.74 138.7348 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2398,7 +2371,6 @@
 			(at 82.55 139.7 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2572,7 +2544,6 @@
 			(at 82.55 128.905 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 			)
@@ -2581,7 +2552,6 @@
 			(at 82.55 129.54 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2591,7 +2561,6 @@
 			(at 82.55 128.27 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2601,7 +2570,6 @@
 			(at 82.55 128.27 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2709,7 +2677,6 @@
 			(at 67.31 151.765 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 			)
@@ -2718,7 +2685,6 @@
 			(at 67.31 152.4 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2728,7 +2694,6 @@
 			(at 67.31 151.13 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2738,7 +2703,6 @@
 			(at 67.31 151.13 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2847,7 +2811,6 @@
 			(at 53.34 125.73 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2857,7 +2820,6 @@
 			(at 48.26 120.65 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -2867,7 +2829,6 @@
 			(at 53.34 121.92 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -2877,7 +2838,6 @@
 			(at 53.34 121.92 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -3178,7 +3138,6 @@
 			(at 76.2 148.59 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -3188,7 +3147,6 @@
 			(at 76.2 146.05 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 			)
@@ -3197,7 +3155,6 @@
 			(at 76.2 142.24 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -3207,7 +3164,6 @@
 			(at 76.2 142.24 0)
 			(effects
 				(font
-					(face "Bahnschrift")
 					(size 1.27 1.27)
 				)
 				(hide yes)
