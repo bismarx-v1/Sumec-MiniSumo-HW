@@ -6182,7 +6182,7 @@
 			)
 		)
 	)
-	(global_label "VOUT 5V"
+	(global_label "VOUT_5V"
 		(shape input)
 		(at 72.39 83.82 180)
 		(fields_autoplaced yes)
@@ -6196,7 +6196,7 @@
 		)
 		(uuid "1abe06f3-74a8-4e15-aa3e-a8eb5c2c0342")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.9801 83.82 0)
+			(at 64.7457 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,7 +6254,7 @@
 			)
 		)
 	)
-	(global_label "VBUS 5V"
+	(global_label "VBUS_5V"
 		(shape input)
 		(at 57.15 95.25 180)
 		(fields_autoplaced yes)
@@ -6268,7 +6268,7 @@
 		)
 		(uuid "82032a6b-46b9-4285-b66d-f6491f327656")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.5526 95.25 0)
+			(at 49.3181 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6326,7 +6326,7 @@
 			)
 		)
 	)
-	(global_label "VOUT 5V"
+	(global_label "VOUT_5V"
 		(shape output)
 		(at 243.84 96.52 0)
 		(fields_autoplaced yes)
@@ -6340,7 +6340,7 @@
 		)
 		(uuid "d8af1383-429c-4f5b-bf10-66023edc84db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 251.2499 96.52 0)
+			(at 251.4843 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6350,7 +6350,7 @@
 			)
 		)
 	)
-	(global_label "VBUS 5V"
+	(global_label "VBUS_5V"
 		(shape input)
 		(at 91.44 105.41 0)
 		(fields_autoplaced yes)
@@ -6364,7 +6364,7 @@
 		)
 		(uuid "eb329989-44ff-4ee6-93a3-5196f044f718")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.0374 105.41 0)
+			(at 99.2719 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
