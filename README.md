@@ -19,7 +19,7 @@ This GitHub repository contains PCB files, gerber plots and main electronics use
 - **libs**: Contains needed libraries such as the footprint folder, 3D files in .step format, and the symbol library for schematics.
 
 ## Contributors
-**SOFTWARE Repository Supervisor**:
+**HARDWARE Repository Supervisor**:
 - **Savva Popov** - Head Hardware Developer and PCB Designer
 
 **Project Contributors**:
