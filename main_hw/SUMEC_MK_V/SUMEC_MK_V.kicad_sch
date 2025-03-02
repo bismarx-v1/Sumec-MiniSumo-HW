@@ -777,7 +777,7 @@
 		)
 		(uuid "3b5c3cb0-d931-4c56-b222-5f78ad2f3065")
 	)
-	(text "1. Q: \n2. Q: \n3. Q: Left/right silk for sensors and motors\n4. Q: \n5. Q: Add IO pin numbers after the routing is done\n6. Q: \n7. Q: "
+	(text "1. Q: \n2. Q: \n3. Q: Left/right silk for sensors and motors\n4. Q: \n5. Q: Add IO pin numbers after the routing is done\n6. Q: Does the voltage read need to be after the switch or before?\n7. Q: "
 		(exclude_from_sim no)
 		(at 20.32 183.134 0)
 		(effects
@@ -1114,7 +1114,11 @@
 				)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(face "Bahnschrift")
+						(size 1 1)
+						(bold yes)
+						(italic yes)
+						(color 0 0 0 1)
 					)
 					(justify left top)
 				)
@@ -1131,13 +1135,17 @@
 				)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(face "Bahnschrift")
+						(size 1 1)
+						(bold yes)
+						(italic yes)
+						(color 0 0 0 1)
 					)
 					(justify left top)
 				)
 				(uuid "d12868be-14b0-4b95-a710-0745b855e94e")
 			)
-			(table_cell "GYROSCOPE"
+			(table_cell "GYROSCOPE - BMI088"
 				(exclude_from_sim no)
 				(at 96.52 172.72 0)
 				(size 19.685 2.54)
@@ -1148,13 +1156,15 @@
 				)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(face "Bahnschrift")
+						(size 1 1)
+						(color 0 0 0 1)
 					)
 					(justify left top)
 				)
 				(uuid "0a377909-6375-45f3-8739-464560a3b77e")
 			)
-			(table_cell ""
+			(table_cell "0x69"
 				(exclude_from_sim no)
 				(at 116.205 172.72 0)
 				(size 19.685 2.54)
@@ -1165,13 +1175,15 @@
 				)
 				(effects
 					(font
+						(face "Bahnschrift")
 						(size 1.27 1.27)
+						(color 0 0 0 1)
 					)
 					(justify left top)
 				)
 				(uuid "3b88518c-7883-4bca-9611-29532481afac")
 			)
-			(table_cell "ACCELEROMETER"
+			(table_cell "ACCELEROMETER - BMI088"
 				(exclude_from_sim no)
 				(at 96.52 175.26 0)
 				(size 19.685 2.54)
@@ -1182,13 +1194,15 @@
 				)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(face "Bahnschrift")
+						(size 1 1)
+						(color 0 0 0 1)
 					)
 					(justify left top)
 				)
 				(uuid "75e93db4-c17a-4be9-a451-403c765d9c5b")
 			)
-			(table_cell ""
+			(table_cell "0x19"
 				(exclude_from_sim no)
 				(at 116.205 175.26 0)
 				(size 19.685 2.54)
@@ -1199,13 +1213,15 @@
 				)
 				(effects
 					(font
+						(face "Bahnschrift")
 						(size 1.27 1.27)
+						(color 0 0 0 1)
 					)
 					(justify left top)
 				)
 				(uuid "626e56b3-e34b-480f-a906-bb38a07c2225")
 			)
-			(table_cell "EEPROM"
+			(table_cell "EEPROM - 24CW1280T"
 				(exclude_from_sim no)
 				(at 96.52 177.8 0)
 				(size 19.685 2.54)
@@ -1216,13 +1232,15 @@
 				)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(face "Bahnschrift")
+						(size 1 1)
+						(color 0 0 0 1)
 					)
 					(justify left top)
 				)
 				(uuid "7dc65e29-08fa-4ad8-a229-a2a13c3d2640")
 			)
-			(table_cell ""
+			(table_cell "0x50"
 				(exclude_from_sim no)
 				(at 116.205 177.8 0)
 				(size 19.685 2.54)
@@ -1233,13 +1251,15 @@
 				)
 				(effects
 					(font
+						(face "Bahnschrift")
 						(size 1.27 1.27)
+						(color 0 0 0 1)
 					)
 					(justify left top)
 				)
 				(uuid "c7178fdb-d378-4916-bcc2-bf730d73ae92")
 			)
-			(table_cell "BMI008"
+			(table_cell "VOLTAGE READ - INU226"
 				(exclude_from_sim no)
 				(at 96.52 180.34 0)
 				(size 19.685 2.54)
@@ -1250,13 +1270,15 @@
 				)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(face "Bahnschrift")
+						(size 1 1)
+						(color 0 0 0 1)
 					)
 					(justify left top)
 				)
 				(uuid "4304f5a4-84f0-46d4-a51a-dcb93968873a")
 			)
-			(table_cell ""
+			(table_cell "0x40"
 				(exclude_from_sim no)
 				(at 116.205 180.34 0)
 				(size 19.685 2.54)
@@ -1267,7 +1289,9 @@
 				)
 				(effects
 					(font
+						(face "Bahnschrift")
 						(size 1.27 1.27)
+						(color 0 0 0 1)
 					)
 					(justify left top)
 				)
