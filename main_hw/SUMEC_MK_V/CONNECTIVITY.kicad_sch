@@ -3199,6 +3199,30 @@
 		)
 		(uuid "7b3baf80-ac86-4da6-ac09-93018f92b221")
 	)
+	(global_label "VBUS_USB"
+		(shape input)
+		(at 232.41 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify right)
+		)
+		(uuid "11464443-b487-428a-9325-de7a5aa4d032")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.52 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "D-"
 		(shape output)
 		(at 187.96 33.02 0)
@@ -3291,30 +3315,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS 5V"
-		(shape input)
-		(at 232.41 40.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify right)
-		)
-		(uuid "940d2d01-a937-4676-a826-1b230387c76c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.8126 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3829,7 +3829,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 251.46 40.64 90)
+		(at 240.03 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3837,7 +3837,7 @@
 		(dnp no)
 		(uuid "252ac58f-f541-47a1-aab7-997cc5a5a07a")
 		(property "Reference" "R29"
-			(at 252.73 36.195 90)
+			(at 241.3 36.195 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3846,7 +3846,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 254 38.1 90)
+			(at 242.57 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3855,7 +3855,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 251.46 42.418 90)
+			(at 240.03 42.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3864,7 +3864,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 40.64 0)
+			(at 240.03 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3873,7 +3873,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 40.64 0)
+			(at 240.03 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5432,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 240.03 40.64 180)
+		(at 251.46 40.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5440,7 +5440,7 @@
 		(dnp no)
 		(uuid "c8d31383-0342-4e80-beb9-602822f88263")
 		(property "Reference" "D4"
-			(at 238.125 36.195 0)
+			(at 249.555 36.195 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,7 +5449,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 238.125 38.1 0)
+			(at 249.555 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5458,7 +5458,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 240.03 40.64 0)
+			(at 251.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,7 +5467,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 40.64 0)
+			(at 251.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5476,7 +5476,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 40.64 0)
+			(at 251.46 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
