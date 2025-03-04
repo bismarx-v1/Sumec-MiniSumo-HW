@@ -1148,28 +1148,16 @@
 		(uuid "170108f2-772d-4f8b-aaab-e0eaa990d3c1")
 	)
 	(junction
-		(at 74.93 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1a07d6bd-d566-48dd-958e-a357ce18a88b")
-	)
-	(junction
 		(at 140.97 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "70d3f962-309a-4471-96cb-adcee31aa4e9")
 	)
 	(junction
-		(at 74.93 49.53)
+		(at 74.93 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "91a4b000-ec2c-48d6-b4bd-f63f31a3f621")
-	)
-	(junction
-		(at 74.93 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a8c079f-99b6-4264-83d3-fb3d95b9cac8")
+		(uuid "8223b763-5a63-4222-bf7b-71a73407fa81")
 	)
 	(junction
 		(at 153.67 102.87)
@@ -1201,7 +1189,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 63.5) (xy 74.93 62.23)
+			(xy 74.93 52.07) (xy 74.93 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1221,23 +1209,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 43.18) (xy 74.93 49.53)
+			(xy 74.93 43.18) (xy 74.93 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1d5bee17-323f-4c89-a8c6-712a5ec3a196")
-	)
-	(wire
-		(pts
-			(xy 60.96 55.88) (xy 74.93 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e49d9fe-d347-4c91-bd19-11fe8336d24c")
 	)
 	(wire
 		(pts
@@ -1351,26 +1329,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 55.88) (xy 74.93 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ae88ce8-2441-4145-99d5-b132095dc9c7")
-	)
-	(wire
-		(pts
-			(xy 74.93 49.53) (xy 74.93 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "778ea390-c081-448e-9a69-1612d8ca8162")
-	)
-	(wire
-		(pts
 			(xy 124.46 125.73) (xy 124.46 133.35)
 		)
 		(stroke
@@ -1458,16 +1416,6 @@
 			(type default)
 		)
 		(uuid "9186b534-090d-4d44-b4a6-fd0cace9f839")
-	)
-	(wire
-		(pts
-			(xy 60.96 49.53) (xy 74.93 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bdab7e1-b6f2-44eb-8cf0-08e75f9b92fc")
 	)
 	(wire
 		(pts
@@ -1581,7 +1529,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 62.23) (xy 74.93 62.23)
+			(xy 60.96 52.07) (xy 74.93 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2452,7 +2400,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 58.42 62.23 90)
+		(at 58.42 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2460,7 +2408,7 @@
 		(dnp no)
 		(uuid "4193bdc7-2943-42a1-a0c5-cfb2db6fb47f")
 		(property "Reference" "H4"
-			(at 52.705 62.23 90)
+			(at 52.705 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2416,7 @@
 			)
 		)
 		(property "Value" "Mounting Hole M3"
-			(at 57.15 58.42 90)
+			(at 57.15 48.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2477,7 +2425,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 58.42 62.23 0)
+			(at 58.42 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2486,7 +2434,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 62.23 0)
+			(at 58.42 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2495,7 +2443,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 58.42 62.23 0)
+			(at 58.42 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2644,71 +2592,6 @@
 			(project "SUMEC_MK_V"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/a907f0f2-2950-481d-8037-7b9f13f2e9c5"
 					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 58.42 55.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "7dc1bb51-de7f-4ccc-9357-61804ddb8c4e")
-		(property "Reference" "H3"
-			(at 52.705 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Mounting Hole M3"
-			(at 57.15 52.07 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 58.42 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 58.42 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91b865bd-9103-43f4-b48e-d3ca5d41a837")
-		)
-		(instances
-			(project "SUMEC_MK_V"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/a907f0f2-2950-481d-8037-7b9f13f2e9c5"
-					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -2916,7 +2799,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 63.5 0)
+		(at 74.93 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2924,7 +2807,7 @@
 		(dnp no)
 		(uuid "b0f81543-aeff-479d-ab86-fa1cc9a594ff")
 		(property "Reference" "#PWR073"
-			(at 74.93 69.85 0)
+			(at 74.93 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2933,7 +2816,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 67.31 0)
+			(at 74.93 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2941,7 +2824,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 63.5 0)
+			(at 74.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,7 +2833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 63.5 0)
+			(at 74.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2959,7 +2842,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 63.5 0)
+			(at 74.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,71 +2857,6 @@
 			(project "SUMEC_MK_V"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/a907f0f2-2950-481d-8037-7b9f13f2e9c5"
 					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 58.42 49.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "b9ad3ccc-b5ba-4232-acb2-0cba729a85f1")
-		(property "Reference" "H2"
-			(at 52.705 49.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Mounting Hole M3"
-			(at 57.15 45.72 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 58.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 58.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 58.42 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91c5d4d6-8bf7-473f-9259-6506dc70a2c5")
-		)
-		(instances
-			(project "SUMEC_MK_V"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/a907f0f2-2950-481d-8037-7b9f13f2e9c5"
-					(reference "H2")
 					(unit 1)
 				)
 			)
