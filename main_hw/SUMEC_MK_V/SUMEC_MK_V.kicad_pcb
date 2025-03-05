@@ -708,7 +708,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "0764e932-ab4f-43ba-a432-5e79119e6383")
-		(at 154.025 57.25 -90)
+		(at 161.475 57.05 -90)
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J13"
@@ -959,15 +959,15 @@
 			(uuid "dda18057-6efe-4336-a679-29aa74b0e018")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+		(model "C:/Users/MenMe/GitHub/Sumec-MiniSumo-PCB/libs/sumec_3d/START_MODULE.step"
 			(offset
-				(xyz 0 0 0)
+				(xyz -4.5 -2.5 3)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -0 -0 -90)
 			)
 		)
 	)
@@ -1570,13 +1570,13 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "0e151759-f441-48f8-a35a-65674542091b")
-		(at 141.35 67.104143 180)
+		(at 142.126 66.5945 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C16"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(uuid "4f2a2d61-13af-406c-9694-37e06113660a")
+			(uuid "d28b1d3c-c14b-4cb8-8186-d1a145d9eeb1")
 			(effects
 				(font
 					(size 1 1)
@@ -1587,7 +1587,7 @@
 		(property "Value" "22nF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
-			(uuid "0648d036-e020-470c-b83e-e8d7bbcd6c20")
+			(uuid "55c6b3c8-53b4-4571-98e2-e591c808fbed")
 			(effects
 				(font
 					(size 1 1)
@@ -1600,7 +1600,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fb45c154-b617-4801-a64b-4b82ca813b5c")
+			(uuid "4495dbec-6485-4cdc-accd-861dd8ea6ed0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1613,7 +1613,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3fcfd3ba-3832-4cdd-8998-927cdd086a93")
+			(uuid "073e565e-4466-4ce8-a42a-72089a00d7ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1771,7 +1771,7 @@
 	(footprint "finca:PQFN50P450X300X100-16N"
 		(layer "F.Cu")
 		(uuid "10427997-61e9-47ab-aae4-332f0630fb39")
-		(at 150.5 67.25)
+		(at 110.65 85.985)
 		(property "Reference" "U7"
 			(at 0.178 -3.121 0)
 			(layer "F.SilkS")
@@ -2762,13 +2762,13 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "1bdc7976-f84d-4139-b7a0-4ec7a9f9425e")
-		(at 207.226 61.226)
+		(at 156.451 68.926)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C21"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(uuid "2aacfcb5-5df0-4e8e-9a9d-ed858cb409a5")
+			(uuid "031b1146-7d8a-4fa8-bb13-112f86594905")
 			(effects
 				(font
 					(size 1 1)
@@ -2779,7 +2779,7 @@
 		(property "Value" "100nF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
-			(uuid "de9eccc8-0fa3-471b-a72e-38b0bccbb545")
+			(uuid "fa7b27e3-b5b1-4c98-8331-741e41a85d49")
 			(effects
 				(font
 					(size 1 1)
@@ -2792,7 +2792,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "686ec68a-a93c-4603-b52f-86f862734f55")
+			(uuid "2f347fb4-0255-45e6-b2ff-ebc352001ae8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +2805,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1c57a9d3-3820-405d-8609-c7b7f7a9bdbc")
+			(uuid "020b0c58-372b-4752-88f9-eeee9b7811bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4569,13 +4569,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "241e84dd-6bdf-4ed3-b4bd-63e617c7adba")
-		(at 216.5 53.5 -90)
+		(at 165.725 61.2 -90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R17"
 			(at 0 -1.65 90)
 			(layer "F.SilkS")
-			(uuid "762940e0-16cd-42aa-845e-d3bebb58fd37")
+			(uuid "69c701f9-22f7-496a-b711-fece0bc08534")
 			(effects
 				(font
 					(size 1 1)
@@ -4586,7 +4586,7 @@
 		(property "Value" "10k"
 			(at 0 1.65 90)
 			(layer "F.Fab")
-			(uuid "51db28fd-353e-4c96-93f9-c3e70e94834c")
+			(uuid "3004688a-ca12-4887-91d1-23b31e484671")
 			(effects
 				(font
 					(size 1 1)
@@ -4599,7 +4599,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69ac1802-2592-4a63-85d1-fc5a1cc429b5")
+			(uuid "43e8c0c0-84b8-48ee-9551-4aff9b7c990b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4612,7 +4612,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1b9d863c-458b-49df-8283-fc0cc798e856")
+			(uuid "36dcba78-1730-43bc-8f4f-06919b64ce81")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6872,13 +6872,13 @@
 	(footprint "sumec_brd:DRV8874"
 		(layer "F.Cu")
 		(uuid "3f64c266-6c87-42cf-a60f-a5a465a1bdf0")
-		(at 140 62.204143 -90)
+		(at 140.776 61.6945 -90)
 		(descr "HTSSOP_16-")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC2"
 			(at 0 0 90)
 			(layer "F.SilkS")
-			(uuid "9878e49d-e379-4e5f-9127-16a156c701d2")
+			(uuid "e0d2ec6f-9c01-416a-ba55-4334a61ec0d4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6890,7 +6890,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "eed73e27-c9bb-4a4f-9dda-9194d559f2ff")
+			(uuid "7d8b0bc3-a375-4cd5-a04e-b138214ab2d3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6902,7 +6902,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6827e50e-5893-4b3a-9733-cbcd3c800164")
+			(uuid "d9cfa97a-0019-4b2a-8c26-50cdf59e45e5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6914,7 +6914,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5474675d-aae6-44dc-a8fe-e32f4440206e")
+			(uuid "386c4f30-d2fa-43cb-8fb4-46ebb2c53edc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7498,13 +7498,13 @@
 	(footprint "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "447b2bfd-a35b-4cb1-989b-593f2de72395")
-		(at 144.15 62.954143 90)
+		(at 144.926 62.4445 90)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP2"
 			(at 0.725 -1.775 90)
 			(layer "F.SilkS")
-			(uuid "d80f0bd1-741c-446a-892e-44c8d62ce3ee")
+			(uuid "4a5fd1ba-1c5f-48fc-9185-b1fda0cc9f10")
 			(effects
 				(font
 					(size 1 1)
@@ -7515,7 +7515,7 @@
 		(property "Value" "SolderJumper_3_Open"
 			(at 0.725 1.925 90)
 			(layer "F.Fab")
-			(uuid "9e7c0c93-0be4-4d57-ac41-04ef8a445ac3")
+			(uuid "5d41c1c6-99b7-412d-9603-e0c19d884c58")
 			(effects
 				(font
 					(size 1 1)
@@ -7528,7 +7528,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0b2cab45-4f04-43ca-b1af-afb8831bd17b")
+			(uuid "e6f5b6f7-af15-45a3-96a1-6543366132bb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7541,7 +7541,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "75d23633-c257-4ae9-9f0b-1686c89c98cd")
+			(uuid "fff236d4-da62-49e5-ae39-54b447ca2d54")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7753,7 +7753,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "4af2bd9a-fdf3-4ff9-8a36-ed06e09a51ec")
-		(at 155.45 64.5 180)
+		(at 115.6 83.235 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C24"
@@ -8619,7 +8619,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "5334505c-81fc-4d2c-9250-a040dfc7afc1")
-		(at 150.5 64.5)
+		(at 110.65 83.235)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C32"
@@ -10928,13 +10928,13 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "655ebdcf-a367-4ba3-ab9b-0ea80df7c0af")
-		(at 137.5 67.104143)
+		(at 138.276 66.5945)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C20"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(uuid "608a7182-1fce-478f-b923-8ae7014704aa")
+			(uuid "08601f6f-48cc-4dc4-b947-801cff31d257")
 			(effects
 				(font
 					(size 1 1)
@@ -10945,7 +10945,7 @@
 		(property "Value" "100nF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
-			(uuid "3b73eb51-63f3-4085-987f-7fbf7625a092")
+			(uuid "22f92d6c-8199-428c-8eb6-21753128943e")
 			(effects
 				(font
 					(size 1 1)
@@ -10958,7 +10958,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20710ef7-5453-4082-8811-ba1df9f1231e")
+			(uuid "41e4890b-5f76-42ee-82b9-4805c3e5c3dd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10971,7 +10971,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "41ab5793-4941-486a-91e9-07659408417c")
+			(uuid "3a5fdd1a-a484-4561-855f-e093c6268310")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11613,13 +11613,13 @@
 	(footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "756f3fa1-0b84-435f-ab49-916cc872a5bb")
-		(at 209.0135 63.326)
+		(at 158.2385 71.026)
 		(descr "Tantalum Capacitor SMD Kemet-A (3216-18 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C23"
 			(at 0 -1.75 0)
 			(layer "F.SilkS")
-			(uuid "fd9d5ff2-211e-4663-8b98-58f8f393a2b1")
+			(uuid "df433488-e513-4204-a185-e065bbba7def")
 			(effects
 				(font
 					(size 1 1)
@@ -11630,7 +11630,7 @@
 		(property "Value" "10uF"
 			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "1cdf8925-4377-4ebe-b25d-5a8b96760b6c")
+			(uuid "770bb2cd-b750-4545-890c-2e52058ca93e")
 			(effects
 				(font
 					(size 1 1)
@@ -11643,7 +11643,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "143d22d4-2524-4701-873f-c79345867c94")
+			(uuid "23ca0511-f177-448b-8ed2-46aa26dc7e57")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11656,7 +11656,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e2b7422e-0e34-4a52-b3f0-a51479b0aa5c")
+			(uuid "6ea11c6c-fbf8-4808-9020-0f2e8d5e28d1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11834,13 +11834,13 @@
 	(footprint "sumec_brd:DRV8874"
 		(layer "F.Cu")
 		(uuid "76dfd8b2-33bd-4053-a6a6-5ab141cfb0e1")
-		(at 209.725 56.35 -90)
+		(at 158.95 64.05 -90)
 		(descr "HTSSOP_16-")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC3"
 			(at 0 0 90)
 			(layer "F.SilkS")
-			(uuid "b14f088e-6d58-433e-90c8-b4f26e07a292")
+			(uuid "88d896ef-768e-47ed-9dea-5f2f040a56d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11852,7 +11852,7 @@
 			(at 0 0 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "76c79619-c70d-4362-9737-cd93846246ac")
+			(uuid "33feab13-58a7-446c-9bd6-13b0fc53b36a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11864,7 +11864,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5e21974f-ce7b-4c3b-b746-294916f60069")
+			(uuid "43ea0aa4-b87a-494d-8c1f-b118aeea6638")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11876,7 +11876,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f3ba9be-7102-4160-a166-1af88480cda1")
+			(uuid "3ff87cd9-17fc-4eea-b388-28d6373a9181")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12913,7 +12913,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23-5"
 		(layer "F.Cu")
 		(uuid "7d433f64-c508-40d1-a77c-41e59488d689")
-		(at 155.5 67.6 90)
+		(at 115.65 86.335 90)
 		(descr "SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "U4"
@@ -14311,7 +14311,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "92d46aee-d252-421e-be4e-d6dde844a01b")
-		(at 150.5 70)
+		(at 110.65 88.735)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C34"
@@ -15581,13 +15581,13 @@
 	(footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "a2ae9e6d-75ff-4dfd-a44f-cb40953e5179")
-		(at 139.2875 69.204143)
+		(at 140.0635 68.6945)
 		(descr "Tantalum Capacitor SMD Kemet-A (3216-18 Metric), IPC_7351 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C22"
 			(at 0 -1.75 0)
 			(layer "F.SilkS")
-			(uuid "1dc54e18-9c06-42fa-a62b-74b1220080a8")
+			(uuid "a0bb09c3-b83e-487e-b72c-5961097d3e0f")
 			(effects
 				(font
 					(size 1 1)
@@ -15598,7 +15598,7 @@
 		(property "Value" "10uF"
 			(at 0 1.75 0)
 			(layer "F.Fab")
-			(uuid "3a85d13d-6fdf-4338-baec-960e3bd58f00")
+			(uuid "30e5b326-10d8-4cda-94d9-c44aef40cd5f")
 			(effects
 				(font
 					(size 1 1)
@@ -15611,7 +15611,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f6d9ffce-c399-4e25-b603-ab007f84cd82")
+			(uuid "32e7299d-8926-4be4-880d-84521cb3e687")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15624,7 +15624,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c699642f-cba6-4e20-93e4-fa264c2d1135")
+			(uuid "6372d0c8-0e4e-4be0-8bf1-920c79480acc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17548,13 +17548,13 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "b7dfd7fe-7942-41ec-8635-ee3c8e0a0e9c")
-		(at 211.076 61.226 180)
+		(at 160.301 68.926 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C18"
 			(at 0 -1.68 0)
 			(layer "F.SilkS")
-			(uuid "2f7e0257-4689-4ca3-bebc-e88501256d74")
+			(uuid "2a62eba7-5003-463d-b862-254c06918163")
 			(effects
 				(font
 					(size 1 1)
@@ -17565,7 +17565,7 @@
 		(property "Value" "22nF"
 			(at 0 1.68 0)
 			(layer "F.Fab")
-			(uuid "2d772ed8-c778-442c-b5e5-ea388d5da96c")
+			(uuid "ac1c1faa-5eae-4a73-8477-d54054da143e")
 			(effects
 				(font
 					(size 1 1)
@@ -17578,7 +17578,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e6f91a63-8aed-4c75-be9d-651539fa6b74")
+			(uuid "b8687ded-d68a-44d2-8314-ce4a32834994")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17591,7 +17591,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1b04ced5-f9a3-40e3-9c19-7bcd442a93cc")
+			(uuid "13b5ccb1-760c-4a6b-b588-21a1993c1b17")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19017,13 +19017,13 @@
 	(footprint "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "cd67ae8e-f180-483e-8214-fd7544cc85c9")
-		(at 213.876 57.076 90)
+		(at 163.101 64.776 90)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP3"
 			(at 0.725 -1.775 90)
 			(layer "F.SilkS")
-			(uuid "178de04c-2b42-4465-ac1e-3571b9a6da18")
+			(uuid "ad8bca1e-f2f0-4f23-8072-1d8218f3b562")
 			(effects
 				(font
 					(size 1 1)
@@ -19034,7 +19034,7 @@
 		(property "Value" "SolderJumper_3_Open"
 			(at 0.725 1.925 90)
 			(layer "F.Fab")
-			(uuid "dc9417e4-e126-4af1-9c8c-f20cf0c487a1")
+			(uuid "ecc47b1e-1daa-41d2-982a-cbba0eaa2f80")
 			(effects
 				(font
 					(size 1 1)
@@ -19047,7 +19047,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ddf5a9b3-a83a-40a1-a06b-00496394705d")
+			(uuid "a9c46801-d5d6-4473-ac22-02b5c6343fc5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19060,7 +19060,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5aace2b2-94c7-48c5-b565-4a6b9ad9a432")
+			(uuid "958df4c6-e8e8-4f01-99c8-8f845143a9eb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22863,13 +22863,13 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "0d48f3ff-8c0d-4932-8a13-ffc537aba6e8")
-		(at 209.976 61.126 180)
+		(at 159.201 68.826 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C19"
 			(at 0 1.68 0)
 			(layer "B.SilkS")
-			(uuid "2bbaead5-cc50-4f44-ba7f-ec3fb385c1f1")
+			(uuid "066b9136-6152-40ab-9461-04fabfe1f1fd")
 			(effects
 				(font
 					(size 1 1)
@@ -22881,7 +22881,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.68 0)
 			(layer "B.Fab")
-			(uuid "acad41e3-14c7-483b-9dd8-25bd82627917")
+			(uuid "b8c66726-077b-403e-9aa9-7e05b995c2c6")
 			(effects
 				(font
 					(size 1 1)
@@ -22895,7 +22895,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e7539fb3-0754-4d1b-9c59-b6ceed30204c")
+			(uuid "c2cb50ca-eac5-4649-9e7b-ba2bc3d827bc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22909,7 +22909,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b1fc0191-4d92-4ca8-a508-9beac763c219")
+			(uuid "d44196f7-f6ca-43a3-9b42-94deec387ef7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23857,13 +23857,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "45aa7355-fbfb-4354-8cdb-d73ce2906059")
-		(at 140.05 60.104143 90)
+		(at 140.826 59.5945 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R15"
 			(at 0 1.65 90)
 			(layer "B.SilkS")
-			(uuid "01d787c9-17a9-47db-9a66-d3456d656243")
+			(uuid "1ffe7971-6bff-448f-9555-5c44ee736d9f")
 			(effects
 				(font
 					(size 1 1)
@@ -23875,7 +23875,7 @@
 		(property "Value" "0R/R-Ipropi"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
-			(uuid "5da4ae58-6736-40db-99f5-ce21cf7351b7")
+			(uuid "7a738462-4eef-40b2-8639-26b3221de838")
 			(effects
 				(font
 					(size 1 1)
@@ -23889,7 +23889,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "3917e39d-a6d8-4a29-834b-5c14ccebdf3b")
+			(uuid "a5b7e546-5a20-40b9-914b-9181a2c963ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23903,7 +23903,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "17d09b40-34a2-4cd8-9054-3e3447829384")
+			(uuid "aad2f5a5-44f3-4c64-9a35-15d02ea309d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24405,13 +24405,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "4745cf08-72a2-4131-aa4b-7ceb83b1a12d")
-		(at 138.15 60.104143 90)
+		(at 138.926 59.5945 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R16"
 			(at 0 1.65 90)
 			(layer "B.SilkS")
-			(uuid "4ecae4db-3002-4903-943e-2ab09e1736f9")
+			(uuid "839f3ab8-732f-4758-8a6d-28f9be7a691c")
 			(effects
 				(font
 					(size 1 1)
@@ -24423,7 +24423,7 @@
 		(property "Value" "0R/R-Imode"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
-			(uuid "5109625d-1092-4fc9-8dfe-76e41dfd8dc8")
+			(uuid "4bb2051c-abc4-4826-b94b-f6d3da189a39")
 			(effects
 				(font
 					(size 1 1)
@@ -24437,7 +24437,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a123043c-98c8-4ac2-9cd8-54496e0676b9")
+			(uuid "7093d469-0636-4210-a470-835f70ed1971")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24451,7 +24451,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d2adebce-d2c4-46fd-96df-8233605e8fb0")
+			(uuid "88af064f-ff3b-44fb-a0f1-d68076adc567")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25349,13 +25349,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "53f0c33a-400c-411c-8022-84a91318ecf9")
-		(at 209.776 54.226 90)
+		(at 159.001 61.926 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R18"
 			(at 0 1.65 90)
 			(layer "B.SilkS")
-			(uuid "308ab31a-b48d-43e2-84ab-4b9de395bc7d")
+			(uuid "204f702f-7eee-4da1-963b-e1c7d2010c1a")
 			(effects
 				(font
 					(size 1 1)
@@ -25367,7 +25367,7 @@
 		(property "Value" "0R/R-Ipropi"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
-			(uuid "2c1cc3fa-4c49-4bad-a264-4efe79a314aa")
+			(uuid "3526d53d-706b-4375-b433-aa68dd2bf1b5")
 			(effects
 				(font
 					(size 1 1)
@@ -25381,7 +25381,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "16c80aa3-5b20-4683-9fbf-5c63ac5358ea")
+			(uuid "b31762ca-3075-4f5a-a324-d582755c2972")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25395,7 +25395,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d88f805e-a7a0-4a6a-b38b-735596418404")
+			(uuid "a70ba09e-cf51-454c-9f17-69dc49b9f1dc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27276,13 +27276,13 @@
 	(footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "800db459-a900-4ce4-82fe-d693a6607bf2")
-		(at 207.876 54.226 90)
+		(at 157.101 61.926 90)
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R19"
 			(at 0 1.65 90)
 			(layer "B.SilkS")
-			(uuid "6592bd72-928c-413c-b15d-4d2602380044")
+			(uuid "e606a428-2551-4b9d-b527-acac53f67241")
 			(effects
 				(font
 					(size 1 1)
@@ -27294,7 +27294,7 @@
 		(property "Value" "0R/R-Imode"
 			(at 0 -1.65 90)
 			(layer "B.Fab")
-			(uuid "0a2f0d4d-b6bf-4460-941c-bd92d1001dbc")
+			(uuid "ac8f7ae6-fd53-415e-ac11-73a79d9603b5")
 			(effects
 				(font
 					(size 1 1)
@@ -27308,7 +27308,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c7f34d13-7b06-4770-80d2-609bf7ba7f40")
+			(uuid "3758e943-14e3-4f99-a077-16129ba7c944")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27322,7 +27322,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "8f33f2d2-9283-4466-828b-b25fd07053b6")
+			(uuid "09536cd8-215d-47d5-a71e-42355584bb74")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30364,13 +30364,13 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "B.Cu")
 		(uuid "dde87b3a-da11-4d85-92ff-3e1d7e464d12")
-		(at 140.05 65.75 -90)
+		(at 140.826 65.240357 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C17"
 			(at 0 1.68 90)
 			(layer "B.SilkS")
-			(uuid "50371a11-ed5d-4efd-bf1a-01bc4c5754ea")
+			(uuid "b860e8cf-0d57-4968-be82-aff2f16a4190")
 			(effects
 				(font
 					(size 1 1)
@@ -30382,7 +30382,7 @@
 		(property "Value" "100nF"
 			(at 0 -1.68 90)
 			(layer "B.Fab")
-			(uuid "6c62e450-5c02-42b3-8991-25785a559942")
+			(uuid "0b546f8d-765d-4bae-8d20-d0eb5c89913b")
 			(effects
 				(font
 					(size 1 1)
@@ -30396,7 +30396,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "4e174499-614b-4649-9a2f-26cb4fef9b60")
+			(uuid "897b9c19-114e-4de2-9f3c-ccbc9eaf4ced")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30410,7 +30410,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "a6e8e742-f786-49e9-a3ec-a3cfe6949471")
+			(uuid "b8d4559c-7390-427f-8908-d64ef082e163")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52689,6 +52689,60 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 		(uuid "1dee5009-df67-4d84-8733-65e270665a41")
@@ -53240,6 +53294,60 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAAAAAAAAEBAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAAEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AP8AAAAB"
+			"AQEAAAAAAAD//wD/AAAAAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAQEBAP///wABAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAA/wAAAAEAAAAAAAAA/wAAAAEAAAAB/wAA/wEAAAEAAAD/AAAAAAAAAAAAAAABAAAA"
+			"/wAAAAEAAAAB/wAAAAEAAAAAAAABAAAAAP8AAAAAAAD/AQAAAAAAAAABAAAA/wAAAAAAAAAAAAAB"
+			"AQAA//8AAAEAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAA////AAABAQABAAAAAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAA/wAAAAD//wACAQEAAAAA"
+			"AP///wABAQEAAAAAAAAAAAAAAAAAAAAAAAEBAQD/AAAAAQAAAP8AAAAAAQEAAQEBAAEBAQAAAQEA"
+			"AAAAAAEAAAABAQEAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgEBAP7//gAAAAEAAAAAAAAA"
+			"AAAAAAAAAAD/AAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAEAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAABAAAAAAAAAGYAPgANAA0ACgA8AGkAZgAgAGkAZAA9ACIAYQB0AG8AbQAoAEUAeABwAGEAbgBk"
+			"AGUAZABGAG8AbwB0AGUAcgBUAGUAeAB0ACkAIgA+AA0ADQAKADwAZQBsAGUAbQBlAG4AdAANAA0A"
+			"CgBmAG8AbgB0ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPQAgACIAZwB0AGYAKABU"
+			"AGEAcwBrAEQAaQBhAGwAbwBnAFMAdAB5AGwAZQAsACAAMQA4ACwAIAAwACkAIgANAA0ACgBmAG8A"
+			"cgBlAGcAcgBvAHUAbgBkACAAIAAgACAAIAAgACAAIAAgACAAPQAgACIAZwB0AGMAKABUAGEAcwBr"
+			"AEQAaQBhAGwAbwBnAFMAdAB5AGwAZQAsACAAMQA4ACwAIAAwACwAIAAzADgAMAAzACkAIgANAA0A"
+			"CgBhAGMAYwBlAHMAcwBpAGIAbABlACAAIAAgACAAIAAgACAAIAAgACAAPQAgACIAdAByAHUAZQAi"
+			"AA0ADQAKAGEAYwBjAHIAbwBsAGUAIAAgACAAIAAgACAAIAAgACAAIAAgACAAIAA9ACAAIgBzAHQA"
+			"YQB0AGkAYwB0AGUAeAB0ACIADQANAAoALwA+AA0ADQAKADwALwBpAGYAPgANAA0ACgA8AGkAZgAg"
+			"AGkAZAA9ACIAYQB0AG8AbQAoAEUAeABwAGEAbgBkAGUAZABGAG8AbwB0AGUAcgBUAGUAeAB0AEwA"
+			"aQBuAGsAKQAiAD4ADQANAAoAPABjAGMAcwB5AHMAbABpAG4AawANAA0ACgBmAG8AbgB0ACAAIAAg"
+			"ACAAIAAgACAAIAAgACAAIAAgACAAIAAgACAAPQAgACIAZwB0AGYAKABUAGEAcwBrAEQAaQBhAGwA"
+			"bwBnAFMAdAB5AGwAZQAsACAAMQA4ACwAIAAwACkAIgANAA0ACgBmAG8AcgBlAGcAcgBvAHUAbgBk"
+			"ACAAIAAgACAAIAAgACAAIAAgACAAPQAgACIAZwB0AGMAKABUAGEAcwBrAEQAaQBhAGwAbwBnAFMA"
+			"dAB5AGwAZQAsACAAMQA4ACwAIAAwACwAIAAzADgAMAAzACkAIgANAA0ACgAvAD4ADQANAAoAPAAv"
+			"AGkAZgA+AA0ADQAKADwALwBzAHQAeQBsAGUAPgANAA0ACgA8AC8AcwB0AHkAbABlAHMAaABlAGUA"
+			"dABzAD4ADQANAAoAPAAvAGQAdQBpAHgAbQBsAD4ADQANAAoAAAAuADUANABtAG0AIABwAGkAdABj"
+			"AGgALAAgAEQASQBOAC0AAC1cF+0AIIgCKe0BAACwlU0r7QEAACAANgAwADYAMAAzAC0AMQAzACwA"
+			"IABkAG8AdQBiAAAAAAABAAAA/wABAAAAAQABAAEAAAAAAAEAAAAAAAAAAAAAAAEAAQD/AAAAAQAB"
+			"AAEAAAD/AP8AAAAAAAAAAAAAAAEAAQAAAAAAAQABAAAA/wAAAAEAAAAAAAEAAAAAAP8AAQABAAEA"
+			"AAAAAAAA/wAAAQEAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAA"
+			"AQEAAP//AAAAAAAAAAAAAAEBAAABAQAAAQEAAP8AAAAA/wAAAAAAAAABAAABAQAAAP8AAAABAAAB"
+			"AAAAAQAAAAABAAAAAAAAAAAAAAAAAAABAAAAAAAAAP8AAAAAAAAAAQEAAAAAAAAAAAAAAQAAAAEB"
+			"AAABAQAA/wAAAAEAAAD//wAAAQEAAAAAAAAAAAAAAAAAAAAAAAABAAAA/wAAAAAAAAABAAAA/wAA"
+			"AAEAAAAAAAAAAAAAAAEAAAABAAAA/wAAAAEAAAABAAAA/wAAAAAAAAABAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAQAAAAAAAAAAAAAAAP8AAAABAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAEAAAABAAAAAQAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAD/AAAAAAAA"
+			"AAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAP8AAAAAAAAAAAAAAAAAAAABAAAA"
+			"AAAAAP8AAAABAAAAAQAAAAT49AAL6dwAEtjDABXRugAJ7eEAA/v5APwKDwD+BQgAAAAAAAAAAAD8"
+			"CA0A7SpAAAP59wAL6dwA/wAAAAEAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEA"
+			"AAABAAAAAAAAAAAAAAD/AAAAAQAAAAEAAAD/AAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAABCREMAAAAAAL69vgD/AAAAAAAAAAEAAAABAAAAAAAAAAAAAAD/AAAAAAAAAAEAAAAAAAAA"
+			"AAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAA/wAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAA=="
 		)
@@ -54465,6 +54573,60 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMgEAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAGAbU//6fwAAQGusL+0BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALBeX0XtAQAA"
+			"AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA"
+			"AGARAAAAAAAAAAAAAAAAQB4AAJAHAAAYBAAAAQAAAAIAAAAAAAAAkAcAABgEAAABAAAAAAAAAAQA"
+			"AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAIC7k0TtAQAABUte//p/AAAEAAAAAAAAAAAAAAAAAAAA/////wAAAAAAAAAA"
+			"AAAAAAMAAAAAAAAA4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAA=="
 		)
 		(uuid "12c36a53-326d-484a-b6f1-4fc4d737f4c7")
@@ -55579,6 +55741,60 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAACt4crrAEYFgOAizC7tAQAAAwAAAAAAAACgZu1D7QEAAAEAAAAAAAAAAAAAAAAA"
+			"AACq4c/rAEcFgAAAAAAAAAAAAwAAAAAAAAAwZ+1D7QEAAAEAAAAAAAAAAAAAAAAAAACn4czrSEgF"
+			"gLAizC7tAQAAAwAAAAAAAABwcntF7QEAAAEAAAAAAAAAAAAAAAAAAACk4cHrFkkFgAAAAAAAAAAA"
+			"BAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAACh4cbrAEoFgOAozC7tAQAAAwAAAAAAAADw"
+			"cHtF7QEAAAEAAAAAAAAAAAAAAAAAAAC+4dvrAEsFgBAjzC7tAQAAAwAAAAAAAACQcntF7QEAAAEA"
+			"AAAAAAAAAAAAAAAAAAC74djr7UwFgAAAAAAAAAAAAwAAAAAAAACgZe1D7QEAAAEAAAAAAAAAAAAA"
+			"AAAAAAC44d3rAE0FgAAAAAAAAAAABAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAC14dLr"
+			"AE4FgAAAAAAAAAAAAwAAAAAAAADQZO1D7QEAAAEAAAAAAAAAAAAAAAAAAACy4dfrAE8FgEM6L1dJ"
+			"TkRPV1MvZm9udHNcS1VOU1RMRVIuVFRGAAAAAAAAAAAAAABP4tTrAFAFgPAezC7tAQAAAwAAAAAA"
+			"AAAQcntF7QEAAAEAAAAAAAAAAAAAAAAAAABM4in0AFEFgMAhzC7tAQAAAwAAAAAAAAAAZ+1D7QEA"
+			"AAEAAAAAAAAAAAAAAAAAAAABAQEJSg8EEMCeODztAQAAgHk0K+0BAAAMAAAAAAAAAH8AwBgAAAAA"
+			"EwAAAAAAAACgIMwu7QEAAAAA+P//////AwAAAAAAAAAQbntF7QEAAETiL+QAAACAAAAAAAAAAABD"
+			"4iD0AFQFgAAAAAAAAAAACAAAAAAAAAAgNudD7QEAAAEAAAAAAAAAAAAAAAAAAABA4iX0AFUFgDAh"
+			"zC7tAQAAAwAAAAAAAACwbntF7QEAAAEAAAAAAAAAAAAAAAAAAABd4jr0AFYFgPAhzC7tAQAAAwAA"
+			"AAAAAAAwc3tF7QEAAAEAAAAAAAAAAAAAAAAAAABa4j/0MFcFgAAAAAAAAAAAAwAAAAAAAAAgaO1D"
+			"7QEAAAEAAAAAAAAAAAAAAAAAAABX4jrkAAEAgAAAAAAAAAAAAwAAAAAAAADwbXtF7QEAAAEAAAAA"
+			"AAAAAAAAAAAAAABU4jH0AFkFgAAhzC7tAQAAAwAAAAAAAABQcXtF7QEAAAEAAAAAAAAAAAAAAAAA"
+			"AABR4jb07VoFgCAizC7tAQAAAwAAAAAAAADwcntF7QEAAAEAAAAAAAAAAAAAAAAAAABu4gv0AFsF"
+			"gFAizAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -56716,6 +56932,60 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAA=="
 		)
 		(uuid "c85ee46d-8b2b-4f6d-9ede-03fdf8bcbd7e")
@@ -57481,6 +57751,60 @@
 			"fAE9AIwaZABTAHLnAAAAKQVyEQAAAHJUAgAAcjYCAAByJgQAAHIMBAAAqQJy6AAAAHIeAgAAcwIA"
 			"AAAgIHImAAAA2gxoaWRlX29mZnNldHN6EUV4aWYuaGlkZV9vZmZzZXRzORAAAHNMAAAAgADdFByU"
 			"TNQUJaV4pHzUJzvQEzzwAAMJHvAAAwkeiAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
@@ -59098,7 +59422,61 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-			"AAAAAAAAAAAAAAAAAA=="
+			"AAAAAAAAAAAAAAAAAFJFUkVSRzFMUVllSWlJaUlpSnFXd3c4UkVSRVJFVFV0aGg0aUlpSWlJaW9i"
+			"VEh3RUJFUkVSRlIyMkxnSVNJaUlpS2l0c1hBUTBSRVJFUkViWXVCaDRpSWlJaUkyaFlERHhFUkVS"
+			"RVJ0UzBHSGlJaUlpSWlhbHNNUEVSRVJFUkUxTFlZZUlpSWlJaUlxRzB4OEJBUkVSRVJVZHRpNENF"
+			"aUlpSWlvcmJGd0VORVJFUkVSRzJySlFQUDc3ejl2ZXhDeFhIZmxNWjlzenZ1bjlLNGIwcmp2dGtk"
+			"OTA5cDNEZWxjZC9zanZ1bk9GNG5GeEpnUFpHU3JpUWlJaUlpSW1vSExWbkRRMFJFUkVSRVZBNEdI"
+			"aUlpSWlJaWFsc01QRVJFUkVSRTFMWVllSWlJaUlpSXFHMHg4QkFSRVJFUlVkdGk0Q0VpSWlJaW9y"
+			"YkZ3RU5FUkVSRVJHMkxnWWVJaUlpSWlOb1dBdzhSRVJFUkViVXRCaDRpSWlJaUltcGJERHhFUkVS"
+			"RVJOUzJHSGlJaUlpSWlLaHRNZkFRRVJFUkVWSGJZdUFoSWlJaUlxSzJ4Y0JEUkVSRVJFUnRpNEdI"
+			"aUlpSWlJamFGZ01QRVJFUkVSRzFMUVllSWlJaUlpSnFXd3c4UkVSRVJFVFV0aGg0aUlpSWlJaW9i"
+			"VEh3RUJFUkVSRlIyMkxnSVNJaUlpS2l0c1hBUTBSRVJFUkViWXVCaDRpSWlJaUkyaFlERHhFUkVS"
+			"RVJ0UzBHSGlJaUlpSWlhbHYvUDh2YjJxQzRpeEtHQUFBQUFFbEZUa1N1UW1DQ0FBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFB"
+			"QUFBQUFBQUFBQUFBQQ=="
 		)
 		(uuid "75d4e1de-b80d-4003-a77e-835c6a388cf4")
 	)
@@ -59587,32 +59965,32 @@
 		(uuid "271edefa-dae5-45a7-b753-a489c4fce08c")
 	)
 	(segment
-		(start 139.675 59.266143)
-		(end 139.675 57.77914)
+		(start 140.451 58.7565)
+		(end 140.451 57.269497)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 3)
 		(uuid "128b5ec6-8d2c-40fc-bf30-954f543c952b")
 	)
 	(segment
-		(start 209.425 51.924997)
-		(end 209.350003 51.85)
+		(start 158.65 59.624997)
+		(end 158.575003 59.55)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 3)
 		(uuid "38d26b5d-c6be-4be9-a6b4-77efa17e4bd2")
 	)
 	(segment
-		(start 139.675 57.77914)
-		(end 139.600003 57.704143)
+		(start 140.451 57.269497)
+		(end 140.376003 57.1945)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 3)
 		(uuid "46417275-41cb-47db-99f0-0bf94bd3481f")
 	)
 	(segment
-		(start 209.425 53.412)
-		(end 209.425 51.924997)
+		(start 158.65 61.112)
+		(end 158.65 59.624997)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 3)
@@ -59635,7 +60013,7 @@
 		(uuid "ecbe0b37-7c4b-4d3c-8ef9-c7fdea3777bb")
 	)
 	(via
-		(at 139.600003 57.704143)
+		(at 140.376003 57.1945)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -59643,7 +60021,7 @@
 		(uuid "34095a01-127d-4b33-8ecf-796bb88db204")
 	)
 	(via
-		(at 209.350003 51.85)
+		(at 158.575003 59.55)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -59691,87 +60069,87 @@
 		(uuid "f3a9b9b4-68e6-4205-b9b2-9785fbb44a90")
 	)
 	(segment
-		(start 139.025 65.142143)
-		(end 139.025 66.616643)
+		(start 139.801 64.6325)
+		(end 139.801 66.107)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 6)
 		(uuid "12527d4f-0570-44bc-afe7-d1dfcea7d515")
 	)
 	(segment
-		(start 139.025 66.616643)
-		(end 138.5375 67.104143)
+		(start 139.801 66.107)
+		(end 139.3135 66.5945)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 6)
 		(uuid "7476a35b-31e3-48a0-b7eb-88f0b655ea63")
 	)
 	(segment
-		(start 141.074 65.241143)
-		(end 140.975 65.142143)
+		(start 141.85 64.7315)
+		(end 141.751 64.6325)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 10)
 		(uuid "03665e62-475f-47ef-abc1-cdb71790ceb3")
 	)
 	(segment
-		(start 142.0875 67.104143)
-		(end 142.0875 66.504143)
+		(start 142.8635 66.5945)
+		(end 142.8635 65.9945)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 10)
 		(uuid "12beca77-a284-4177-8283-48f6839c4424")
 	)
 	(segment
-		(start 142.0875 66.504143)
-		(end 141.5 66.504143)
+		(start 142.8635 65.9945)
+		(end 142.276 65.9945)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 10)
 		(uuid "6a11df66-18f9-4250-b0bc-8abe59545b24")
 	)
 	(segment
-		(start 141.074 66.078143)
-		(end 141.074 65.241143)
+		(start 141.85 65.5685)
+		(end 141.85 64.7315)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 10)
 		(uuid "caf7f7e5-89e5-4cde-a062-443176ee0a44")
 	)
 	(segment
-		(start 141.5 66.504143)
-		(end 141.074 66.078143)
+		(start 142.276 65.9945)
+		(end 141.85 65.5685)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 10)
 		(uuid "f7debc70-c23b-4520-b7fa-ad2a12a18001")
 	)
 	(segment
-		(start 140.325 66.391643)
-		(end 140.325 65.142143)
+		(start 141.101 65.882)
+		(end 141.101 64.6325)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 11)
 		(uuid "7e42da1d-8dc6-4f1e-9445-ad0e2d4bdbe6")
 	)
 	(segment
-		(start 139.675 64.25)
-		(end 139.678824 64.246176)
+		(start 140.451 63.740357)
+		(end 140.454824 63.736533)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 12)
 		(uuid "099b4e47-97a6-45c2-b8b7-802c50c2af3d")
 	)
 	(segment
-		(start 139.675 65.142143)
-		(end 139.675 64.25)
+		(start 140.451 64.6325)
+		(end 140.451 63.740357)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 12)
 		(uuid "a8b2b7e0-f4b9-4baa-b377-a1d9c6f203d6")
 	)
 	(via
-		(at 139.678824 64.246176)
+		(at 140.454824 63.736533)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -59795,23 +60173,23 @@
 		(uuid "684913e4-936d-4b42-8c73-d04399566c99")
 	)
 	(segment
-		(start 141.625 57.979143)
-		(end 141.9 57.704143)
+		(start 142.401 57.4695)
+		(end 142.676 57.1945)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 33)
 		(uuid "a7bb7de6-fba5-4a08-80d7-d4022d96d77d")
 	)
 	(segment
-		(start 141.625 59.266143)
-		(end 141.625 57.979143)
+		(start 142.401 58.7565)
+		(end 142.401 57.4695)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 33)
 		(uuid "efb387fb-92a4-43f4-aee5-723870e31a01")
 	)
 	(via
-		(at 141.9 57.704143)
+		(at 142.676 57.1945)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -59819,39 +60197,39 @@
 		(uuid "e860b7d2-f384-4549-b409-b61793e0e581")
 	)
 	(segment
-		(start 210.725 51.975)
-		(end 210.85 51.85)
+		(start 159.95 59.675)
+		(end 160.075 59.55)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 35)
 		(uuid "7c86c6fb-e67b-42a4-b287-a40ed800e56a")
 	)
 	(segment
-		(start 210.725 53.412)
-		(end 210.725 51.975)
+		(start 159.95 61.112)
+		(end 159.95 59.675)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 35)
 		(uuid "85456b2b-7ead-40ee-953a-4b54a92ce130")
 	)
 	(segment
-		(start 140.975 59.266143)
-		(end 140.975 57.829143)
+		(start 141.751 58.7565)
+		(end 141.751 57.3195)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 35)
 		(uuid "87ab6283-d0bd-499c-afc6-815aef30a8b0")
 	)
 	(segment
-		(start 140.975 57.829143)
-		(end 141.1 57.704143)
+		(start 141.751 57.3195)
+		(end 141.876 57.1945)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 35)
 		(uuid "ddaa0a59-4b0a-4063-a528-af799d8d0996")
 	)
 	(via
-		(at 210.85 51.85)
+		(at 160.075 59.55)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -59859,7 +60237,7 @@
 		(uuid "7594c8d2-09fc-4677-a826-b555e884298f")
 	)
 	(via
-		(at 141.1 57.704143)
+		(at 141.876 57.1945)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -59867,23 +60245,23 @@
 		(uuid "9f78f42e-28f3-4d07-98cb-47fdfea3fd50")
 	)
 	(segment
-		(start 142.275 59.266143)
-		(end 142.275 58.179143)
+		(start 143.051 58.7565)
+		(end 143.051 57.6695)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 36)
 		(uuid "111a01c6-ec9a-4a9a-a395-07a2ea3abb17")
 	)
 	(segment
-		(start 142.275 58.179143)
-		(end 142.75 57.704143)
+		(start 143.051 57.6695)
+		(end 143.526 57.1945)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 36)
 		(uuid "f37ed160-9c60-48a8-ae62-18e17e75ed6e")
 	)
 	(via
-		(at 142.75 57.704143)
+		(at 143.526 57.1945)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -59891,39 +60269,39 @@
 		(uuid "96b932bb-f686-40f2-a8a6-ed3d4fee255f")
 	)
 	(segment
-		(start 140.325 59.266143)
-		(end 140.325 57.779143)
+		(start 141.101 58.7565)
+		(end 141.101 57.2695)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 37)
 		(uuid "59123903-329d-41c2-9513-452234198bee")
 	)
 	(segment
-		(start 140.325 57.779143)
-		(end 140.4 57.704143)
+		(start 141.101 57.2695)
+		(end 141.176 57.1945)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 37)
 		(uuid "661a51f7-6a2d-45f6-859e-3c4a57dc88f4")
 	)
 	(segment
-		(start 210.075 53.412)
-		(end 210.075 51.925)
+		(start 159.3 61.112)
+		(end 159.3 59.625)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 37)
 		(uuid "c19d8df4-37ca-4441-a80b-643c0c330e85")
 	)
 	(segment
-		(start 210.075 51.925)
-		(end 210.15 51.85)
+		(start 159.3 59.625)
+		(end 159.375 59.55)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 37)
 		(uuid "cba58b3f-044a-4a18-91a5-eefc22a82562")
 	)
 	(via
-		(at 140.4 57.704143)
+		(at 141.176 57.1945)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -59931,7 +60309,7 @@
 		(uuid "38afee4d-ca9a-4962-a92b-4eeb4bbb3f15")
 	)
 	(via
-		(at 210.15 51.85)
+		(at 159.375 59.55)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -59939,31 +60317,31 @@
 		(uuid "f776ecfd-8a70-4959-9085-ef4dee2d1865")
 	)
 	(segment
-		(start 138.15 57.704143)
-		(end 138.375 57.929143)
+		(start 138.926 57.1945)
+		(end 139.151 57.4195)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 38)
 		(uuid "1652404c-5c66-4ac3-9f2f-b6ffe2fc1c34")
 	)
 	(segment
-		(start 138.375 59.266143)
-		(end 138.4 59.241143)
+		(start 139.151 58.7565)
+		(end 139.176 58.7315)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 38)
 		(uuid "3ecec5cd-ae60-4bd6-a837-783d4eb95dda")
 	)
 	(segment
-		(start 138.375 57.929143)
-		(end 138.375 59.266143)
+		(start 139.151 57.4195)
+		(end 139.151 58.7565)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 38)
 		(uuid "c6584c09-0790-4102-b796-eff98d085acd")
 	)
 	(via
-		(at 138.15 57.704143)
+		(at 138.926 57.1945)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -59971,39 +60349,39 @@
 		(uuid "39160701-0842-4a9f-a44f-8077a236b86c")
 	)
 	(segment
-		(start 139.025 57.829143)
-		(end 139.025 59.266143)
+		(start 139.801 57.3195)
+		(end 139.801 58.7565)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 39)
 		(uuid "8bf72ff2-ed1e-4e84-85bf-00149eee268b")
 	)
 	(segment
-		(start 138.9 57.704143)
-		(end 139.025 57.829143)
+		(start 139.676 57.1945)
+		(end 139.801 57.3195)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 39)
 		(uuid "9030b2b6-1cd7-4282-a2c1-39d4ff208e28")
 	)
 	(segment
-		(start 138.89465 57.682993)
-		(end 138.9 57.688343)
+		(start 139.67065 57.17335)
+		(end 139.676 57.1787)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 39)
 		(uuid "9fe85d99-e447-4a09-a179-9f7b83951adc")
 	)
 	(segment
-		(start 138.9 57.688343)
-		(end 138.9 57.704143)
+		(start 139.676 57.1787)
+		(end 139.676 57.1945)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 39)
 		(uuid "ceff76d9-8ad2-4080-81b3-8a06e14e9046")
 	)
 	(via
-		(at 138.9 57.704143)
+		(at 139.676 57.1945)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -60011,23 +60389,23 @@
 		(uuid "bd8fb5bd-8fcf-45fc-895e-405c36af38cd")
 	)
 	(segment
-		(start 137.725 58.179143)
-		(end 137.25 57.704143)
+		(start 138.501 57.6695)
+		(end 138.026 57.1945)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 40)
 		(uuid "929285fa-03cc-443f-bde4-594990c849be")
 	)
 	(segment
-		(start 137.725 59.266143)
-		(end 137.725 58.179143)
+		(start 138.501 58.7565)
+		(end 138.501 57.6695)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 40)
 		(uuid "b5a2b571-92e3-4685-859b-20cb514e3721")
 	)
 	(via
-		(at 137.25 57.704143)
+		(at 138.026 57.1945)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -60035,47 +60413,47 @@
 		(uuid "3589c956-60ee-4dc6-a46f-fceb8000febc")
 	)
 	(segment
-		(start 142.275 65.142143)
-		(end 142.275 63.929143)
+		(start 143.051 64.6325)
+		(end 143.051 63.4195)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 41)
 		(uuid "5094e76c-3a04-4088-af89-23f601a2d7ac")
 	)
 	(segment
-		(start 143.25 62.954143)
-		(end 144.15 62.954143)
+		(start 144.026 62.4445)
+		(end 144.926 62.4445)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 41)
 		(uuid "88c8f8f5-983a-4e35-8c1a-f906744d1793")
 	)
 	(segment
-		(start 142.275 63.929143)
-		(end 143.25 62.954143)
+		(start 143.051 63.4195)
+		(end 144.026 62.4445)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 41)
 		(uuid "d99b0dde-0356-4ae3-b12b-fd2ac1084a2f")
 	)
 	(segment
-		(start 207.9 51.85)
-		(end 208.125 52.075)
+		(start 157.125 59.55)
+		(end 157.35 59.775)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 42)
 		(uuid "4126ba58-a0de-4aa6-b668-4eeabbfdb153")
 	)
 	(segment
-		(start 208.125 52.075)
-		(end 208.125 53.412)
+		(start 157.35 59.775)
+		(end 157.35 61.112)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 42)
 		(uuid "83378739-1c73-4e8e-acfc-6ce4ca6942e4")
 	)
 	(via
-		(at 207.9 51.85)
+		(at 157.125 59.55)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -60083,23 +60461,23 @@
 		(uuid "38f67007-58c4-47fa-aef8-51f5b32e4c23")
 	)
 	(segment
-		(start 211.375 52.125)
-		(end 211.65 51.85)
+		(start 160.6 59.825)
+		(end 160.875 59.55)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 43)
 		(uuid "52bf42cb-ee94-487f-bac6-3db22edc1f45")
 	)
 	(segment
-		(start 211.375 53.412)
-		(end 211.375 52.125)
+		(start 160.6 61.112)
+		(end 160.6 59.825)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 43)
 		(uuid "f9cb84e5-a561-412a-a1d4-964bfd791af7")
 	)
 	(via
-		(at 211.65 51.85)
+		(at 160.875 59.55)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -60107,23 +60485,23 @@
 		(uuid "d36fa23b-2a0b-4151-9768-45318c80da44")
 	)
 	(segment
-		(start 207.475 53.412)
-		(end 207.475 52.325)
+		(start 156.7 61.112)
+		(end 156.7 60.025)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 44)
 		(uuid "0ebf0c39-3320-4710-a3c5-bf269cd33a82")
 	)
 	(segment
-		(start 207.475 52.325)
-		(end 207 51.85)
+		(start 156.7 60.025)
+		(end 156.225 59.55)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 44)
 		(uuid "ee279b4f-622d-4b40-854a-8eaf85b835ec")
 	)
 	(via
-		(at 207 51.85)
+		(at 156.225 59.55)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -60131,23 +60509,23 @@
 		(uuid "bd379c1e-8e0b-459e-890c-9602969b9625")
 	)
 	(segment
-		(start 212.025 53.412)
-		(end 212.025 52.325)
+		(start 161.25 61.112)
+		(end 161.25 60.025)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 46)
 		(uuid "a85ad673-89c8-4597-b95d-eec6e45a5ca3")
 	)
 	(segment
-		(start 212.025 52.325)
-		(end 212.5 51.85)
+		(start 161.25 60.025)
+		(end 161.725 59.55)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 46)
 		(uuid "ff6743fe-1a93-48cf-b0b3-081ece5594e4")
 	)
 	(via
-		(at 212.5 51.85)
+		(at 161.725 59.55)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -60155,39 +60533,39 @@
 		(uuid "a9e1eddc-60f5-4636-89ec-2613622889cf")
 	)
 	(segment
-		(start 208.65 51.85)
-		(end 208.775 51.975)
+		(start 157.875 59.55)
+		(end 158 59.675)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 48)
 		(uuid "2dc5417b-e063-42e7-b1df-8ff1ed9d9e80")
 	)
 	(segment
-		(start 208.775 51.975)
-		(end 208.775 53.412)
+		(start 158 59.675)
+		(end 158 61.112)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 48)
 		(uuid "4a7f85cc-91bb-4aae-9485-dcbe44070466")
 	)
 	(segment
-		(start 208.64465 51.82885)
-		(end 208.65 51.8342)
+		(start 157.86965 59.52885)
+		(end 157.875 59.5342)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 48)
 		(uuid "97f4b6e6-ad77-46d4-a68f-aa9484f6c7a7")
 	)
 	(segment
-		(start 208.65 51.8342)
-		(end 208.65 51.85)
+		(start 157.875 59.5342)
+		(end 157.875 59.55)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 48)
 		(uuid "b3fc0abc-3107-4ffb-ae93-4ecbb4146ca0")
 	)
 	(via
-		(at 208.65 51.85)
+		(at 157.875 59.55)
 		(size 0.5)
 		(drill 0.2)
 		(layers "F.Cu" "B.Cu")
@@ -60490,6 +60868,10 @@
 			"e860b7d2-f384-4549-b409-b61793e0e581" "efb387fb-92a4-43f4-aee5-723870e31a01"
 			"f37ed160-9c60-48a8-ae62-18e17e75ed6e" "f7debc70-c23b-4520-b7fa-ad2a12a18001"
 		)
+	)
+	(group ""
+		(uuid "1c2a6476-93c9-49cb-acef-16bbe78a93ad")
+		(members "198a78dd-bd76-4bde-8ed3-aa5e641ed220" "3589c956-60ee-4dc6-a46f-fceb8000febc")
 	)
 	(group ""
 		(uuid "937dcbd2-1a4f-4ca7-a56a-e9311cf62d4a")
