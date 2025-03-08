@@ -2010,131 +2010,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_names
@@ -7680,7 +7555,61 @@
 			"AFUAVgBoAG0AcgBhAHAAZwBuAEgAcwBiAFgAWQB0ADIAcwB3AEYAVgB5ACsAOABYAE0ANgB5AGUA"
 			"ZAA1ADIAUABOAFcANgA3ADQAYgArAEsASwB5AGIAMAA3AHEAeQBNAGIARwAzAGQANwBKADQAeQAz"
 			"AGwAYwB2AGUANwBoAGMAbQA0AGoAOAAzAGQANABvAHQAYgA5ADIAQQBBAGgAQgBRAFYAYQBkAHEA"
-			"RgBwAGYAagBWAA=="
+			"RgBwAGYAagBWAEUAbQBuAC8ALwBzAG4AeQBPAHAAVwBDAHUANwB0AGoATQByAGEAaQBxAGQAQgAz"
+			"AFUARABPAHUAVQBvADMAZgBlADAAUwBFADMAVAB6AGgALwAzAFoAMAAzAGgAagBYAG8AMQBMAEUA"
+			"UgBWAHIARgBlAE8ATgA1AHcAdwBQADcASwBCAFMANwBhAHUAZgArAC8AdgBmAHMATQBpACsATAA0"
+			"AEEAegBqACsAdgBRAEsASQBvAG8AQgBpADcAdwAxADcAaQArADEAdgBDADkAYgBZAFkAMAAzAHMA"
+			"WABiAEgAMwBGAGwAdgBVAHEATgBIAFkAbwBsAEUAUgBlADQAOAAxADAAZABoAGkAUQBhAHEASQBC"
+			"AGIARwBDAGkASwBJAG8AbwBBAGoAUwBMAFAAUwA3ACsANwAvAEEAQQBnAGMAcQBLAHIASABBADcA"
+			"LwBNADgAdgBHAEIAdgBkADIANQB2AFoAbgBaAG0AZgB6AHMANwB1ADAAUgBYADcAcwBlAFAAaABi"
+			"ADEAeAB2ADIATgBBADIAVwBhAHQAcQBKAHIAYgBsAEIASwBWAEMAaABOADkANAB5AHgAdQByAHMA"
+			"NAA0ADIASgAzAEUAKwBXAG8AVQBsAGYAdAAwAG8AZABEAE4AQwA5AHgAOQA4AFMATABuAGwANgA4"
+			"ADMAQwBTAGwAUQBoADgANwBmAGwAbgBnADEAQgAwAFoAaABWAEoAQwBxADEAUQBvAFEANQBlAHUA"
+			"QgBtADcATQBqAGoAbgBZAG4AcwBIAE4AMAB3AHoATQBrAEsANQBVADcAagBHAFYAQwB6ADIAbwBV"
+			"AEsARgAyAGQAOABzAGIAQgBlAEwAbwA1AFkARwA5AHYAaAA5ADIASgBFADUAeAB5AE8AcwBlAE4A"
+			"YwBCAE0AcQBkAHgAcgBOAHMATgBZAFYAcQBWAGkAagBQAEYAbQBEAFAAWABGAHoAdABNAFAAaAAx"
+			"AEUAbABPAG4ATABEAEQAKwBmAHcATgB3AGsAMgBxADAASABIAGsAQwBGAG8AVgAwADUAOABYAG8A"
+			"OABTAGsANQBEAHYAUwBiAFYAVwBjAHIARgBuAGUAdABYADkAVgBNAFYAWABxAGUASgBMADAAOQBT"
+			"AGEARgBzADEASwB3ADYAagBjAFUAaQBQAEwARgB3ADgAMABKAEoAdwBjADcAVAB0AG8ANQBjAFAA"
+			"WgA2AEMATQBhAFYATwB6AEoAcQBRAGkAKwBxAG0AaQBvAEIAUQAvAEoAVgAvAG8AYgA4AHoAMgA3"
+			"AGkAZgB0AG8AUgBSAC8AdQBUADIARABtADQAYwBTAFAAYwBsAEoAcgBkAEoAegBQAG0AKwAxAEkA"
+			"WQA1ADgAZwBKADkAbQBMADkAaABLAGYAdgBGAGMAaAB5AFcANQBCAFkAcgBHAFAAdwBjAEgAQQBo"
+			"AFcAQwBYAGwAMwBmAFgAVgB6AFAAMQBVAHAAbQBmAFAAWgB2AFUAMQBQAHkAVABFADQAZQAzAG8A"
+			"UgBHAG8AegBvAEsAVwBtAHQAUgBpAHgAYwBnADAAegBCAG4AVwBnAGQAagBGAEQAUQByADIAdgBj"
+			"ADMATABuAFkAaQBZAE0AbQA4AFIAKwB6AHcAagBpAFkAdQBNAEEATABRAHIAVwA3AFUAbgBQAFgA"
+			"cgAyAFQAdgBmAHIAOABNADUAcAB4ADQAMABmAFEAdgBFAGkAUwBCAEoAQgBJAFUANwAvAHYATQBF"
+			"AE4AaQBYAFkARgBLAEEAVQBpADEAMABGAGIALwBSADkAcgBhAEoARwAwAHgAbABFAEcAMwAyAFQA"
+			"YgBoAEgAeQBZAHMAUAA4AGkAdAA5ADkAcgBrAHMAYQA1AEYANAA5AFkAZABxAFcAKwBwAG4AMgBR"
+			"AEcAUQBrAHIAcABQAFMANgBGAGUAQgA5AHUAMwAvAG0AQQBqAGwAVQBWAEsAbgA0AHUAaABBAFcA"
+			"dwB5AEMAdABEAEYAZgBHAEMANQAxADgAdgBoAEQAeAA5ACsAZwBxAGwASgBDAHMARgBMAEgASwBw"
+			"AGIAeABSACsAYQBYAHEAWQBGAHEAdABCAG0ANgBIAHoAbQBkADYAeABNAEoATABBAG0AMQB4AFAA"
+			"ZQA4AE8AZAByAE0AMQBKAGIAVwA2AEEAOABLAGYASQA2AEYAagA2AGQAKwAyAEYASQBIAHkAUwBo"
+			"AHIAUABiAFgANABXAEMANgBHAGkAMQBNAHoAdgBGAEIANQA0ADgAQwAwAFIAbABhAEUAbQB4AFoA"
+			"RgBlAHMATQA3AEgASQBCADUAegBkAHUASgBCAEYAKwB6ADAAMABUADYAUABUAHQAcwBEAFMAdwBn"
+			"AEQAaQB3AGcAaABMADQAMQBUAEcAKwBCAGMAWABzAGYAVwBLAFEANQBhAG4ATQBsAFUASwBKAHAA"
+			"NgBSAFIAZAA1AHgAdwBEAFYAVQBpAG4ARgAyAEEAKwBUAGgARQBVAFEAawBlAGMAWABwAFoAOABk"
+			"AEUASgA1ADUASABOAHgAMAAxAGQARQBMAGkAZQBYAEwANwBEAG8ASABhAEoAZgBnAC8AZQAzAGMA"
+			"ZABGAFYAWAAyAEEASABEADgATwB6AE8AMABpAEsAagBZAGcAZwBIAFkAWQBHAFAAWAB1AG4AYgBz"
+			"ADYAcgBxAHUAdQBYAGEAMwBxADYANgA1AGQAcQB6AHQAMgByAEcANgA3AGgAcAByAGQANgBPADAA"
+			"UQBZAGwAMABDAFEARQBTAGMAYgBWADMASQAxAG0AMwBFAFkATgBYAHIARwBmAGQAKwBnADEAcQBu"
+			"ADkAVQBNAGEANgBTAFAASQBzAGcAUgB4ADkAdwBYAEIAQwBEAHoAUABuAGYAYwBJAHQARwBvADEA"
+			"bwBSAEcAcgAxADMAQQA0AGcAdQBTAEgAbwA3ADkAagByAFcAYwB1AEsAKwBnAFIAUABQACsAOQBN"
+			"AGkATwB4AEQAdwBVAEUAWAA3ADQAUgAyAGYAeQAxAE8AVQBjAFYAMgA5ADUAYwB6ADgAawBoAEMA"
+			"QQB2AEYAMgA3AGYAOABlAEoAUgBRAHMASAB6ADkAaQBRAHkASwBWAEkASgBaAEcAVgBsAFoAaQA5"
+			"AFEAOAB6AGkATQBXAEsAVQBVAEUAOABzAEcARwBMADIANABxADEARAB3ADkATQBFAGoAawBsAFcA"
+			"ZwBlAHMATQBnADEAdwBKAGwAQgBSAGQAOAB2AFcAVABsACsAYgBaADMAVwAwAHEAcgBIAG4ASgBo"
+			"ADUAeQBHADgAawAvAEoAWABWADQAcABJAGUALwA3AGMANwAwAGkAYwBsAGoAbABkAHYAbQAvAEUA"
+			"MQA1AEUARgBkAGEAagBiAG8AdwBjADEAZABCAEsANQA5AGYAZABPADcAQwBQAHoAVgA3AEkAcAB2"
+			"AGsAYwA0AGEAQgArAEQAWgBxAFYANgBXAEoAUwBTAGcAZgB3AFIAZAB2AHYALwBZAFAAdAB4AE4A"
+			"MgBMAHkAUgB5AE0AQQB1AGsAVgBTAEMAWABHADkAeABhAG0ALwAvAHEAWABnAGIATwAxAEoAVQBJ"
+			"AG8ARQBnADkASgBsAGUAWABPADIAVABpAGYAYwBmAGgAdgByAFQAOQA1AEgAVQBhAEkARgBQAC8A"
+			"VwBzAGgAaQBhAFEANgBHAHEASABlADcASQB1AEQAWAA5AGUAeABkAHAAOABlAFgAbwBqAEsANABj"
+			"ADMAUgBsADgAUgB4AEUAMwBIAHgAdwBXAE0AVgBKAEQAegAyAFAARQBpAHQAMwBJADMAbgBEAFcA"
+			"TABZADkANgAyAEMANAAzAEwAeQBsAEQARQB4AFoASgBaADAANABLAHEARwBnAHAAQwBuAFcANgBR"
+			"AGEAOAAwADIASQBKAE8ASABsADMAZQB5ADYANgBJAHYAaABaAHUAeQArAEoANwBTAHUAcgBRAFkA"
+			"TgBXAHEAWQBJAE0AcwBLAHcAYwBNADkAZQA4AFYAYgBBAEoAUgB4AE8ARAB0ADUAdgBsAHkAdwBT"
+			"ADUAbABJADIATwBOAFkAbABGAEoAagBMAE8AcQBYAGUAbgBuAEQAcgBuAGgASwA2AE0AUABzAEkA"
+			"YgBBAHEARgBiAA=="
 		)
 	)
 	(image
@@ -9984,7 +9913,61 @@
 			"AIC8TVc+AgAAAOa2yULJtYHCiB9cQpAn+cIAAAAAAAAAAMo733QA1AOAwMn4k/p/AABKV2ZB878d"
 			"wd+G6T2dcGZB854dwb1NVz70Y2ZBc68dwZYIJj4FAAAAIOg9lPp/AACwuBWipwEAAAAAAAAAAAAA"
 			"Ecg8v7foLD83ngmlt+gsvxHIPD9fpgWlqOBXv8mYCT+HVg6lnHBmQfSeHcHghuk9nHBmQfSeHcG8"
-			"TQ=="
+			"TQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AM8BAAADAAAAAAAAADAY1FPPAQAAAQAAAAAAAAAAAAAAAAAAAGH6k/QAYwWAUGHVU88BAAADAAAA"
+			"AAAAAMAvd1PPAQAAAQAAAAAAAAAAAAAAAAAAAGT6kPQAZAWAAAAAAAAAAAADAAAAAAAAAEAvd1PP"
+			"AQAAAQAAAAAAAAAAAAAAAAAAABv6lfQAZQWAIF7VU88BAAADAAAAAAAAADAwd1PPAQAAAQAAAAAA"
+			"AAAAAAAAAAAAAB766vQAZgWAgGTVU88BAAADAAAAAAAAAJAW1FPPAQAAAQAAAAAAAAAAAAAAAAAA"
+			"AB367/QAZwWAsGTVU88BAAADAAAAAAAAACAxd1PPAQAAAQAAAAAAAAAAAAAAAAAAABD67PQAaAWA"
+			"0GLVU88BAAADAAAAAAAAAAAvd1PPAQAAAQAAAAAAAAAAAAAAAAAAABf64fQAaQWAQzovV0lORE9X"
+			"Uy9mb250c1xOaXJtYWxhLnR0YwAAAAAAAAAAAAAAAAr65vQAagWAQGLVU88BAAADAAAAAAAAAEAu"
+			"d1PPAQAAAQAAAAAAAAAAAAAAAAAAAAn6+/QAawWA0GXVU88BAAADAAAAAAAAAPAT1FPPAQAAAQAA"
+			"AAAAAAAAAAAAAAAAAAz6+PQAbAWAoGjVU88BAAADAAAAAAAAAFAY1FPPAQAAAQAAAAAAAAAAAAAA"
+			"AAAAAAP6/fQAbQWA8GbVU88BAAADAAAAAAAAAHAS1FPPAQAAAQAAAAAAAAAAAAAAAAAAAAb68vQA"
+			"bgWAcGXVU88BAAADAAAAAAAAABAV1FPPAQAAAQAAAAAAAAAAAAAAAAAAAAX69/QAbwWAAAAAAAAA"
+			"AAADAAAAAAAAAOBk1VPPAQAAAQAAAAAAAAAAAAAAAAAAADj69PQAcAWAkGbVU88BAAADAAAAAAAA"
+			"AMAud1PPAQAAAQAAAAAAAAAAAAAAAAAAAD/6yfQAcQWAwGPVU88BAAADAAAAAAAAAHAW1FPPAQAA"
+			"AQAAAAAAAAAAAAAAAAAAADL6zvQAcgWAAAAAAAAAAAADAAAAAAAAAIAwd1PPAQAAAQAAAAAAAAAA"
+			"AAAAAAAAADH6w/QAcwWAcF/VU88BAAADAAAAAAAAAFAwd1PPAQAAAQAAAAAAAAAAAAAAAAAAADT6"
+			"wPQAdAWAYGPVU88BAAADAAAAAAAAALAS1FPPAQAAAQAAAAAAAAAAAAAAAAAAACv6xfQAdQWAAAAA"
+			"AAAAAAADAAAAAAAAAEBf1VPPAQAAAQAAAAAAAAAAAAAAAAAAAC762vQAdgWAAAAAAAAAAAADAAAA"
+			"AAAAAOAud1PPAQAAAQAAAAAAAAAAAAAAAAAAAC363/QAdwWA8F3VU88BAAADAAAAAAAAAPAtd1PP"
+			"AWkAQwBhAEsAeABCAEEAagBnAGMAagByAHcAZQBkADEASwBDAG8AcgBOAFMAcgBsAGMAcABsAEsA"
+			"dQBYAEwAQgB2AGkATQBGAGcAdwBPADEAMABZAEQAQQBZAEsASgBYAEwAUgBHAE4AeAB5AHUAVQB5"
+			"AE8AcAAyAFMAcgB0AG8AYQBDAHQATABlAEcAcQBMAEoANQA4AFYAbwBOAE4AWQBEAEcASgBZAFgA"
+			"WABIAFEANgBRAFMAawBWAGIAegBBAHMAOAByAEYAWQBpAHQANgBnAHgAMgA2ADMANABmAE4ANgA4"
+			"AEgAawA5AE4AUAB0ADkATgBQAGwAOQBlAE4AdwB1AGkAcQBVAHkAcwBYAGcAUwBVAFYAUgBTAFEA"
+			"aQB3AFcATQB4ADYAMwBrADAASwBoAFEARABLAFYAVgBxAHEASwAxAE0AKwBkADQAcgAwAGgAawBz"
+			"AG4AbABpAE0AVQBUAEcAQQB3AEcAYgBGAFkAcgBGAHIATgBwAGkAVwBDAGkAbwBhAEgAeAA2AHIA"
+			"aQB3ADAAWQArAEcAaABzAFoARgAwAFIAaQBNAFUAMwBlAFYAZAByAHUAZABtAE0AMwBLAFkATAAy"
+			"AEIAeQBhAGkAVQBEAGIATgBaAEwAYwBpAHkAUgBMAGwAYwBKAGgAUQBJADAATgBIAFcAaQBsADYA"
+			"bgBaADIAWQB1AFEAaQBRAGUAeAAyAEkAeAAwADkAMwBWAFEAVABEAFEAZABGAEUAaABoADgAVgBT"
+			"AG0AYQBvAG8AcQByADkAdgBXADUAVABiAHEAYQArAEwASgBBADYASABIAGUAbwB6AEIAUQBBAGUA"
+			"dAA1AHUATgA2ADEAZgBUAEcAZwBwAFEAcQBWAFkAWgBIAEIANwBoACsARQBtAGwAbwBrAGUANQBV"
+			"AHEARwA3AHEANAAwAFYAZgBkADAANAA3AEQAYgBWAGgATgBOAGgAdAA3AEYAbQAxAFEAcQA2AE8A"
+			"dABvAEEAbQBaAEgAVABFAHgAdwAvAGUAWQBwAFQAcAA4AGYASgBGADQAcQAwAGgAQQBLAHMAWAB0"
+			"AG0ASAAyACsAbABVAG4ATQBWADEAQQBpAGEAagBFAGIAMQBlAFIAegBhAFgANAAvAGoAZwBxAFgA"
+			"cgAxAGsASgBNAGMAUABYAEcAUwA0ADQATwBuAE8ARABVADYAVABqAGcAUwBvADEAbwBUAE0AUgBx"
+			"AE4AbQBNADAAbQBjAHYAawBDADQANQBOAFQAYQByAHQAagBnADgATwBjAFAARABYAEsAKwBPAFEA"
+			"MAArAFUAVwBsADcAegBRAHUARABxAEYAZQBiAHIAZQBuAHAANABlAE8AagBnADcAMQBjADQAdgBG"
+			"AA=="
 		)
 	)
 	(image
@@ -17211,6 +17194,60 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAABWAE4AVwB3ADMATQAwAHcARwBsAFoALwArAGQALwArAGUARABP"
+			"AFoAegBEAHYASwA0AHAAVwA1AEcAUQBFAE4AUwBIAFIAQgBnAHAAdAAxADIAVQBNAFYAawA1ADcA"
+			"dQBmADYAUQBVAFMAMABHAFAAQwBoAGwAcgBUAGQAeABnAEMAMAA3AE0AdQBtAHAAbABOAGQAYQBx"
+			"AEkAOAAyAEsAaQBiAGIAZABQAE8ARgBMAEkALwBtADEALwArAGUAWAAxADEAYgByACsAZgBaADAA"
+			"egAxAEsAMQB1AFgAbABrAGUAYgB3AGEAcQA0AGkANQA1ADAANgBZAHEAVgBpAFUAUwBwAEcATwBH"
+			"AEkAcgAzAFcAYgBvAE0ASgBtADIAVQBEAGgAQwByAFQALwBkAEoANwAvAEEAUwBRADkARgBOAHMA"
+			"bwBtAEkAUwB0AEIARQA1AGUAVwBhAGkATwBOAGkAdABnAEQAaABvAFgAZgAxADkAZwBGADEAdQBr"
+			"AEUAVwBrADUANABzAEYARAAxADMAOABXAHkANABpAGgAcABrAGwAVQB4AHgAcgBJAGkASQA1AHAA"
+			"eAB6ADMAbgBZAHoAQwB6AG0AYgBxAHcAYwBuAGkAdwBTAGgAcQBxAFAAVgBGAFoAYQBtAFYAUwBB"
+			"AEsAbgBUAE4AdgAwADMAQgBRAEkAUwBhAGUATABUAHMAUwBYAFEAawBFAFIAMABLAHAAOQBLAFUA"
+			"ZwBxAHAAdQA3AGUAVgBMAEQAaQBWADAAMgBGADAAVwB5AEsAaQBxAHUAbwBNAFcAWABSAGgAUQBQ"
+			"AFEAVQBLAFoASgBiAGsAaQBuAHQARgBjAG8AVwA0AEMAdQBJAHEATABLAEsANgB1ADcAcAA3AE4A"
+			"cwBxAGkARABtADAAUQAzAEYANwBKAFUATABXAHgAUgA3ADcAMwBnAGsAWAA1AGkAZQBtAFIAegBU"
+			"AHEAUgBHAE4AcQBiAHoAMQBXAEcAMQBPAE4AZwBlAHIAcAAzAE8ARwBKAEgAVQBrAG0AcgBpAGMA"
+			"TABXAGUANwBNAHAANQBiAGwAbwBKAHEATABpADQAVQBXAGEAWABQAFcAawBpAGcASwBkADUAYgBS"
+			"AEsAcgBTAG8AYQBWAG0AegAzADgARQBSAGYAKwAxADkALwA2ADEAVwBwAEEAMwBMAFEAOQBTADMA"
+			"UQB6ADIAOQBxAGUAeAB5AEYAQwAzAFkAUgBCAHkAcQBSAGsAUwBrAHIAZQBTAGMAZwA1AGkARQBr"
+			"AFUAbwByAHAASQB5AHEAVgBWAHEAbwBZAG8AUwBaAEYAUQBMAEcATgBtAFkARwBvAEIAaQB3AFUA"
+			"WAB1AEEAYQBoAEIAcwBkAE4AOABHAFYAbABaAGMAagB1ADMAZABqAFkAVwBGAHgAYwBYAEYAbABa"
+			"ACsAZABoAGoAagA3AG0AdQBpADUANwBoAE0AeAA0AE0AQgB0AGUAdgBYADgAOAA1AFIANwA0AEcA"
+			"WgBNAFUATQBoADgATQA0AFIAUwBBAFEARwBEAFoAcwAyAEcATwBQAFAAZgBiAFkAWQA0ACsARgBR"
+			"AHEASABEAEQAagB1AHMAUgA0ADgAZQBqAEwARwBwAFUANgBkAGkAOABUAFEAMgBOAGkASwBXAEQA"
+			"ZQBHAEUATQByAFYANgBjAFgARwB4ADUAMwBrAGoAUgA0ADYARQBsADAAdwBnAEUASQBBAEMANwBM"
+			"AEQARABEAGwAdQA0AGMATwBFAG4AbgAzAHcAeQBjAHUAVABJAFkARABEAG8AdQBtADQAawBFAGsA"
+			"SABjAGUAeQBnAFUATQBrADAAegBFAG8AawBjAGUAdQBpAGgAbgBQAE4ARQBJAG8ARgBKAEsAeQA4"
+			"AHYAWgA0AHcAbABrADAAbABaAGwAMABOAEcAQQBsAHEAVwBGAFEAcQBGAEMAZwBvAEsAYQBtAHAA"
+			"cQB1AG4AWAByAE4AbgA3ADgAZQBCAGwATABHAEEAdwBHAHUAMwBmAHYAYgBwAG8AbQBpAHAAUABB"
+			"AE0AMQByADYAVgBFAFUAaQBFAFoAbgBnAFMAdABNADAATABEAG4AeQBGAFUAYwA3AC8AdgBqAGoA"
+			"NQBSAGgAaQBzAFYAZwBrAEUAcQBtAHYAcgB4ADgAegBaAG8AdwBRAHcAagBBAE0AMAB6AFIAMQBY"
+			"AGQAZAAxAEgAWQBOAEIANABBAEwAUwBmAEkAOABaAE0AdwBiAGUAMQBwAGoAaABmAHYAMwA2AEQA"
+			"UgBrAHkAWgBNAFcASwBGAGQAdQAzAGIAMgAvAFgAcgB0ADMAaQB4AFkAdABMAFMAMAB2AFAATwBP"
+			"AE0ATQAyAGoAawBUAGUAbABWAFYAMQBiAEIAaAB3AHoANwA4ADgARQBQAE0ARgBaAEoAbABnAEoA"
+			"LwBoAHQAOABBADUAUAAvAEwASQBJAHoAdAAzADcAZwB4AGoANQBjAGkAUgBJADMAdgAxADYAcwBV"
+			"AFkATwArADIAMAAwADAANAArACsAVwBSAE0ASQBNAGkAYwB6AE8AUwB1AG8ASABEAFEAUQBuAEUA"
+			"agBoAFkATQBhAGsAUABvAFEARwA4AGwAawBjAHMAUwBJAEUAWQA4ACsAKwBxAGgATQBoAFUAeABF"
+			"AG4ASABQAHAATABDAHoAOQBsAEoARwBCAGgAbwBpADIAYgB0ADEAcQBXAFYAYgB2ADMAcgAwAHAA"
+			"bAA5AE0AUABEAGgARABCAFkATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
@@ -18205,6 +18242,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 143.51 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15c2188c-bfc7-440a-b529-f0bcd9298ec2")
+		(property "Reference" "#PWR055"
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 140.335 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8de4dcef-e404-4d72-bb81-a951abcb8dc3")
+		)
+		(instances
+			(project "SUMEC_MK_V"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/95cf1f13-726f-4490-ab38-a981f99dbdb3"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 91.44 163.83 0)
 		(unit 1)
@@ -18615,72 +18718,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 200.66 83.82 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40082985-66cc-4f7b-b207-74a7ee535cbb")
-		(property "Reference" "#PWR0105"
-			(at 196.85 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 203.708 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.66 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 200.66 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 200.66 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "61665f09-f922-4f49-b834-64030f300b06")
-		)
-		(instances
-			(project "SUMEC_MK_V"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/95cf1f13-726f-4490-ab38-a981f99dbdb3"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_2")
 		(lib_id "power:GND")
 		(at 201.93 57.15 90)
@@ -18812,73 +18849,6 @@
 			(project "SUMEC_MK_V"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/95cf1f13-726f-4490-ab38-a981f99dbdb3"
 					(reference "C34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 143.51 88.9 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58f57cc5-4d50-4ac3-99a0-c58b465581ea")
-		(property "Reference" "#PWR096"
-			(at 147.32 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 139.7 88.8999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 143.51 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b444c9eb-dc51-4044-95a2-4e19f4dd57ed")
-		)
-		(instances
-			(project "SUMEC_MK_V"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/95cf1f13-726f-4490-ab38-a981f99dbdb3"
-					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -19588,72 +19558,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 180.34 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b84af40-b30b-40fe-9ed2-38ced822f51d")
-		(property "Reference" "#PWR0102"
-			(at 176.53 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 177.292 96.012 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 180.34 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6809f70-6ac1-487a-a4fb-c557d3fba79d")
-		)
-		(instances
-			(project "SUMEC_MK_V"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/95cf1f13-726f-4490-ab38-a981f99dbdb3"
-					(reference "#PWR0102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 180.34 115.57 0)
 		(unit 1)
@@ -19713,6 +19617,72 @@
 			(project "SUMEC_MK_V"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/95cf1f13-726f-4490-ab38-a981f99dbdb3"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 143.51 88.9 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "967b0de7-88ad-4fba-8690-38a627027215")
+		(property "Reference" "#PWR054"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 140.335 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38239809-e3a6-4ae5-bf4c-17895badff7f")
+		)
+		(instances
+			(project "SUMEC_MK_V"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/95cf1f13-726f-4490-ab38-a981f99dbdb3"
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -20533,72 +20503,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 143.51 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3a31bab-8dc1-413b-b666-09763a9d7378")
-		(property "Reference" "#PWR097"
-			(at 147.32 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 139.7 93.9799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 143.51 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 143.51 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d56ab963-068f-42c5-abff-b88cb9ed6397")
-		)
-		(instances
-			(project "SUMEC_MK_V"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/95cf1f13-726f-4490-ab38-a981f99dbdb3"
-					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "+3V3_1")
 		(lib_id "power:+3V3")
 		(at 100.33 144.78 270)
@@ -20801,6 +20705,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 200.66 83.82 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e12c673b-1aaa-4716-97b5-d3b4e896fc40")
+		(property "Reference" "#PWR096"
+			(at 196.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 203.835 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 200.66 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ac24d3e-13c4-49c6-855b-d52693f0fb42")
+		)
+		(instances
+			(project "SUMEC_MK_V"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/95cf1f13-726f-4490-ab38-a981f99dbdb3"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 147.32 158.75 270)
 		(mirror x)
@@ -20997,6 +20967,72 @@
 			(project "SUMEC_MK_V"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/95cf1f13-726f-4490-ab38-a981f99dbdb3"
 					(reference "#PWR091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 180.34 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbba3767-e4fa-4234-a7a6-cbdf47f25357")
+		(property "Reference" "#PWR056"
+			(at 176.53 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 178.562 96.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4eaf7fe7-0f9b-4d12-9d59-3b3cf6bb83e0")
+		)
+		(instances
+			(project "SUMEC_MK_V"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/95cf1f13-726f-4490-ab38-a981f99dbdb3"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
