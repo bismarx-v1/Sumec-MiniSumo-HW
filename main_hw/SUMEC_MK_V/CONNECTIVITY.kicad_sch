@@ -3626,7 +3626,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 251.46 63.5 90)
+		(at 240.03 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3634,7 +3634,7 @@
 		(dnp no)
 		(uuid "085c7bb4-c454-4238-b40c-903cd6edb544")
 		(property "Reference" "R32"
-			(at 253.365 59.055 90)
+			(at 241.935 59.055 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3643,7 +3643,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 254 60.96 90)
+			(at 242.57 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3652,7 +3652,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 251.46 65.278 90)
+			(at 240.03 65.278 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3661,7 +3661,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 63.5 0)
+			(at 240.03 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,7 +3670,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 63.5 0)
+			(at 240.03 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,8 +3711,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000k"
-			(at 254.635 30.48 90)
+		(property "Value" "1k"
+			(at 251.46 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4103,7 +4103,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 251.46 48.26 90)
+		(at 240.03 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4111,7 +4111,7 @@
 		(dnp no)
 		(uuid "3a2b15be-adba-4a29-9414-99e369a05a61")
 		(property "Reference" "R30"
-			(at 253.365 43.815 90)
+			(at 241.935 43.815 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4120,7 +4120,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 254 45.72 90)
+			(at 242.57 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4129,7 +4129,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 251.46 50.038 90)
+			(at 240.03 50.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4138,7 +4138,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 48.26 0)
+			(at 240.03 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,7 +4147,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 48.26 0)
+			(at 240.03 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4646,7 +4646,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 240.03 63.5 180)
+		(at 251.46 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4654,7 +4654,7 @@
 		(dnp no)
 		(uuid "8d639eed-7811-42c5-a28c-133283dd031e")
 		(property "Reference" "D7"
-			(at 238.125 59.055 0)
+			(at 249.555 59.055 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4663,7 +4663,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 238.125 60.96 0)
+			(at 249.555 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4672,7 +4672,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 240.03 63.5 0)
+			(at 251.46 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4681,7 +4681,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 63.5 0)
+			(at 251.46 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,7 +4690,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 63.5 0)
+			(at 251.46 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4854,7 +4854,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 240.03 48.26 180)
+		(at 251.46 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4862,7 +4862,7 @@
 		(dnp no)
 		(uuid "938a847c-49b2-4812-a59d-c2094c8d0f42")
 		(property "Reference" "D5"
-			(at 238.125 43.815 0)
+			(at 249.555 43.815 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4871,7 +4871,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 238.125 45.72 0)
+			(at 249.555 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4880,7 +4880,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 240.03 48.26 0)
+			(at 251.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4889,7 +4889,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 48.26 0)
+			(at 251.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,7 +4898,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 48.26 0)
+			(at 251.46 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,7 +5705,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 240.03 55.88 180)
+		(at 251.46 55.88 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5713,7 +5713,7 @@
 		(dnp no)
 		(uuid "f0e8b66b-6d15-41bd-9fd0-fb1fd855001c")
 		(property "Reference" "D6"
-			(at 238.125 51.435 0)
+			(at 249.555 51.435 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5722,7 +5722,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 238.125 53.34 0)
+			(at 249.555 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5731,7 +5731,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 240.03 55.88 0)
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5740,7 +5740,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 55.88 0)
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5749,7 +5749,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 55.88 0)
+			(at 251.46 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5841,7 +5841,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 251.46 55.88 90)
+		(at 240.03 55.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5849,7 +5849,7 @@
 		(dnp no)
 		(uuid "fc1d0f83-e237-44c1-b348-387eb4197d9d")
 		(property "Reference" "R31"
-			(at 253.365 51.435 90)
+			(at 241.935 51.435 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5858,7 +5858,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 254 53.34 90)
+			(at 242.57 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5867,7 +5867,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 251.46 57.658 90)
+			(at 240.03 57.658 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5876,7 +5876,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 55.88 0)
+			(at 240.03 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5885,7 +5885,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 55.88 0)
+			(at 240.03 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
