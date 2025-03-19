@@ -3695,7 +3695,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 251.46 33.02 90)
+		(at 240.03 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3703,7 +3703,7 @@
 		(dnp no)
 		(uuid "159dc1c8-ae68-4c8e-a622-e6001aab2adb")
 		(property "Reference" "R28"
-			(at 252.73 28.575 90)
+			(at 241.3 28.575 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,7 +3712,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 251.46 30.48 90)
+			(at 240.03 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +3721,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 251.46 34.798 90)
+			(at 240.03 34.798 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +3730,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 33.02 0)
+			(at 240.03 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +3739,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 251.46 33.02 0)
+			(at 240.03 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4511,7 +4511,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 240.03 33.02 180)
+		(at 251.46 33.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4519,7 +4519,7 @@
 		(dnp no)
 		(uuid "7934f5cc-80e2-46bd-9335-54a7bef28c91")
 		(property "Reference" "D3"
-			(at 238.125 28.575 0)
+			(at 249.555 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4528,7 +4528,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 238.125 30.48 0)
+			(at 249.555 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4537,7 +4537,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 240.03 33.02 0)
+			(at 251.46 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4546,7 +4546,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 33.02 0)
+			(at 251.46 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4555,7 +4555,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 240.03 33.02 0)
+			(at 251.46 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
