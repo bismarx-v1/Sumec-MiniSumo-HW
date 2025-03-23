@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "a35bb982-e162-4589-8fbb-31c9c17b2833")
 	(paper "A4")
 	(title_block
@@ -91,7 +91,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -103,7 +103,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -117,7 +117,8 @@
 			(symbol "+3V3_1_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3V3"
 						(effects
 							(font
@@ -134,10 +135,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -211,9 +215,42 @@
 				)
 			)
 			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+						(xy 1.27 2.54) (xy 0.8636 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -237,7 +274,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -245,39 +282,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(pin passive line
@@ -335,10 +339,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -412,21 +419,53 @@
 				)
 			)
 			(symbol "Conn_01x04_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+						(xy 1.27 2.54) (xy 0.8636 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -450,7 +489,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -460,48 +499,16 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -577,10 +584,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:Conn_01x06_Pin"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -654,45 +664,75 @@
 				)
 			)
 			(symbol "Conn_01x06_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -7.62) (xy 0.8636 -7.62)
-					)
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 0.8636 -5.08)
-					)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 0.8636 0)
+						(xy 1.27 5.08) (xy 0.8636 5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -716,7 +756,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 5.08) (xy 0.8636 5.08)
+						(xy 1.27 0) (xy 0.8636 0)
 					)
 					(stroke
 						(width 0.1524)
@@ -726,70 +766,40 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -7.493)
-					(end 0 -7.747)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -4.953)
-					(end 0 -5.207)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 5.207)
-					(end 0 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(pin passive line
@@ -901,10 +911,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:Conn_01x06_Socket"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -978,81 +991,9 @@
 				)
 			)
 			(symbol "Conn_01x06_Socket_1_1"
-				(arc
-					(start 0 -7.112)
-					(mid -0.5058 -7.62)
-					(end 0 -8.128)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -4.572)
-					(mid -0.5058 -5.08)
-					(end 0 -5.588)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -2.032)
-					(mid -0.5058 -2.54)
-					(end 0 -3.048)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
-						(xy -1.27 -7.62) (xy -0.508 -7.62)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -0.508 -5.08)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
+						(xy -1.27 5.08) (xy -0.508 5.08)
 					)
 					(stroke
 						(width 0.1524)
@@ -1076,7 +1017,43 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 5.08) (xy -0.508 5.08)
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy -0.508 -7.62)
 					)
 					(stroke
 						(width 0.1524)
@@ -1087,33 +1064,69 @@
 					)
 				)
 				(arc
-					(start 0 0.508)
-					(mid -0.5058 0)
-					(end 0 -0.508)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.048)
-					(mid -0.5058 2.54)
-					(end 0 2.032)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 5.588)
+					(start 0 4.572)
 					(mid -0.5058 5.08)
-					(end 0 4.572)
+					(end 0 5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -5.588)
+					(mid -0.5058 -5.08)
+					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -8.128)
+					(mid -0.5058 -7.62)
+					(end 0 -7.112)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -1231,9 +1244,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -1389,9 +1405,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -1510,6 +1529,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_1"
 			(power)
@@ -1589,7 +1609,8 @@
 			(symbol "GND_1_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1606,6 +1627,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "GND_2"
 			(power)
@@ -1685,7 +1707,8 @@
 			(symbol "GND_2_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1702,6 +1725,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "TSOP382xx_1"
 			(exclude_from_sim no)
@@ -1772,9 +1796,9 @@
 			)
 			(symbol "TSOP382xx_1_0_0"
 				(arc
-					(start -10.287 1.397)
-					(mid -11.0899 -0.1852)
-					(end -10.287 -1.778)
+					(start -10.287 -1.778)
+					(mid -11.0899 -0.1905)
+					(end -10.287 1.397)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1785,7 +1809,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -5.08) (xy 0.127 -5.08)
+						(xy 1.905 5.08) (xy 0.127 5.08)
 					)
 					(stroke
 						(width 0)
@@ -1797,7 +1821,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 5.08) (xy 0.127 5.08)
+						(xy 1.905 -5.08) (xy 0.127 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -1817,17 +1841,6 @@
 				)
 			)
 			(symbol "TSOP382xx_1_0_1"
-				(rectangle
-					(start -6.096 5.588)
-					(end 0.127 -5.588)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy -8.763 0.381) (xy -9.652 1.27)
@@ -1902,7 +1915,66 @@
 				)
 				(polyline
 					(pts
+						(xy -8.382 0.635) (xy -6.731 0.635) (xy -7.62 -1.016) (xy -8.382 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
 						(xy -8.382 -1.016) (xy -6.731 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -6.096 5.588)
+					(end 0.127 -5.588)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.096 1.397) (xy -7.62 1.397) (xy -7.62 -1.778) (xy -6.096 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.905) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.905 -1.905) (xy 1.905 0) (xy 2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -1926,7 +1998,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.905) (xy 1.27 -3.81)
+						(xy 1.27 -3.175) (xy 1.905 -3.81) (xy 1.905 -5.08) (xy 2.54 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -1974,18 +2046,6 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 0) (xy 1.905 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 1.905 4.445) (xy 1.905 5.08) (xy 2.54 5.08)
 					)
 					(stroke
@@ -1998,43 +2058,7 @@
 				)
 				(polyline
 					(pts
-						(xy -8.382 0.635) (xy -6.731 0.635) (xy -7.62 -1.016) (xy -8.382 0.635)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.096 1.397) (xy -7.62 1.397) (xy -7.62 -1.778) (xy -6.096 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.175) (xy 1.905 -3.81) (xy 1.905 -5.08) (xy 2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.905 -1.905) (xy 1.905 0) (xy 2.54 0)
+						(xy 1.905 0) (xy 1.905 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2068,6 +2092,24 @@
 				)
 			)
 			(symbol "TSOP382xx_1_1_1"
+				(pin power_in line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "Vs"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at 10.16 0 180)
 					(length 2.54)
@@ -2104,25 +2146,8 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 10.16 5.08 180)
-					(length 2.54)
-					(name "Vs"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
@@ -2200,7 +2225,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2212,7 +2237,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2226,7 +2251,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3V3"
 						(effects
 							(font
@@ -2243,6 +2269,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
 			(power)
@@ -2320,7 +2347,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -2332,7 +2359,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -2346,7 +2373,8 @@
 			(symbol "+5V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+5V"
 						(effects
 							(font
@@ -2363,6 +2391,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -2442,7 +2471,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -2459,7 +2489,367 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 26.67 22.86)
+		(end 168.91 59.69)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1de8f647-432c-49e5-9306-ca010c5fbd73)
+	)
+	(rectangle
+		(start 26.67 68.58)
+		(end 168.91 102.87)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 678cb203-bd6a-4727-8bcb-5598b8081e21)
+	)
+	(rectangle
+		(start 179.705 68.58)
+		(end 270.51 102.87)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6e895a68-e2d5-450b-90a2-9d0b3bc4e164)
+	)
+	(rectangle
+		(start 26.67 111.125)
+		(end 168.91 145.415)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 841785fe-ffd4-47a7-8d8e-86bdfbd0e009)
+	)
+	(rectangle
+		(start 179.705 111.125)
+		(end 270.51 145.415)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c47bcc68-fe8b-4c11-8c03-cf75f8b46bf1)
+	)
+	(rectangle
+		(start 179.705 22.86)
+		(end 270.51 59.69)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e5f2e17e-caec-4805-b617-cc3a744ba20e)
+	)
+	(text "DISTANCE MEASURING"
+		(exclude_from_sim no)
+		(at 26.035 112.395 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 5 5)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a7b8b87-58dc-462a-8e2b-04df41fefb11")
+	)
+	(text "Miniature Reflective\nObject Sensor - QRE1113\n\nIR reflectance sensor is comprised of two parts - an IR emitting LED and an IR sensitive phototransistor.\n\nAnalog output\nA 100Ω resistor is placed in series with the LED to limit current. A 10kΩ resistor pulls the output pin high, \nbut when the light from the LED is reflected back onto the phototransistor the output will begin to go lower.\n\n2 front sensors will be connected to the \"QRE MiniBoard\", rear sensor will be connected using \nthe same connector."
+		(exclude_from_sim no)
+		(at 28.575 52.07 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.5 1.5)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "11ad4cfc-bf09-488f-b682-30b46738734e")
+	)
+	(text "Pololu Distance Sensor with Pulse Width Output/Digital Output\n\nSmall lidar based sensor can report presnece/distance of \nobjects up to (TOTAL MAX 200cm-Digital, 300cm - PWM)\n\nDistance is chosen by configurating the jumpers with 0R resistors"
+		(exclude_from_sim no)
+		(at 28.575 85.09 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.5 1.5)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "15aa006a-0461-4054-9788-1e6ee10e525c")
+	)
+	(text "IR LED Reciver module\n\nOperating voltage: 2.7V to 5.5V\nFrequency: 38kHz \n"
+		(exclude_from_sim no)
+		(at 182.245 123.825 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.5 1.5)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "18564122-a421-44ae-9a2f-09139c118c6d")
+	)
+	(text "SIDE SENSORS"
+		(exclude_from_sim no)
+		(at 179.705 69.85 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 5 5)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2398a38d-a3b4-427d-9a2f-9a6869c073a4")
+	)
+	(text "6-PIN JST SH-Style male connector\nVCC 2.7 V to 18 V encoder operating voltage"
+		(exclude_from_sim no)
+		(at 182.245 27.94 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.5 1.5)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "317cf551-65a9-4a29-be04-fc41505103a3")
+	)
+	(text "TF-LUNA MANUAL"
+		(exclude_from_sim no)
+		(at 30.48 139.065 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 0 255 1)
+			)
+			(justify left bottom)
+			(href "https://www.waveshare.com/wiki/TF-Luna_LiDAR_Range_Sensor")
+		)
+		(uuid "317d5043-e877-437f-bd96-9e067bda1a04")
+	)
+	(text "MIRRORED"
+		(exclude_from_sim no)
+		(at 137.16 27.94 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.27 1.27)
+				(color 0 0 194 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "42be9260-b612-43d3-92c9-3f5a595e6e51")
+	)
+	(text "OBJECT DETECTING SENSORS"
+		(exclude_from_sim no)
+		(at 26.035 69.85 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 5 5)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "717a793c-3e21-4d5e-9279-f448ac39b5be")
+	)
+	(text "Digital distance sensor - Sharp GP2Y0D810Z0F\n\nSensor detects objects between 2 cm and 10 cm\nLow when detecting an object, high otherwise.\nFrequency - 390 Hz\nOperating voltage 2.7V - 6.2V"
+		(exclude_from_sim no)
+		(at 305.435 94.615 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "79af59d6-c94b-4b63-8447-bac6985ace95")
+	)
+	(text "MOTORS"
+		(exclude_from_sim no)
+		(at 179.07 20.955 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 5 5)
+				(thickness 1.2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "9dfe805a-aa84-48f5-8732-96156080f0e0")
+	)
+	(text "IR MODULE"
+		(exclude_from_sim no)
+		(at 179.705 109.22 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 5 5)
+				(thickness 1.2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "a0a6fad0-38c4-4a1d-9b32-1397f87c8c52")
+	)
+	(text "LINE SENSORS"
+		(exclude_from_sim no)
+		(at 26.035 20.955 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 5 5)
+				(thickness 1.2)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "a42fbd27-95ee-4186-9670-c3ccb5e74347")
+	)
+	(text "POLOLU SENSOR MANUAL"
+		(exclude_from_sim no)
+		(at 31.75 97.155 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.254)
+				(bold yes)
+				(italic yes)
+				(color 0 0 255 1)
+			)
+			(justify left bottom)
+			(href "https://www.pololu.com/product/4067")
+		)
+		(uuid "b2e2fd94-2c15-43ec-8d55-5beab4167e15")
+	)
+	(text "( Better manual in -DOCS- )"
+		(exclude_from_sim no)
+		(at 43.18 140.335 0)
+		(effects
+			(font
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+		)
+		(uuid "ba01635a-c442-4b8e-8b9b-121b9a55ec43")
+	)
+	(text "M2"
+		(exclude_from_sim no)
+		(at 257.175 33.02 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.5 1.5)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1422ab8-b5be-4b7b-b8d1-79168c059c8c")
+	)
+	(text "Time-of-Flight(ToF)\nlaser-ranging module - TF-Luna\nCOMMUNICATION PROTOCOL: I²C \n\nWhen pin 5 is connected to ground, \nTF-Luna enters I2C mode, \nthen its pin 2 is used as SDA data and\npin 3 is the SCL clock sending data."
+		(exclude_from_sim no)
+		(at 29.21 133.35 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.5 1.5)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4c6964c-f301-4069-a6ac-34c4fbc02398")
+	)
+	(text "M1"
+		(exclude_from_sim no)
+		(at 236.855 33.02 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.5 1.5)
+				(thickness 0.254)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7ff93ea-39e4-418b-88b1-d9d17015a35f")
+	)
+	(text "IR LED Reciver module\n\nOperating voltage: 2.7V to 5.5V\nFrequency: 38kHz \nHigh immunity against ambient light. \nFor more than 1 input use - Hexadecimal code\n\nUsed as a main program starter\n"
+		(exclude_from_sim no)
+		(at 307.975 132.715 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.5 1.5)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e35309b6-855c-4233-b524-05be28645550")
+	)
+	(text "Digital distance sensor - Sharp GP2Y0D810Z0F\n\nSensor detects objects between 2 cm and 10 cm\nLow when detecting an object, high otherwise.\nOperating voltage 2.7V - 6.2V"
+		(exclude_from_sim no)
+		(at 182.245 81.28 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1.27 1.27)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e613b278-af98-493b-b27b-eb42a9a98c9c")
 	)
 	(junction
 		(at 207.01 96.52)
@@ -3227,84 +3617,6 @@
 		)
 		(uuid "ffc84f3c-e305-4650-9946-40589a843305")
 	)
-	(rectangle
-		(start 26.67 22.86)
-		(end 168.91 59.69)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 1de8f647-432c-49e5-9306-ca010c5fbd73)
-	)
-	(rectangle
-		(start 26.67 68.58)
-		(end 168.91 102.87)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 678cb203-bd6a-4727-8bcb-5598b8081e21)
-	)
-	(rectangle
-		(start 179.705 68.58)
-		(end 270.51 102.87)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 6e895a68-e2d5-450b-90a2-9d0b3bc4e164)
-	)
-	(rectangle
-		(start 26.67 111.125)
-		(end 168.91 145.415)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 841785fe-ffd4-47a7-8d8e-86bdfbd0e009)
-	)
-	(rectangle
-		(start 179.705 111.125)
-		(end 270.51 145.415)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid c47bcc68-fe8b-4c11-8c03-cf75f8b46bf1)
-	)
-	(rectangle
-		(start 179.705 22.86)
-		(end 270.51 59.69)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid e5f2e17e-caec-4805-b617-cc3a744ba20e)
-	)
 	(image
 		(at 202.565 42.545)
 		(scale 0.371053)
@@ -3567,7 +3879,25 @@
 			"eF7S6mujG88rAB06dOQPpXpH2eD/AJ4x/wDfIp6qqDaoAA7CluHN2H0UUUyQooooAKKKKACiiigA"
 			"ooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAO9FFFAC"
 			"UUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUtFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU"
-			"UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf//Z"
+			"UUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAf//ZTUgvBnVekgV9xi4Guw2SBfGgLgZd9pEF5f0t"
+			"BvSQkQUEci0GATqRBXz7LAZ28JAFfJgsBjazkAUuRywGLoGQBcIFLAZIWZAFY9IrBnA6kAVAqysG"
+			"kSOQBYSOKwaRE5AFXXorBloJkAX6bCsG2QOQBYZkKwb9AZAFMV8rBqQCkAUlWysGwASQBcVUKwaf"
+			"B5AFiVQrBk7/jwXuSysG5PSPBTAqKwYe248FZ+8qBoCyjwXrmyoGP3uPBQswKgaONY8FJKwpBqfh"
+			"jgWQECkGxX+OBZpdKAYZEI4FnpMnBt+SjQXysiYGSQiNBeNbJgat0owFhwEmBgCbjAW7rCUGt2aM"
+			"BSNkJQbnOYwFXi4lBqgYjAUaFiUGyQmMBZTPJAbU34sFLookBg64iwXsUSQGbJmLBdVOJAbQl4sF"
+			"NiEkBtt9iwXWACQGmmeLBYX0Iwa0WYsFDvQjBmdViwWJ6yMGh1OLBbTjIwafVIsFYMYjBpJLiwW5"
+			"miMG6jeLBXBnIwZgHYsFNjMjBqz/igW5BCMGe+KKBaz5IgZh2ooFteIiBozJigVE1yIGfbyKBdLT"
+			"IgaPuIoFHcwiBsKoigVTuCIGXp2KBfusIgZYn4oFBbciBh+migU1viIGoKqKBW/BIgY0u4oFZrki"
+			"Bpe/igUGpSIGMraKBSqbIga4qooFyJYiBgGaigW2lyIGC5iKBV2VIgZJi4oFvoUiBrB4igXBZiIG"
+			"vF6KBUs2IgboO4oFRvIhBqwOigWWmCEGgtWJBSUnIQbfjokFUOcgBmdniQUfjSAGhS+JBUU6IAYQ"
+			"/IgFTfMfBtvPiAW7vB8Gsa2IBRSbHwZmmIgFvnIfBtN+iAVlNx8GpFmIBW/yHgazLogF9qseBhoD"
+			"iAW/Zx4G+9iHBcgkHgaEr4cF5usdBjCMhwXOxB0GxHOHBZ6qHQbbY4cFnYsdBuVShwW+fR0GGU6H"
+			"BRLfAQYAAAAAhm6MAwAAAAAWAAAWkQUxANDZXdzkAQAAcKZq+eQBAAD+EQAAAAAAAOkkAQYAAAAA"
+			"OTCOAwAAAAD/EQAAAAAAAIexAQYAAAAAtWCMAwAAAAD/EQAAAAAAAAdTAQYAAAAAxjuOAwAAAAD/"
+			"EQAAAAAAAG85/wUAAAAA1tCNAwAAAAAAEgAAAAAAAO+X/wUAAAAAxfWLAwAAAAAAEgAAAAAAAHdo"
+			"/wUAAAAA0NeNAwAAAAAAEgAAAAAAABo5/wUAAAAAJtONAwAAAAABEgAAAAAAAJJo/wUAAAAAG/GL"
+			"AwAAAAABEgAAAAAAAJJo/wUAAAAAe9WNAwAAAAABEgAAAAAAAHBE/QUAAAAAe9WNAwAAAAACEgAA"
+			"AAAAAHBE/QUAAAAAG/GLAwAAAAACEgAAAAAAAA=="
 		)
 	)
 	(image
@@ -10542,289 +10872,26 @@
 			"KpSr8N7iZCv+7y/ettJ/Gz0BLpfLAigH5i/c1Regsx7Pk6ae6jMA2IwuJ/QvYoFXYY2gi34FeumN"
 			"RZiauAhgusbqIjr1HaBshF4Z3/kWcPpz/uRluK70Wr/m/LOK24x4C2rNha6zFgY+//PVuPubB+Im"
 			"/N8MX3q+X87WIrmuI6NX6TNrga76O50aBjBOnxuoeEseo9V3N9XeDt/e+rwNvhT+L68Dc91okgj/"
-			"B6QCjGesbckwAAAAAElFTkSuQmCC"
+			"B6QCjGesbckwAAAAAElFTkSuQmCCAAAAt9oQBgAAAADI+hAGAAAAAGsDEQYAAAAAHUsRBgAAAABx"
+			"UhEGAAAAAHFSEQYAAAAAllIRBgAAAABPbxEGAAAAAAHGEQYAAAAAJskRBgAAAACi1REGAAAAAKLV"
+			"EQYAAAAAdNcRBgAAAABuQBIGAAAAACBYEgYAAAAAIFgSBgAAAACaXxIGAAAAAFzQEgYAAAAAXNAS"
+			"BgAAAAB1EBMGAAAAAKQSEwYAAAAADWgVBgAAAAANaBUGAAAAAMVeFgYAAAAAxV4WBgAAAAD7wRYG"
+			"AAAAAPvBFgYAAAAAEjgXBgAAAAASOBcGAAAAANcOGQYAAAAA1w4ZBgAAAADKHRkGAAAAAModGQYA"
+			"AAAARCUZBgAAAAAdBBoGAAAAAKEvGgYAAAAAXqIaBgAAAADZqRoGAAAAAMdjGwYAAAAAjYIbBgAA"
+			"AAAEihsGAAAAAO+SGwYAAAAA0cYbBgAAAACz4hsGAAAAALPiGwYAAAAAWOMbBgAAAABY4xsGAAAA"
+			"AADxGwYAAAAAJHkcBgAAAABw/hwGAAAAAO6EHQYAAAAA7k8eBgAAAADuTx4GAAAAAOZZHgYAAAAA"
+			"kngeBgAAAAAwyR4GAAAAADDJHgYAAAAAxQUfBgAAAACL7iEGAAAAAPVMIgYAAAAAJ30iBgAAAAAn"
+			"fSIGAAAAAOMSIwYAAAAA4xIjBgAAAADxGSMGAAAAAMNQIwYAAAAA32cjBgAAAAAGfCMGAAAAAAZ8"
+			"IwYAAAAAQhokBgAAAAB3JiQGAAAAAPAtJAYAAAAA1+0lBgAAAABqPSoGAAAAAKbVKgYAAAAA1X8s"
+			"BgAAAAClIi0GAAAAAAwkLQYAAAAADCQtBgAAAAD3dC0GAAAAAPd0LQYAAAAAGsYzBgAAAABVUjQG"
+			"AAAAAMxZNAYAAAAAHIQ0BgAAAABx8TQGAAAAAC+MNQYAAAAAjJA1BgAAAACMkDUGAAAAAFieNQYA"
+			"AAAAWJ41BgAAAAA07TUGAAAAAFOeNgYAAAAAbrE2BgAAAACu2jYGAAAAAJgpNwYAAAAAlTI3BgAA"
+			"AACVMjcGAAAAAOCKNwYAAAAAnko4BgAAAAD/////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"/////////////////////////w=="
 		)
-	)
-	(text "DISTANCE MEASURING"
-		(exclude_from_sim no)
-		(at 26.035 112.395 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 5 5)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "0a7b8b87-58dc-462a-8e2b-04df41fefb11")
-	)
-	(text "Miniature Reflective\nObject Sensor - QRE1113\n\nIR reflectance sensor is comprised of two parts - an IR emitting LED and an IR sensitive phototransistor.\n\nAnalog output\nA 100Ω resistor is placed in series with the LED to limit current. A 10kΩ resistor pulls the output pin high, \nbut when the light from the LED is reflected back onto the phototransistor the output will begin to go lower.\n\n2 front sensors will be connected to the \"QRE MiniBoard\", rear sensor will be connected using \nthe same connector."
-		(exclude_from_sim no)
-		(at 28.575 52.07 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.5 1.5)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "11ad4cfc-bf09-488f-b682-30b46738734e")
-	)
-	(text "Pololu Distance Sensor with Pulse Width Output/Digital Output\n\nSmall lidar based sensor can report presnece/distance of \nobjects up to (TOTAL MAX 200cm-Digital, 300cm - PWM)\n\nDistance is chosen by configurating the jumpers with 0R resistors"
-		(exclude_from_sim no)
-		(at 28.575 85.09 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.5 1.5)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "15aa006a-0461-4054-9788-1e6ee10e525c")
-	)
-	(text "IR LED Reciver module\n\nOperating voltage: 2.7V to 5.5V\nFrequency: 38kHz \n"
-		(exclude_from_sim no)
-		(at 182.245 123.825 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.5 1.5)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "18564122-a421-44ae-9a2f-09139c118c6d")
-	)
-	(text "SIDE SENSORS"
-		(exclude_from_sim no)
-		(at 179.705 69.85 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 5 5)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "2398a38d-a3b4-427d-9a2f-9a6869c073a4")
-	)
-	(text "6-PIN JST SH-Style male connector\nVCC 2.7 V to 18 V encoder operating voltage"
-		(exclude_from_sim no)
-		(at 182.245 27.94 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.5 1.5)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "317cf551-65a9-4a29-be04-fc41505103a3")
-	)
-	(text "TF-LUNA MANUAL"
-		(exclude_from_sim no)
-		(at 30.48 139.065 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.254)
-				(bold yes)
-				(italic yes)
-				(color 0 0 255 1)
-			)
-			(justify left bottom)
-			(href "https://www.waveshare.com/wiki/TF-Luna_LiDAR_Range_Sensor")
-		)
-		(uuid "317d5043-e877-437f-bd96-9e067bda1a04")
-	)
-	(text "MIRRORED"
-		(exclude_from_sim no)
-		(at 137.16 27.94 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.27 1.27)
-				(color 0 0 194 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "42be9260-b612-43d3-92c9-3f5a595e6e51")
-	)
-	(text "OBJECT DETECTING SENSORS"
-		(exclude_from_sim no)
-		(at 26.035 69.85 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 5 5)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "717a793c-3e21-4d5e-9279-f448ac39b5be")
-	)
-	(text "Digital distance sensor - Sharp GP2Y0D810Z0F\n\nSensor detects objects between 2 cm and 10 cm\nLow when detecting an object, high otherwise.\nFrequency - 390 Hz\nOperating voltage 2.7V - 6.2V"
-		(exclude_from_sim no)
-		(at 305.435 94.615 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "79af59d6-c94b-4b63-8447-bac6985ace95")
-	)
-	(text "MOTORS"
-		(exclude_from_sim no)
-		(at 179.07 20.955 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 5 5)
-				(thickness 1.2)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "9dfe805a-aa84-48f5-8732-96156080f0e0")
-	)
-	(text "IR MODULE"
-		(exclude_from_sim no)
-		(at 179.705 109.22 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 5 5)
-				(thickness 1.2)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "a0a6fad0-38c4-4a1d-9b32-1397f87c8c52")
-	)
-	(text "LINE SENSORS"
-		(exclude_from_sim no)
-		(at 26.035 20.955 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 5 5)
-				(thickness 1.2)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "a42fbd27-95ee-4186-9670-c3ccb5e74347")
-	)
-	(text "POLOLU SENSOR MANUAL"
-		(exclude_from_sim no)
-		(at 31.75 97.155 0)
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.254)
-				(bold yes)
-				(italic yes)
-				(color 0 0 255 1)
-			)
-			(justify left bottom)
-			(href "https://www.pololu.com/product/4067")
-		)
-		(uuid "b2e2fd94-2c15-43ec-8d55-5beab4167e15")
-	)
-	(text "( Better manual in -DOCS- )"
-		(exclude_from_sim no)
-		(at 43.18 140.335 0)
-		(effects
-			(font
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "ba01635a-c442-4b8e-8b9b-121b9a55ec43")
-	)
-	(text "M2"
-		(exclude_from_sim no)
-		(at 257.175 33.02 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.5 1.5)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "d1422ab8-b5be-4b7b-b8d1-79168c059c8c")
-	)
-	(text "Time-of-Flight(ToF)\nlaser-ranging module - TF-Luna\nCOMMUNICATION PROTOCOL: I²C \n\nWhen pin 5 is connected to ground, \nTF-Luna enters I2C mode, \nthen its pin 2 is used as SDA data and\npin 3 is the SCL clock sending data."
-		(exclude_from_sim no)
-		(at 29.21 133.35 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.5 1.5)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4c6964c-f301-4069-a6ac-34c4fbc02398")
-	)
-	(text "M1"
-		(exclude_from_sim no)
-		(at 236.855 33.02 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.5 1.5)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "d7ff93ea-39e4-418b-88b1-d9d17015a35f")
-	)
-	(text "IR LED Reciver module\n\nOperating voltage: 2.7V to 5.5V\nFrequency: 38kHz \nHigh immunity against ambient light. \nFor more than 1 input use - Hexadecimal code\n\nUsed as a main program starter\n"
-		(exclude_from_sim no)
-		(at 307.975 132.715 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.5 1.5)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "e35309b6-855c-4233-b524-05be28645550")
-	)
-	(text "Digital distance sensor - Sharp GP2Y0D810Z0F\n\nSensor detects objects between 2 cm and 10 cm\nLow when detecting an object, high otherwise.\nOperating voltage 2.7V - 6.2V"
-		(exclude_from_sim no)
-		(at 182.245 81.28 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.27 1.27)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "e613b278-af98-493b-b27b-eb42a9a98c9c")
 	)
 	(global_label "OUT 2B"
 		(shape output)

@@ -68,7 +68,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1
+          "min_clearance": 0.4
         }
       },
       "diff_pair_dimensions": [
@@ -985,11 +985,11 @@
     ],
     [
       "db21c0bc-8410-4aca-be63-6c1a31675c37",
-      "POWER_SUPPLY"
+      "POWER"
     ],
     [
       "7dd11b1d-8415-4d33-9ce7-bf4ef9848927",
-      "MOTOR_CONTROL"
+      "MOTOR CONTROL"
     ],
     [
       "7b93d7c5-db1a-415c-92e4-9ebec6cf195f",

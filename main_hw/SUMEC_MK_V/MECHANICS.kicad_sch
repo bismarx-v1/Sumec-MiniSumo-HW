@@ -1142,10 +1142,10 @@
 		(uuid "eb97db21-1f9d-45cd-9f99-d8a49415e487")
 	)
 	(junction
-		(at 124.46 125.73)
+		(at 124.46 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "170108f2-772d-4f8b-aaab-e0eaa990d3c1")
+		(uuid "100e21a9-6ce0-44c4-8b7c-29be28e91c8d")
 	)
 	(junction
 		(at 140.97 109.22)
@@ -1154,7 +1154,7 @@
 		(uuid "70d3f962-309a-4471-96cb-adcee31aa4e9")
 	)
 	(junction
-		(at 74.93 52.07)
+		(at 74.93 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8223b763-5a63-4222-bf7b-71a73407fa81")
@@ -1189,7 +1189,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 52.07) (xy 74.93 58.42)
+			(xy 74.93 54.61) (xy 74.93 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1209,13 +1209,23 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 43.18) (xy 74.93 52.07)
+			(xy 74.93 45.72) (xy 74.93 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1d5bee17-323f-4c89-a8c6-712a5ec3a196")
+	)
+	(wire
+		(pts
+			(xy 124.46 134.62) (xy 124.46 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b35c92-dcf5-40a1-95f4-0aad7a3a797e")
 	)
 	(wire
 		(pts
@@ -1259,16 +1269,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 125.73) (xy 124.46 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45083a1b-3daf-4397-afff-d0c2391f64be")
-	)
-	(wire
-		(pts
 			(xy 140.97 102.87) (xy 142.24 102.87)
 		)
 		(stroke
@@ -1309,7 +1309,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 43.18) (xy 74.93 43.18)
+			(xy 60.96 45.72) (xy 74.93 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1529,7 +1529,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 52.07) (xy 74.93 52.07)
+			(xy 60.96 54.61) (xy 74.93 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1557,7 +1557,7 @@
 		)
 		(uuid "ffa05871-8d4c-4062-a8e6-2e13137c44b5")
 	)
-	(global_label "BUTTON_IO_48"
+	(global_label "BTN_IOXX"
 		(shape input)
 		(at 142.24 125.73 0)
 		(fields_autoplaced yes)
@@ -1569,9 +1569,9 @@
 			)
 			(justify left)
 		)
-		(uuid "194f182a-33af-441a-90dd-7dde752e8c03")
+		(uuid "32bc6835-3132-4975-8913-a849fde190d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.6281 125.73 0)
+			(at 150.493 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1601,6 +1601,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BTN_IOXY"
+		(shape input)
+		(at 142.24 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "55d84b6d-ed2f-4aa4-a3db-b588bc7b86a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 150.4021 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1677,31 +1701,7 @@
 			)
 		)
 	)
-	(global_label "BUTTON_IO_47"
-		(shape input)
-		(at 142.24 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "a5b260d6-eb39-43af-8a01-7761aa1b5826")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.545 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IR MODULE"
+	(global_label "IR_MODULE"
 		(shape passive)
 		(at 170.18 59.69 180)
 		(fields_autoplaced yes)
@@ -1715,7 +1715,7 @@
 		)
 		(uuid "d6ee175e-ed2c-4e56-b2c2-05f5f3a95c79")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.7938 59.69 0)
+			(at 161.5593 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1985,72 +1985,6 @@
 			(project "SUMEC_MK_V"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/a907f0f2-2950-481d-8037-7b9f13f2e9c5"
 					(reference "#PWR077")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 123.19 125.73 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1f789232-e1fb-45cc-8dde-6b41c71be6ba")
-		(property "Reference" "#PWR076"
-			(at 127 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 119.38 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e3ebd19-c977-48b8-8eec-35010dd9493a")
-		)
-		(instances
-			(project "SUMEC_MK_V"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/a907f0f2-2950-481d-8037-7b9f13f2e9c5"
-					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -2400,7 +2334,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 58.42 52.07 90)
+		(at 58.42 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2408,7 +2342,7 @@
 		(dnp no)
 		(uuid "4193bdc7-2943-42a1-a0c5-cfb2db6fb47f")
 		(property "Reference" "H4"
-			(at 52.705 52.07 90)
+			(at 52.705 54.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,7 +2350,7 @@
 			)
 		)
 		(property "Value" "Mounting Hole M3"
-			(at 57.15 48.26 90)
+			(at 57.15 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2359,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 58.42 52.07 0)
+			(at 58.42 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,7 +2368,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 52.07 0)
+			(at 58.42 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +2377,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 58.42 52.07 0)
+			(at 58.42 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2458,6 +2392,72 @@
 			(project "SUMEC_MK_V"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/a907f0f2-2950-481d-8037-7b9f13f2e9c5"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 134.62 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "444ceaac-d31f-4fc9-9c32-dd6f46dedf5a")
+		(property "Reference" "#PWR083"
+			(at 124.46 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91099f54-4ef6-44d0-a427-65d8fea6325d")
+		)
+		(instances
+			(project "SUMEC_MK_V"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/a907f0f2-2950-481d-8037-7b9f13f2e9c5"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -2799,7 +2799,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 58.42 0)
+		(at 74.93 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2807,7 +2807,7 @@
 		(dnp no)
 		(uuid "b0f81543-aeff-479d-ab86-fa1cc9a594ff")
 		(property "Reference" "#PWR073"
-			(at 74.93 64.77 0)
+			(at 74.93 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2816,7 +2816,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 74.93 62.23 0)
+			(at 74.93 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2824,7 +2824,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 58.42 0)
+			(at 74.93 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2833,7 +2833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 58.42 0)
+			(at 74.93 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2842,7 +2842,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 58.42 0)
+			(at 74.93 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2864,7 +2864,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 58.42 43.18 90)
+		(at 58.42 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -2872,7 +2872,7 @@
 		(dnp no)
 		(uuid "bab805f5-4ad4-4e44-82a7-be0f2542c6d9")
 		(property "Reference" "H1"
-			(at 52.705 43.18 90)
+			(at 52.705 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2880,7 +2880,7 @@
 			)
 		)
 		(property "Value" "Mounting Hole M3"
-			(at 57.15 39.37 90)
+			(at 57.15 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2889,7 +2889,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 58.42 43.18 0)
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2898,7 +2898,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 43.18 0)
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,7 +2907,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 58.42 43.18 0)
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)

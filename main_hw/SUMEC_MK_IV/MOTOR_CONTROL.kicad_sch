@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "a35bb982-e162-4589-8fbb-31c9c17b2833")
 	(paper "A4")
 	(title_block
@@ -16,7 +16,9 @@
 	)
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -89,7 +91,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -101,7 +103,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -150,9 +152,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Polarized"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -308,11 +313,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -382,10 +392,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -394,10 +404,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -443,11 +453,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -565,6 +580,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+12V"
 			(power)
@@ -642,7 +658,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -654,7 +670,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -668,7 +684,8 @@
 			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+12V"
 						(effects
 							(font
@@ -685,6 +702,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+3V3"
 			(power)
@@ -762,7 +780,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -774,7 +792,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -788,7 +806,8 @@
 			(symbol "+3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+3V3"
 						(effects
 							(font
@@ -805,6 +824,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -884,7 +904,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -901,6 +922,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "sumec_sch_lib:DRV8874PWPR"
 			(exclude_from_sim no)
@@ -1054,150 +1076,6 @@
 					)
 				)
 				(pin passive line
-					(at 35.56 -15.24 180)
-					(length 5.08)
-					(name "OUT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -12.7 180)
-					(length 5.08)
-					(name "VM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -10.16 180)
-					(length 5.08)
-					(name "VCP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -7.62 180)
-					(length 5.08)
-					(name "CPH"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -5.08 180)
-					(length 5.08)
-					(name "CPL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -2.54 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 0 180)
-					(length 5.08)
-					(name "PMODE"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 -30.48 90)
-					(length 5.08)
-					(name "EP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
 					(name "PH/IN2"
@@ -1324,6 +1202,150 @@
 					)
 				)
 				(pin passive line
+					(at 17.78 -30.48 90)
+					(length 5.08)
+					(name "EP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 0 180)
+					(length 5.08)
+					(name "PMODE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -2.54 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -5.08 180)
+					(length 5.08)
+					(name "CPL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -7.62 180)
+					(length 5.08)
+					(name "CPH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -10.16 180)
+					(length 5.08)
+					(name "VCP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -12.7 180)
+					(length 5.08)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 35.56 -15.24 180)
+					(length 5.08)
+					(name "OUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 35.56 -17.78 180)
 					(length 5.08)
 					(name "PGND"
@@ -1342,7 +1364,160 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 46.99 36.195)
+		(end 240.03 146.685)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid eb3166d9-f5c8-4f65-99f8-f3999378dd6b)
+	)
+	(text "PREF. 0R"
+		(exclude_from_sim no)
+		(at 123.825 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "039b5585-41d5-47a7-bba8-ecca75da1a4d")
+	)
+	(text "CONTROL MODES: \n\nPMODE HIGH = PWM\nPMODE LOW = PH/EN\n"
+		(exclude_from_sim no)
+		(at 50.8 118.11 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "1cabe70d-3b84-4ddb-83e5-aa27a4b5734f")
+	)
+	(text "PREF. GND"
+		(exclude_from_sim no)
+		(at 208.28 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "2edbc22c-0e68-47f8-b4dc-1fc7dd2cf936")
+	)
+	(text "The internal current regulation can be disabled by tying IPROPI to GND and setting the VREF pin voltage greater\nthan GND"
+		(exclude_from_sim no)
+		(at 83.185 142.875 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "3537d544-4e3b-4f68-9211-aa2e5fa5ae6d")
+	)
+	(text "EN-IN1"
+		(exclude_from_sim no)
+		(at 146.05 99.695 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "540ae6ad-b417-407a-bb08-4857a4838cba")
+	)
+	(text "DRV8874 - Motor driver, H-Bridge\n\nRecommended Operating Conditions\nVM = 4.5V - 37V	      VM\nVIN = 0V - 5v			I/PMODE, nSlEEP, EN/IN1, PH/IN2\nfPWM = 0Hz - 100kHz	EN/IN1, PH/IN2\nVref = 0V - 3.6V 		VREF\n\nBlock Diagram:"
+		(exclude_from_sim no)
+		(at 50.165 68.58 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 2 2)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "54e7f9b6-aba2-44c8-bbf1-d5e3947106dd")
+	)
+	(text "ITRIP (A) x AIPROPI (μA/A) = VVREF (V) / RIPROPI (Ω)"
+		(exclude_from_sim no)
+		(at 110.49 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "85d75c63-59f9-4799-895a-91b302828098")
+	)
+	(text "PREF. 0R"
+		(exclude_from_sim no)
+		(at 123.19 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "b96684db-e281-4559-a104-36c490afc932")
+	)
+	(text "PREF. 0R"
+		(exclude_from_sim no)
+		(at 123.19 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "bc994ca5-5911-4828-b01d-de4ba4325b64")
+	)
+	(text "H-BRIDGE"
+		(exclude_from_sim no)
+		(at 46.355 36.195 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 5 5)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3f38f7a-393f-45bc-92f7-8cd72df918b1")
+	)
+	(text "PREF. 0R"
+		(exclude_from_sim no)
+		(at 123.825 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "ec3b8eca-7862-4b01-b44f-dec942428873")
+	)
+	(text "PH-IN2\n"
+		(exclude_from_sim no)
+		(at 146.05 102.235 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ff546cc3-87c3-47f4-9e54-d0853b727b45")
 	)
 	(junction
 		(at 209.55 123.19)
@@ -2115,19 +2290,6 @@
 			(type default)
 		)
 		(uuid "ffb4b134-8941-4860-99f1-8589020e0339")
-	)
-	(rectangle
-		(start 46.99 36.195)
-		(end 240.03 146.685)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid eb3166d9-f5c8-4f65-99f8-f3999378dd6b)
 	)
 	(image
 		(at 65.405 133.985)
@@ -3311,7 +3473,25 @@
 			"ERERkY5gEE9ERERERESkIxjEExEREREREekIBvFEREREREREOoJBPBEREREREZGOYBBPRERERERE"
 			"pCMYxBMRERERERHpCAbxRERERERERDqCQTwRERERERGRjmAQT0RERERERKQjGMQTERERERER6QgG"
 			"8UREREREREQ6gkE8ERERERERkY5gEE9ERERERESkIxjEExEREREREekE4P8+bqhx7WdJHwAAAABJ"
-			"RU5ErkJggg=="
+			"RU5ErkJggmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZm"
+			"ZmZmZmZmZmZmZmZmZmZm////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////ZmZmZmZmZmZm"
+			"ZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZm"
+			"ZmZmZmZmZmZmZmZmZmZm////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////ZmZmZmZmZmZm"
+			"ZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZm"
+			"ZmZmZmZmZmZmZmZmZmZm////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////ZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZm"
+			"ZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZm////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////ZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZmZm"
+			"ZmZmZmZmZg=="
 		)
 	)
 	(image
@@ -4831,147 +5011,26 @@
 			"iIiIiChrYqBDRERERESZDtfoEBERERFRpsNAh4iIiIiIMh0GOkRERERElOkw0NFiV69eRZ48eZAr"
 			"V64E2+rVq9VnExERERFRHCYjICIiIiKiTIcjOkRERERElOkw0CEiIiIiokyHgQ4REREREWU6DHSI"
 			"iIiIiCjTYaBDRERERESZDgMdIiIiIiLKdBjoEBERERFRpsNAh4iIiIiIMh0GOkRERERElOkw0CEi"
-			"IiIiokwG+D8Xq9U4jeXhHQAAAABJRU5ErkJggg=="
+			"IiIiokwG+D8Xq9U4jeXhHQAAAABJRU5ErkJgggAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
-	)
-	(text "PREF. 0R"
-		(exclude_from_sim no)
-		(at 123.825 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "039b5585-41d5-47a7-bba8-ecca75da1a4d")
-	)
-	(text "CONTROL MODES: \n\nPMODE HIGH = PWM\nPMODE LOW = PH/EN\n"
-		(exclude_from_sim no)
-		(at 50.8 118.11 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "1cabe70d-3b84-4ddb-83e5-aa27a4b5734f")
-	)
-	(text "PREF. GND"
-		(exclude_from_sim no)
-		(at 208.28 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "2edbc22c-0e68-47f8-b4dc-1fc7dd2cf936")
-	)
-	(text "The internal current regulation can be disabled by tying IPROPI to GND and setting the VREF pin voltage greater\nthan GND"
-		(exclude_from_sim no)
-		(at 83.185 142.875 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-			(justify left)
-		)
-		(uuid "3537d544-4e3b-4f68-9211-aa2e5fa5ae6d")
-	)
-	(text "EN-IN1"
-		(exclude_from_sim no)
-		(at 146.05 99.695 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "540ae6ad-b417-407a-bb08-4857a4838cba")
-	)
-	(text "DRV8874 - Motor driver, H-Bridge\n\nRecommended Operating Conditions\nVM = 4.5V - 37V	      VM\nVIN = 0V - 5v			I/PMODE, nSlEEP, EN/IN1, PH/IN2\nfPWM = 0Hz - 100kHz	EN/IN1, PH/IN2\nVref = 0V - 3.6V 		VREF\n\nBlock Diagram:"
-		(exclude_from_sim no)
-		(at 50.165 68.58 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 2 2)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "54e7f9b6-aba2-44c8-bbf1-d5e3947106dd")
-	)
-	(text "ITRIP (A) x AIPROPI (μA/A) = VVREF (V) / RIPROPI (Ω)"
-		(exclude_from_sim no)
-		(at 110.49 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "85d75c63-59f9-4799-895a-91b302828098")
-	)
-	(text "PREF. 0R"
-		(exclude_from_sim no)
-		(at 123.19 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "b96684db-e281-4559-a104-36c490afc932")
-	)
-	(text "PREF. 0R"
-		(exclude_from_sim no)
-		(at 123.19 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "bc994ca5-5911-4828-b01d-de4ba4325b64")
-	)
-	(text "H-BRIDGE"
-		(exclude_from_sim no)
-		(at 46.355 36.195 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 5 5)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "c3f38f7a-393f-45bc-92f7-8cd72df918b1")
-	)
-	(text "PREF. 0R"
-		(exclude_from_sim no)
-		(at 123.825 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "ec3b8eca-7862-4b01-b44f-dec942428873")
-	)
-	(text "PH-IN2\n"
-		(exclude_from_sim no)
-		(at 146.05 102.235 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ff546cc3-87c3-47f4-9e54-d0853b727b45")
 	)
 	(global_label "M1B"
 		(shape input)

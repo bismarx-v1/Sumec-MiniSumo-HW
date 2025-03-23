@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "a35bb982-e162-4589-8fbb-31c9c17b2833")
 	(paper "A4")
 	(title_block
@@ -16,9 +16,13 @@
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -116,7 +120,119 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 95.25 76.835)
+		(end 203.2 122.555)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f51fe4ec-fb9d-4e85-ba34-a7f83f33082f)
+	)
+	(text "ULTRAKILL V1"
+		(exclude_from_sim no)
+		(at 149.225 97.79 90)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a1edca1-7f68-4dd0-a0d1-d250e11e99c3")
+	)
+	(text "SPS LOGO"
+		(exclude_from_sim no)
+		(at 141.605 97.79 90)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "58da8d66-cb19-4b76-8a6a-fd504c904a58")
+	)
+	(text "ART"
+		(exclude_from_sim no)
+		(at 95.25 76.835 0)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 5 5)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b0181fa-7afd-4c6d-a687-8d4cb3ad04f4")
+	)
+	(text "SUMEC LOGO"
+		(exclude_from_sim no)
+		(at 145.415 97.79 90)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f2e6779-865b-47b0-9c5d-ed86ad9c1746")
+	)
+	(text "FREEFALL PANEL"
+		(exclude_from_sim no)
+		(at 156.845 97.79 90)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "a641c702-7cea-4400-b732-ff2b45388d03")
+	)
+	(text "SUMEC LINKTREE"
+		(exclude_from_sim no)
+		(at 153.035 97.79 90)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfa08a95-75bb-4bc7-ad16-03f0538be1a1")
+	)
+	(text "ME FR"
+		(exclude_from_sim no)
+		(at 160.655 97.79 90)
+		(effects
+			(font
+				(face "Bahnschrift")
+				(size 1 1)
+				(italic yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "e454df29-da45-4b7a-ba2f-8000e0725014")
 	)
 	(junction
 		(at 144.78 105.41)
@@ -271,117 +387,6 @@
 			(type default)
 		)
 		(uuid "ea3c20b8-b5ff-4356-aef2-e12efda0647d")
-	)
-	(rectangle
-		(start 95.25 76.835)
-		(end 203.2 122.555)
-		(stroke
-			(width 0)
-			(type dash)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f51fe4ec-fb9d-4e85-ba34-a7f83f33082f)
-	)
-	(text "ULTRAKILL V1"
-		(exclude_from_sim no)
-		(at 149.225 97.79 90)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a1edca1-7f68-4dd0-a0d1-d250e11e99c3")
-	)
-	(text "SPS LOGO"
-		(exclude_from_sim no)
-		(at 141.605 97.79 90)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "58da8d66-cb19-4b76-8a6a-fd504c904a58")
-	)
-	(text "ART"
-		(exclude_from_sim no)
-		(at 95.25 76.835 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 5 5)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "8b0181fa-7afd-4c6d-a687-8d4cb3ad04f4")
-	)
-	(text "SUMEC LOGO"
-		(exclude_from_sim no)
-		(at 145.415 97.79 90)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "9f2e6779-865b-47b0-9c5d-ed86ad9c1746")
-	)
-	(text "FREEFALL PANEL"
-		(exclude_from_sim no)
-		(at 156.845 97.79 90)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "a641c702-7cea-4400-b732-ff2b45388d03")
-	)
-	(text "SUMEC LINKTREE"
-		(exclude_from_sim no)
-		(at 153.035 97.79 90)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "dfa08a95-75bb-4bc7-ad16-03f0538be1a1")
-	)
-	(text "ME FR"
-		(exclude_from_sim no)
-		(at 160.655 97.79 90)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1 1)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "e454df29-da45-4b7a-ba2f-8000e0725014")
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")

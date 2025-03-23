@@ -1893,8 +1893,8 @@
 			(color 255 255 255 1.0000)
 		)
 		(uuid "7dd11b1d-8415-4d33-9ce7-bf4ef9848927")
-		(property "Sheetname" "MOTOR_CONTROL"
-			(at 147.955 81.28 0)
+		(property "Sheetname" "MOTOR CONTROL"
+			(at 149.225 80.645 0)
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -2078,7 +2078,7 @@
 			(color 255 255 255 1.0000)
 		)
 		(uuid "db21c0bc-8410-4aca-be63-6c1a31675c37")
-		(property "Sheetname" "POWER_SUPPLY"
+		(property "Sheetname" "POWER"
 			(at 79.375 81.28 0)
 			(effects
 				(font
