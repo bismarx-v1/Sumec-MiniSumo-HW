@@ -2948,7 +2948,7 @@
 			)
 		)
 	)
-	(global_label "PH_R_IO6"
+	(global_label "PH_R"
 		(shape output)
 		(at 167.64 76.2 180)
 		(fields_autoplaced yes)
@@ -2962,7 +2962,7 @@
 		)
 		(uuid "67cac877-6f2c-47a3-8258-0a3cf2d5d6b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.5189 76.2 0)
+			(at 162.1352 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
