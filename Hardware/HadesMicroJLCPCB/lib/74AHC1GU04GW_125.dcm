@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP 74AHC1GU04GW,125
-D Inverters SINGLE INVRTER UNBUF
-K
-F https://assets.nexperia.com/documents/data-sheet/74AHC1GU04.pdf
-$ENDCMP
-#
-#End Doc Library
