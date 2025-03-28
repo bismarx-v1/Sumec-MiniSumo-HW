@@ -828,7 +828,7 @@
 		)
 		(uuid "c7c95ee1-71de-4619-ad54-efb296a59562")
 	)
-	(text "ME FR"
+	(text "CALIPER-KARNIK"
 		(exclude_from_sim no)
 		(at 169.545 184.15 90)
 		(effects
@@ -1582,7 +1582,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sumec_graphic:CALIPER_IMG"
 			(at 173.99 189.23 0)
 			(effects
 				(font

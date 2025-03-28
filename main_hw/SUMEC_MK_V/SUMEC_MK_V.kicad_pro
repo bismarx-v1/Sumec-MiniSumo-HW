@@ -96,46 +96,6 @@
           ""
         ],
         [
-          "clearance|146127500|58925000|99f945b4-e6d0-45db-94b5-83eae55e2db6|ff459d43-fd8b-40de-9df0-604cebab8385",
-          ""
-        ],
-        [
-          "clearance|146127500|59425000|9163c177-8cfa-47e9-8a16-bcc5d0ea5cd7|99f945b4-e6d0-45db-94b5-83eae55e2db6",
-          ""
-        ],
-        [
-          "clearance|146127500|59925000|9a2e2272-ff36-464b-8193-04d78421f8fa|9163c177-8cfa-47e9-8a16-bcc5d0ea5cd7",
-          ""
-        ],
-        [
-          "clearance|146127500|60925000|0117eb85-3525-4ef1-a9dc-283f32f29e75|5cc75e00-663c-4b15-b7d7-625b7171dcb2",
-          ""
-        ],
-        [
-          "clearance|148457500|58275000|e5448add-c2a6-4d57-b969-047042df3db2|45f2bfa2-4395-43ea-a31c-7f67300d8261",
-          ""
-        ],
-        [
-          "clearance|148457500|58775000|45f2bfa2-4395-43ea-a31c-7f67300d8261|3e685fd4-0361-40de-b263-3ef0479945d4",
-          ""
-        ],
-        [
-          "clearance|148457500|59275000|3e685fd4-0361-40de-b263-3ef0479945d4|0e86b2e1-708d-4460-aa31-c6b2bfc66541",
-          ""
-        ],
-        [
-          "clearance|148457500|59775000|0e86b2e1-708d-4460-aa31-c6b2bfc66541|3f40b9f2-b717-4628-81b8-076a2b9934c1",
-          ""
-        ],
-        [
-          "clearance|148457500|60275000|3f40b9f2-b717-4628-81b8-076a2b9934c1|c3c82225-26e1-4a99-97ec-7e9b461001b3",
-          ""
-        ],
-        [
-          "clearance|148457500|60775000|c3c82225-26e1-4a99-97ec-7e9b461001b3|8c233e57-9c64-43c1-bf9b-0eaf077796b7",
-          ""
-        ],
-        [
           "clearance|149500000|67837500|e482d08d-8cfa-4cc5-a76c-02be3002bc87|ce64c05c-b7b7-438f-a20a-acda56c1a775",
           ""
         ],
@@ -647,8 +607,8 @@
       "sumec_brd",
       "sumec-remote_library",
       "PCM_Espressif",
-      "sumec_graphic",
-      "finca"
+      "finca",
+      "sumec_graphic"
     ],
     "pinned_symbol_libs": []
   },
