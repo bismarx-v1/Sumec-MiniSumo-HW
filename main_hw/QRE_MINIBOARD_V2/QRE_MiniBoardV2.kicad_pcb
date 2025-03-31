@@ -139,7 +139,7 @@
 			(at 0 -4.2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "78b39a5f-a52f-4b41-9e2a-82bd807189ec")
+			(uuid "48c1990b-8a6d-44dd-9d49-d702efa5b785")
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -174,7 +174,7 @@
 		(property "Value" "M3"
 			(at 0 4.2 0)
 			(layer "F.Fab")
-			(uuid "0af6a1fa-6673-4a93-a0b9-1296c540ecac")
+			(uuid "b7a1cfe6-c1d4-4e1a-b98a-962693a19b2f")
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -225,7 +225,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b5900fd-569f-4e19-9b7b-fb9a95e016b5")
+			(uuid "b3ddc1cb-f503-4a69-9d6e-df1e405e6d6c")
 			(effects
 				(font
 					(face "Bahnschrift")
@@ -240,7 +240,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "033cabbb-3fdc-4618-b58d-e0d2cb628b81")
+			(uuid "085c275f-c012-44f6-9da8-3eb6b7a7fe1b")
 			(effects
 				(font
 					(face "Bahnschrift")

@@ -2098,7 +2098,7 @@
 	)
 	(text "GPIO  | NAME      | DESC. \n02    | MAIN_BTN  | Schrack light switch; --debounced --pullup \n05    | R_LED     | LEDs, Indication --debug\n06    | G_LED     | LEDs, Indication --debug\n09    | BUZZER    | Passive buzzer\n10    | MISO      | SPI; SD Card\n11    | CLOCK     | SPI clock; SD Card, MAX7219\n12    | MOSI      | SPI; SD Card, MAX7219\n04    | cSelect0  | Chipselect for MAX7219; --defHigh\n13    | cSelect1  | Chipselect for SD Card; --defHigh\n38    | D_EXT1    | External device, eg: LEDs, Button\n39    | D_EXT2    | External device, eg: LEDs, Button\n40    | D_EXT3    | External device, eg: LEDs, Button\n41    | MODE_SW   | External switch, --unused\n42    | RESET_SW  | External switch, Time/Score reset\n\n"
 		(exclude_from_sim no)
-		(at 135.89 139.7 0)
+		(at 139.065 139.7 0)
 		(effects
 			(font
 				(face "Consolas")
@@ -2146,16 +2146,6 @@
 			(justify left bottom)
 		)
 		(uuid "4ad40340-581a-466f-9d86-88ed918f2a15")
-	)
-	(text "CHANGE LABELS"
-		(exclude_from_sim no)
-		(at 171.196 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "74b30b13-45bf-494e-ba6a-3011089b8986")
 	)
 	(text "ESP32-S3 Datasheet"
 		(exclude_from_sim no)
@@ -2265,11 +2255,11 @@
 		(uuid "7b824fe8-8ffb-41e1-89d6-4bc87324be66")
 	)
 	(no_connect
-		(at 205.74 71.12)
+		(at 208.28 71.12)
 		(uuid "bb3a93b0-1c5f-49c8-9df1-c013b12b916f")
 	)
 	(no_connect
-		(at 205.74 73.66)
+		(at 208.28 73.66)
 		(uuid "df4a2bc7-09ea-43cd-817b-b29069095717")
 	)
 	(no_connect
@@ -2345,6 +2335,16 @@
 			(type default)
 		)
 		(uuid "504a63e9-3232-4ff8-b90c-0acbaf7b31c5")
+	)
+	(wire
+		(pts
+			(xy 208.28 73.66) (xy 205.74 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50f4b731-be85-43ea-aab5-95381c11d81e")
 	)
 	(wire
 		(pts
@@ -2425,6 +2425,16 @@
 			(type default)
 		)
 		(uuid "9522c72b-f2cb-4096-a568-a3a17e09284a")
+	)
+	(wire
+		(pts
+			(xy 208.28 71.12) (xy 205.74 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7f7f4d1-cef7-446d-901f-a8fd8658dd47")
 	)
 	(wire
 		(pts
@@ -3382,38 +3392,6 @@
 			)
 		)
 	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 219.71 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "53ee2736-8d82-4036-8276-b512b2fa4bc9")
-		(property "Netclass" "ARES"
-			(at 220.4085 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" "Resistor"
-			(at 220.4085 138.6205 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
@@ -3532,6 +3510,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 190.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 190.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 190.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "7"
@@ -3676,7 +3678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44b23be1-dbe2-4044-ac4c-2d2aaf9fc336")
-		(property "Reference" "U3"
+		(property "Reference" "Ue"
 			(at 96.1741 137.16 0)
 			(effects
 				(font
@@ -3721,6 +3723,30 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "43c8df15-00a9-4f03-ab92-2e7f1170f753")
 		)
@@ -3739,7 +3765,7 @@
 		(instances
 			(project "SUMEC_MK_V"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/7b93d7c5-db1a-415c-92e4-9ebec6cf195f"
-					(reference "U3")
+					(reference "Ue")
 					(unit 1)
 				)
 			)
@@ -3929,6 +3955,30 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 222.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 222.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 222.25 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5b34f9e6-9d40-4fa2-ad1f-64dbce1e4a05")
 		)
@@ -3997,6 +4047,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 88.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 88.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 88.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4136,6 +4210,30 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 193.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 193.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 193.04 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "541d2dc1-cb89-48fc-8b4a-0a92e16b7d37")
 		)
@@ -4267,6 +4365,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 229.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 229.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 229.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4537,6 +4659,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 193.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 193.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 193.04 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

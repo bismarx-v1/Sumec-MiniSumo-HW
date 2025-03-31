@@ -2600,7 +2600,7 @@
 	)
 	(text "Status LED2"
 		(exclude_from_sim no)
-		(at 86.36 102.87 0)
+		(at 86.36 104.14 0)
 		(effects
 			(font
 				(face "Bahnschrift")
@@ -2640,7 +2640,7 @@
 	)
 	(text "Status LED1"
 		(exclude_from_sim no)
-		(at 86.36 95.25 0)
+		(at 86.36 96.52 0)
 		(effects
 			(font
 				(face "Bahnschrift")
@@ -2668,7 +2668,7 @@
 	)
 	(text "Status LED3"
 		(exclude_from_sim no)
-		(at 132.08 95.25 0)
+		(at 132.08 96.52 0)
 		(effects
 			(font
 				(face "Bahnschrift")
@@ -2708,7 +2708,7 @@
 	)
 	(text "Status LED4"
 		(exclude_from_sim no)
-		(at 132.08 104.14 0)
+		(at 132.08 105.41 0)
 		(effects
 			(font
 				(face "Bahnschrift")
@@ -2782,16 +2782,6 @@
 		)
 		(uuid "08004626-8acc-4244-89e0-5838178e8fd0")
 	)
-	(polyline
-		(pts
-			(xy 200.66 82.55) (xy 200.66 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1212ab6c-2027-40ad-b002-df9eb1f26a9a")
-	)
 	(wire
 		(pts
 			(xy 144.78 59.69) (xy 146.05 59.69)
@@ -2814,7 +2804,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 96.52) (xy 162.56 96.52)
+			(xy 156.21 97.79) (xy 162.56 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2834,7 +2824,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 104.14) (xy 116.84 104.14)
+			(xy 110.49 105.41) (xy 116.84 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2894,23 +2884,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 96.52) (xy 91.44 96.52)
+			(xy 87.63 97.79) (xy 91.44 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6718bc88-1736-47f1-8ecb-cdad801f68ec")
-	)
-	(polyline
-		(pts
-			(xy 213.36 82.55) (xy 200.66 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7054b0b5-bb33-45c2-967f-48f0e3d898ab")
 	)
 	(wire
 		(pts
@@ -2944,7 +2924,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 96.52) (xy 137.16 96.52)
+			(xy 133.35 97.79) (xy 137.16 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2964,7 +2944,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 105.41) (xy 162.56 105.41)
+			(xy 156.21 106.68) (xy 162.56 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3004,7 +2984,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 96.52) (xy 102.87 96.52)
+			(xy 99.06 97.79) (xy 102.87 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3014,7 +2994,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 105.41) (xy 148.59 105.41)
+			(xy 144.78 106.68) (xy 148.59 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3034,7 +3014,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 104.14) (xy 102.87 104.14)
+			(xy 99.06 105.41) (xy 102.87 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3114,7 +3094,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 105.41) (xy 137.16 105.41)
+			(xy 133.35 106.68) (xy 137.16 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3134,7 +3114,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 96.52) (xy 116.84 96.52)
+			(xy 110.49 97.79) (xy 116.84 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3162,16 +3142,6 @@
 		)
 		(uuid "e159c439-addf-4e9d-8cad-c11f5d15ba59")
 	)
-	(polyline
-		(pts
-			(xy 213.36 69.85) (xy 213.36 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e262d995-8302-4b1e-8861-eee7212f21b4")
-	)
 	(wire
 		(pts
 			(xy 92.71 48.26) (xy 93.98 48.26)
@@ -3184,7 +3154,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 104.14) (xy 91.44 104.14)
+			(xy 87.63 105.41) (xy 91.44 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3214,7 +3184,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 96.52) (xy 148.59 96.52)
+			(xy 144.78 97.79) (xy 148.59 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3340,7 +3310,7 @@
 	)
 	(global_label "LED_IO47"
 		(shape input)
-		(at 87.63 104.14 180)
+		(at 87.63 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3352,7 +3322,7 @@
 		)
 		(uuid "612ffd8a-223a-4f96-8149-94050d40a982")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.4991 104.14 0)
+			(at 79.4991 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,7 +3358,7 @@
 	)
 	(global_label "LED_IO36"
 		(shape input)
-		(at 133.35 96.52 180)
+		(at 133.35 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3400,7 +3370,7 @@
 		)
 		(uuid "a3d1dd80-2e51-42c5-8600-6e74a11a3578")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.269 96.52 0)
+			(at 125.269 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,7 +3502,7 @@
 	)
 	(global_label "LED_IO44"
 		(shape input)
-		(at 87.63 96.52 180)
+		(at 87.63 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3544,7 +3514,7 @@
 		)
 		(uuid "d236a2c6-a8ac-4768-a8aa-ba813c7206a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.4073 96.52 0)
+			(at 79.4073 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3604,7 +3574,7 @@
 	)
 	(global_label "LED_IO01"
 		(shape input)
-		(at 133.35 105.41 180)
+		(at 133.35 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3616,7 +3586,7 @@
 		)
 		(uuid "fcaca7b1-aeb2-4ea9-90fd-b8c340f50810")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.5103 105.41 0)
+			(at 125.5103 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3628,7 +3598,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 104.14 0)
+		(at 116.84 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3636,7 +3606,7 @@
 		(dnp no)
 		(uuid "006ff726-796d-4618-b80e-fc252f25f6c1")
 		(property "Reference" "#PWR068"
-			(at 116.84 110.49 0)
+			(at 116.84 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,7 +3615,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 107.95 0)
+			(at 116.84 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3653,7 +3623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 104.14 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 104.14 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +3641,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 104.14 0)
+			(at 116.84 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,7 +3663,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 105.41 90)
+		(at 140.97 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3701,7 +3671,7 @@
 		(dnp no)
 		(uuid "085c7bb4-c454-4238-b40c-903cd6edb544")
 		(property "Reference" "R25"
-			(at 142.875 100.965 90)
+			(at 142.875 102.235 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,7 +3680,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 143.51 102.87 90)
+			(at 143.51 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,7 +3689,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 140.97 107.188 90)
+			(at 140.97 108.458 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3728,7 +3698,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 105.41 0)
+			(at 140.97 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3737,12 +3707,36 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 105.41 0)
+			(at 140.97 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 140.97 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 140.97 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 140.97 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3762,7 +3756,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 152.4 96.52 180)
+		(at 152.4 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3770,7 +3764,7 @@
 		(dnp no)
 		(uuid "11d089e8-f1ec-4da6-b790-66276c97386c")
 		(property "Reference" "D8"
-			(at 150.495 92.075 0)
+			(at 150.495 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3779,7 +3773,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 150.495 93.98 0)
+			(at 150.495 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3788,7 +3782,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 152.4 96.52 0)
+			(at 152.4 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3797,7 +3791,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 96.52 0)
+			(at 152.4 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3806,12 +3800,36 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 96.52 0)
+			(at 152.4 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 152.4 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -3881,6 +3899,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 43.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 43.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 43.18 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4015,6 +4057,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 43.18 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4239,7 +4305,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 95.25 96.52 90)
+		(at 95.25 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4247,7 +4313,7 @@
 		(dnp no)
 		(uuid "3a2b15be-adba-4a29-9414-99e369a05a61")
 		(property "Reference" "R23"
-			(at 97.155 92.075 90)
+			(at 97.155 93.345 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4256,7 +4322,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 97.79 93.98 90)
+			(at 97.79 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4265,7 +4331,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 95.25 98.298 90)
+			(at 95.25 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4274,7 +4340,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 96.52 0)
+			(at 95.25 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4283,12 +4349,36 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 96.52 0)
+			(at 95.25 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 95.25 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4308,7 +4398,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 105.41 0)
+		(at 162.56 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4316,7 +4406,7 @@
 		(dnp no)
 		(uuid "3eba57c4-be59-40a4-a164-2480591d27cd")
 		(property "Reference" "#PWR069"
-			(at 162.56 111.76 0)
+			(at 162.56 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,7 +4415,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 109.22 0)
+			(at 162.56 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4333,7 +4423,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 105.41 0)
+			(at 162.56 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4342,7 +4432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 105.41 0)
+			(at 162.56 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +4441,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 105.41 0)
+			(at 162.56 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4423,6 +4513,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 140.97 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 140.97 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 140.97 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4562,6 +4676,30 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 140.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 140.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 140.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "798d747c-c212-468c-9dab-3af4b606f8b8")
 		)
@@ -4647,7 +4785,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 96.52 0)
+		(at 162.56 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4655,7 +4793,7 @@
 		(dnp no)
 		(uuid "765919e7-3299-4ec3-902d-4c14f7db658a")
 		(property "Reference" "#PWR0101"
-			(at 162.56 102.87 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4664,7 +4802,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 100.33 0)
+			(at 162.56 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4672,7 +4810,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 96.52 0)
+			(at 162.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4681,7 +4819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 96.52 0)
+			(at 162.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,7 +4828,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 96.52 0)
+			(at 162.56 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,6 +4900,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 54.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 54.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 54.61 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4847,7 +5009,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 152.4 105.41 180)
+		(at 152.4 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4855,7 +5017,7 @@
 		(dnp no)
 		(uuid "8d639eed-7811-42c5-a28c-133283dd031e")
 		(property "Reference" "D7"
-			(at 150.495 100.965 0)
+			(at 150.495 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4864,7 +5026,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 150.495 102.87 0)
+			(at 150.495 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4873,7 +5035,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 152.4 105.41 0)
+			(at 152.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4882,7 +5044,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 105.41 0)
+			(at 152.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4891,12 +5053,36 @@
 			)
 		)
 		(property "Description" ""
-			(at 152.4 105.41 0)
+			(at 152.4 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 152.4 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -4966,6 +5152,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 187.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 187.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 187.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5038,6 +5248,30 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 88.9 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 88.9 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 88.9 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8392a1a7-f566-4b7d-8ac6-60a2905135f6")
 		)
@@ -5055,7 +5289,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 106.68 96.52 180)
+		(at 106.68 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5063,7 +5297,7 @@
 		(dnp no)
 		(uuid "938a847c-49b2-4812-a59d-c2094c8d0f42")
 		(property "Reference" "D5"
-			(at 104.775 92.075 0)
+			(at 104.775 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5072,7 +5306,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 104.775 93.98 0)
+			(at 104.775 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5081,7 +5315,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 106.68 96.52 0)
+			(at 106.68 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5090,7 +5324,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 96.52 0)
+			(at 106.68 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,12 +5333,36 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 96.52 0)
+			(at 106.68 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 106.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5124,7 +5382,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 116.84 96.52 0)
+		(at 116.84 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5132,7 +5390,7 @@
 		(dnp no)
 		(uuid "9690954f-44e0-4d54-a062-0a088f967f64")
 		(property "Reference" "#PWR067"
-			(at 116.84 102.87 0)
+			(at 116.84 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5141,7 +5399,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 116.84 100.33 0)
+			(at 116.84 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,7 +5407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 116.84 96.52 0)
+			(at 116.84 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,7 +5416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 96.52 0)
+			(at 116.84 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,7 +5425,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 116.84 96.52 0)
+			(at 116.84 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5362,6 +5620,30 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 111.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "B5"
 			(uuid "64c2d7c5-07ad-43a4-8d19-32b524830fd1")
 		)
@@ -5421,7 +5703,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 96.52 90)
+		(at 140.97 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5429,7 +5711,7 @@
 		(dnp no)
 		(uuid "97ce905b-d37e-4406-93b5-32305941d9bb")
 		(property "Reference" "R30"
-			(at 142.875 92.075 90)
+			(at 142.875 93.345 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5438,7 +5720,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 143.51 93.98 90)
+			(at 143.51 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5447,7 +5729,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 140.97 98.298 90)
+			(at 140.97 99.568 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5456,7 +5738,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 96.52 0)
+			(at 140.97 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,12 +5747,36 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 96.52 0)
+			(at 140.97 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 140.97 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5533,7 +5839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\n17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6\n"
+		(property "Description" "17V Clamp 5A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-6"
 			(at 173.99 46.99 0)
 			(effects
 				(font
@@ -5673,6 +5979,30 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 166.37 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 166.37 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 166.37 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "47e7ae25-8a06-4f63-a693-577aed070890")
 		)
@@ -5754,6 +6084,30 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 54.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 54.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 54.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "e1cbc0d3-4753-4516-9617-570d6a02d8cb")
 		)
@@ -5823,6 +6177,30 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 242.57 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 242.57 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 242.57 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "c6698d1a-18c0-421e-99d6-60bd09646044")
 		)
@@ -5855,7 +6233,7 @@
 				)
 			)
 		)
-		(property "Value" "Polyfuse/50R"
+		(property "Value" "Polyfuse/0R"
 			(at 85.725 34.925 90)
 			(effects
 				(font
@@ -5889,6 +6267,30 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 86.36 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 86.36 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 86.36 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5958,6 +6360,30 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 78.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 78.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 78.74 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b50b7992-21eb-43a0-9d7e-92188450baff")
 		)
@@ -5975,7 +6401,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 106.68 104.14 180)
+		(at 106.68 105.41 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5983,7 +6409,7 @@
 		(dnp no)
 		(uuid "f0e8b66b-6d15-41bd-9fd0-fb1fd855001c")
 		(property "Reference" "D6"
-			(at 104.775 99.695 0)
+			(at 104.775 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5992,7 +6418,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 104.775 101.6 0)
+			(at 104.775 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6001,7 +6427,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 106.68 104.14 0)
+			(at 106.68 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6010,7 +6436,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 104.14 0)
+			(at 106.68 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6019,12 +6445,36 @@
 			)
 		)
 		(property "Description" ""
-			(at 106.68 104.14 0)
+			(at 106.68 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 106.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 106.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 106.68 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -6094,6 +6544,30 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 240.03 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 240.03 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 240.03 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d282eaa2-3323-41c7-996a-2dca6b77b116")
 		)
@@ -6111,7 +6585,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 95.25 104.14 90)
+		(at 95.25 105.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6119,7 +6593,7 @@
 		(dnp no)
 		(uuid "fc1d0f83-e237-44c1-b348-387eb4197d9d")
 		(property "Reference" "R24"
-			(at 97.155 99.695 90)
+			(at 97.155 100.965 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6128,7 +6602,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 97.79 101.6 90)
+			(at 97.79 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6137,7 +6611,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 95.25 105.918 90)
+			(at 95.25 107.188 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6146,7 +6620,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 104.14 0)
+			(at 95.25 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6155,12 +6629,36 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 104.14 0)
+			(at 95.25 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 95.25 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 95.25 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 95.25 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
