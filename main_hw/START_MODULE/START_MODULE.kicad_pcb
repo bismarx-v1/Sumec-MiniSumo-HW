@@ -3572,7 +3572,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "18,5 mm"
+		(gr_text "18.5 mm"
 			(at 146 87.1 0)
 			(layer "Dwgs.User")
 			(uuid "dc07c883-845b-4a6d-b518-186c3a1be81b")

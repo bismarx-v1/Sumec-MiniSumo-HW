@@ -2134,7 +2134,7 @@
 	)
 	(text "MCU"
 		(exclude_from_sim no)
-		(at 141.986 60.706 0)
+		(at 76.2 60.96 0)
 		(effects
 			(font
 				(face "Bahnschrift")
@@ -2143,12 +2143,13 @@
 				(bold yes)
 				(color 0 0 0 1)
 			)
+			(justify left)
 		)
 		(uuid "3845bcfa-57ba-4b00-9eb4-5d46db631b91")
 	)
 	(text "TSOP - IR RECIEVER"
 		(exclude_from_sim no)
-		(at 96.266 29.21 0)
+		(at 76.2 29.21 0)
 		(effects
 			(font
 				(face "Bahnschrift")
@@ -2157,12 +2158,13 @@
 				(bold yes)
 				(color 0 0 0 1)
 			)
+			(justify left)
 		)
 		(uuid "4505e649-908f-4dfb-80b5-297354ae0054")
 	)
 	(text "CONNECTORS"
 		(exclude_from_sim no)
-		(at 190.246 29.21 0)
+		(at 170.18 29.21 0)
 		(effects
 			(font
 				(face "Bahnschrift")
@@ -2171,12 +2173,13 @@
 				(bold yes)
 				(color 0 0 0 1)
 			)
+			(justify left)
 		)
 		(uuid "adced739-fa98-400a-9cb9-8eb9f9cb556f")
 	)
 	(text "MCU RESET"
 		(exclude_from_sim no)
-		(at 142.748 29.21 0)
+		(at 123.19 29.21 0)
 		(effects
 			(font
 				(face "Bahnschrift")
@@ -2185,6 +2188,7 @@
 				(bold yes)
 				(color 0 0 0 1)
 			)
+			(justify left)
 		)
 		(uuid "e8798676-9d21-4382-ad21-4dd93053ecee")
 	)
@@ -2238,7 +2242,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 88.9) (xy 167.64 88.9)
+			(xy 176.53 92.71) (xy 175.26 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2388,7 +2392,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 80.01) (xy 167.64 80.01)
+			(xy 176.53 83.82) (xy 175.26 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2468,7 +2472,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 80.01) (xy 152.4 80.01)
+			(xy 154.94 83.82) (xy 160.02 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2488,7 +2492,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 88.9) (xy 152.4 88.9)
+			(xy 154.94 92.71) (xy 160.02 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3449,6 +3453,24 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
@@ -3486,7 +3508,7 @@
 		(uuid "38a6502b-ad3d-4a5f-8be1-d53c8e634029")
 	)
 	(label "MOSI"
-		(at 147.32 80.01 0)
+		(at 154.94 83.82 0)
 		(effects
 			(font
 				(size 1 1)
@@ -3519,7 +3541,7 @@
 		(uuid "4bc9dcd1-b919-432c-b378-6b0ae4310a19")
 	)
 	(label "MISO"
-		(at 147.32 88.9 0)
+		(at 154.94 92.71 0)
 		(effects
 			(font
 				(size 1 1)
@@ -3678,7 +3700,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 163.83 80.01 180)
+		(at 171.45 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3686,7 +3708,7 @@
 		(dnp no)
 		(uuid "04028966-f10c-47cb-af60-30e1fb737d61")
 		(property "Reference" "D2"
-			(at 163.83 74.93 0)
+			(at 171.45 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3694,7 +3716,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 163.83 77.47 0)
+			(at 171.45 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,7 +3724,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 163.83 80.01 0)
+			(at 171.45 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3711,7 +3733,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 80.01 0)
+			(at 171.45 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,7 +3742,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 163.83 80.01 0)
+			(at 171.45 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4085,7 +4107,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 156.21 88.9 90)
+		(at 163.83 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4093,7 +4115,7 @@
 		(dnp no)
 		(uuid "4cd523ce-e366-4460-b39e-7e1e3d0df367")
 		(property "Reference" "R1"
-			(at 156.21 83.82 90)
+			(at 163.83 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4101,7 +4123,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 156.21 86.36 90)
+			(at 163.83 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +4131,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 156.21 90.678 90)
+			(at 163.83 94.488 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4140,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 88.9 0)
+			(at 163.83 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4127,7 +4149,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 156.21 88.9 0)
+			(at 163.83 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +4321,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 156.21 80.01 90)
+		(at 163.83 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4307,7 +4329,7 @@
 		(dnp no)
 		(uuid "6a3a3ecb-d68f-4a59-8f30-19199c4f23da")
 		(property "Reference" "R3"
-			(at 156.21 74.93 90)
+			(at 163.83 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4315,7 +4337,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 156.21 77.47 90)
+			(at 163.83 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,7 +4345,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 156.21 81.788 90)
+			(at 163.83 85.598 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4332,7 +4354,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 80.01 0)
+			(at 163.83 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4341,7 +4363,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 156.21 80.01 0)
+			(at 163.83 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,7 +4457,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 88.9 0)
+		(at 176.53 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4444,7 +4466,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b9e28f1-e80e-41f1-ad9e-4b2ba6b465af")
 		(property "Reference" "#PWR06"
-			(at 168.91 95.25 0)
+			(at 176.53 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4453,7 +4475,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 93.98 0)
+			(at 176.53 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,7 +4484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 88.9 0)
+			(at 176.53 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4471,7 +4493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 88.9 0)
+			(at 176.53 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4480,7 +4502,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 88.9 0)
+			(at 176.53 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4832,7 +4854,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 80.01 0)
+		(at 176.53 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4841,7 +4863,7 @@
 		(fields_autoplaced yes)
 		(uuid "e692043d-9613-41fb-99f3-45b2c5ac6a4e")
 		(property "Reference" "#PWR011"
-			(at 168.91 86.36 0)
+			(at 176.53 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4850,7 +4872,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 85.09 0)
+			(at 176.53 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4859,7 +4881,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 80.01 0)
+			(at 176.53 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +4890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 80.01 0)
+			(at 176.53 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4877,7 +4899,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 80.01 0)
+			(at 176.53 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5052,7 +5074,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 163.83 88.9 180)
+		(at 171.45 92.71 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5060,7 +5082,7 @@
 		(dnp no)
 		(uuid "f21f2f95-9d0d-48e8-9e5b-ddeaaba684f4")
 		(property "Reference" "D1"
-			(at 163.83 83.82 0)
+			(at 171.45 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5068,7 +5090,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 163.83 86.36 0)
+			(at 171.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +5098,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 163.83 88.9 0)
+			(at 171.45 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,7 +5107,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 88.9 0)
+			(at 171.45 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5094,7 +5116,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 163.83 88.9 0)
+			(at 171.45 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
