@@ -2576,7 +2576,7 @@
 		)
 		(uuid "f636fe35-fd9e-43e9-807c-4d2ed19a6c7d")
 	)
-	(global_label "SHARP_R"
+	(global_label "SHARP_L"
 		(shape input)
 		(at 205.74 81.28 0)
 		(fields_autoplaced yes)
@@ -2590,7 +2590,7 @@
 		)
 		(uuid "024e89e9-9827-4d17-bc8c-8c7a14a2a2e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.9109 81.28 0)
+			(at 213.8005 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2744,7 +2744,7 @@
 			)
 		)
 	)
-	(global_label "EN_R"
+	(global_label "EN_L"
 		(shape output)
 		(at 167.64 78.74 180)
 		(fields_autoplaced yes)
@@ -2758,7 +2758,7 @@
 		)
 		(uuid "2e3531d5-fd9f-4b90-9a69-777bf95b16d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.1264 78.74 0)
+			(at 162.2368 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +2768,7 @@
 			)
 		)
 	)
-	(global_label "BZ_PWM"
+	(global_label "BZ_IO02"
 		(shape output)
 		(at 166.37 66.04 180)
 		(fields_autoplaced yes)
@@ -2782,7 +2782,7 @@
 		)
 		(uuid "360eacbb-f0a3-459e-b24b-7df5c1cf8a6e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.7667 66.04 0)
+			(at 159.1643 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,7 +3008,7 @@
 			)
 		)
 	)
-	(global_label "PH_R"
+	(global_label "PH_L"
 		(shape output)
 		(at 167.64 76.2 180)
 		(fields_autoplaced yes)
@@ -3022,7 +3022,7 @@
 		)
 		(uuid "67cac877-6f2c-47a3-8258-0a3cf2d5d6b0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.1352 76.2 0)
+			(at 162.2456 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3104,7 +3104,7 @@
 			)
 		)
 	)
-	(global_label "SHARP_L"
+	(global_label "SHARP_R"
 		(shape input)
 		(at 167.64 86.36 180)
 		(fields_autoplaced yes)
@@ -3118,7 +3118,7 @@
 		)
 		(uuid "a292fb6e-1ac8-4afa-8928-fbf4f5e691a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.5795 86.36 0)
+			(at 159.4691 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3152,7 +3152,7 @@
 			)
 		)
 	)
-	(global_label "PH_L"
+	(global_label "PH_R"
 		(shape output)
 		(at 205.74 63.5 0)
 		(fields_autoplaced yes)
@@ -3166,7 +3166,7 @@
 		)
 		(uuid "af6f74cd-1ad8-4fa3-9a9a-5c1a912e08d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.1344 63.5 0)
+			(at 211.2448 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3224,7 +3224,7 @@
 			)
 		)
 	)
-	(global_label "EN_L"
+	(global_label "EN_R"
 		(shape output)
 		(at 167.64 81.28 180)
 		(fields_autoplaced yes)
@@ -3238,7 +3238,7 @@
 		)
 		(uuid "cce4aa75-0394-4dba-9cc2-b89f44568fcb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.2368 81.28 0)
+			(at 162.1264 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3678,8 +3678,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44b23be1-dbe2-4044-ac4c-2d2aaf9fc336")
-		(property "Reference" "Ue"
-			(at 96.1741 137.16 0)
+		(property "Reference" "U3"
+			(at 96.1233 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3688,7 +3688,7 @@
 			)
 		)
 		(property "Value" "24CW1280T-I/OT"
-			(at 96.1741 139.7 0)
+			(at 96.1233 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3765,7 +3765,7 @@
 		(instances
 			(project "SUMEC_MK_V"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046/7b93d7c5-db1a-415c-92e4-9ebec6cf195f"
-					(reference "Ue")
+					(reference "U3")
 					(unit 1)
 				)
 			)

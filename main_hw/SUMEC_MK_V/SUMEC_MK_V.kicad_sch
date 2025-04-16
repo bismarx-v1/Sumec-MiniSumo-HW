@@ -1515,7 +1515,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19455c14-793a-4ec3-9bf7-24040f8a19c8")
-		(property "Reference" "TP20"
+		(property "Reference" "TP8"
 			(at 165.1 184.6579 0)
 			(effects
 				(font
@@ -1592,7 +1592,7 @@
 		(instances
 			(project "SUMEC_MK_V"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP20")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -1608,7 +1608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29e93257-2918-463d-a5b7-75f699ada192")
-		(property "Reference" "TP4"
+		(property "Reference" "TP5"
 			(at 153.67 184.6579 0)
 			(effects
 				(font
@@ -1685,7 +1685,7 @@
 		(instances
 			(project "SUMEC_MK_V"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP4")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -1701,7 +1701,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45c2cd22-a540-4110-a1c4-ff5824801f1d")
-		(property "Reference" "TP3"
+		(property "Reference" "TP4"
 			(at 149.86 184.6579 0)
 			(effects
 				(font
@@ -1778,7 +1778,7 @@
 		(instances
 			(project "SUMEC_MK_V"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP3")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -1794,7 +1794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4960541d-104f-4f9c-9230-8c32ad4a0a42")
-		(property "Reference" "TP22"
+		(property "Reference" "TP10"
 			(at 172.72 184.6579 0)
 			(effects
 				(font
@@ -1871,7 +1871,7 @@
 		(instances
 			(project "SUMEC_MK_V"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP22")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -1887,7 +1887,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a9e397a-e339-470c-adfb-b69648423abb")
-		(property "Reference" "TP21"
+		(property "Reference" "TP9"
 			(at 168.91 184.6579 0)
 			(effects
 				(font
@@ -1964,7 +1964,7 @@
 		(instances
 			(project "SUMEC_MK_V"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP21")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -1980,7 +1980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ab67fd4-6c94-4814-8945-a189f88f47cc")
-		(property "Reference" "TP5"
+		(property "Reference" "TP6"
 			(at 157.48 184.6579 0)
 			(effects
 				(font
@@ -2057,7 +2057,7 @@
 		(instances
 			(project "SUMEC_MK_V"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP5")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -2073,7 +2073,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62dd2cee-7ecd-4b75-b761-78808efaebbc")
-		(property "Reference" "TP6"
+		(property "Reference" "TP7"
 			(at 161.29 184.6579 0)
 			(effects
 				(font
@@ -2150,7 +2150,7 @@
 		(instances
 			(project "SUMEC_MK_V"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP6")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -2230,7 +2230,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d2495dc-b06e-43c6-8ef2-a98bcc45c519")
-		(property "Reference" "TP19"
+		(property "Reference" "TP1"
 			(at 138.43 184.6579 0)
 			(effects
 				(font
@@ -2307,7 +2307,7 @@
 		(instances
 			(project "SUMEC_MK_V"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP19")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -2323,7 +2323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e70fde5a-fd0b-42da-98cf-ed59049d44b2")
-		(property "Reference" "TP1"
+		(property "Reference" "TP2"
 			(at 142.24 184.6579 0)
 			(effects
 				(font
@@ -2400,7 +2400,7 @@
 		(instances
 			(project "SUMEC_MK_V"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP1")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -2416,7 +2416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec10a8b5-c18c-4979-8e36-864c4dd81f86")
-		(property "Reference" "TP2"
+		(property "Reference" "TP3"
 			(at 146.05 184.6579 0)
 			(effects
 				(font
@@ -2493,7 +2493,7 @@
 		(instances
 			(project "SUMEC_MK_V"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP2")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
