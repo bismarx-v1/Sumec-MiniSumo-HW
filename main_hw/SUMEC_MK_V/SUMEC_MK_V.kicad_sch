@@ -805,7 +805,7 @@
 		)
 		(uuid "3b5c3cb0-d931-4c56-b222-5f78ad2f3065")
 	)
-	(text "1. Q: \n2. Q: \n3. Q: Left/right silk for sensors and motors\n4. Q: \n5. Q: Add IO pin numbers after the routing is done\n6. Q: Does the voltage read need to be after the switch or before?\n7. Q: "
+	(text "1. Q: Fix EEPROM\n2. Q: I2C expander for more LEDs\n3. Q: Power switching for higher voltage \n	(if the battery is connested choose the battery)\n4. Q: Fix errors in schematic encoders etc\n5. Q: \n6. Q: \n7. Q: "
 		(exclude_from_sim no)
 		(at 20.32 183.134 0)
 		(effects
@@ -829,18 +829,6 @@
 			(justify left bottom)
 		)
 		(uuid "62d83f11-262d-4f6b-8b1d-37d810110624")
-	)
-	(text "*The unit price is set for an order quantity of 10 units"
-		(exclude_from_sim no)
-		(at 52.07 173.99 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 1.905 1.905)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "853d9965-78aa-4d76-a1df-17f8d4e7252a")
 	)
 	(text "FLOWER"
 		(exclude_from_sim no)
