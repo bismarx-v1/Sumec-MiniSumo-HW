@@ -27,7 +27,7 @@ This GitHub repository contains PCB files, gerber plots and main electronics use
 - **Šimon Šťastný** - Head Mechanical Designer and Developer
 - **Jonáš Jarý** - Mechanical Developer, Software and Hardware Development Assistant
 - **Lukáš Houdek** - Mechanical Designer and Developer, 3D Printing Expert
-- **Natani Šimáčková** - Software developer, head functions developer
+- **Roselyn Natani Šimáčková** - Software developer, head functions developer
 
 ## Our Suppliers
 We buy our components from:
@@ -52,7 +52,7 @@ If you have any questions, suggestions, or issues regarding this project or repo
   - Email: jary.jonas@gmail.com
 - **Lukáš Houdek** - Mechanical Designer and Developer, 3D Printing Expert
   - Email: [HOUDEK EMAIL]
-- **Natani Šimáčková** - Software Developer, Head functions developer
+- **Roselyn Natani Šimáčková** - Software Developer, Head functions developer
   - Email: [SIMACKOVA EMAIL]
 
 ## Acknowledgements
