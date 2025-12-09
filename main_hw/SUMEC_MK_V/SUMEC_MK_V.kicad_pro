@@ -789,7 +789,7 @@
       "plot": "plots/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "SUMEC_MK_IV.step",
+      "step": "../../../../../Downloads/SUMEC_MK_IV.step",
       "svg": "",
       "vrml": ""
     },
