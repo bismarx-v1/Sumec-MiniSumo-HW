@@ -1080,7 +1080,7 @@
         "uuid": "900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
       }
     ],
-    "used_designators": "H1-2,#G1,D1-11,#PWR1-147,J1-13,IC1-2,BZ1,C1-31,JP1-5,L1-2,Q1,R1-40,SW1-6,TP1-13,U1-9,Y1",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
