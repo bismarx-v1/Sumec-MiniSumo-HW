@@ -36903,7 +36903,7 @@
 		)
 		(uuid "9c234505-825a-4c74-b9b0-c8c389564dc1")
 	)
-	(label "SHARP_R"
+	(label "SHRP_R"
 		(at 214.63 326.39 180)
 		(effects
 			(font
@@ -37287,7 +37287,7 @@
 		)
 		(uuid "fb83b05f-501e-4476-82bd-2bd5177ec337")
 	)
-	(label "SHARP_L"
+	(label "SHRP_L"
 		(at 238.76 326.39 180)
 		(effects
 			(font
@@ -55642,7 +55642,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:VSSOP-10_3x3mm_P0.5mm"
+		(property "Footprint" "Package_SO:HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.83x1.89mm"
 			(at 119.38 162.56 0)
 			(hide yes)
 			(show_name no)
