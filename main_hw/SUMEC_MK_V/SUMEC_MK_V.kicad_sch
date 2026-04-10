@@ -13056,7 +13056,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 237.49) (xy 397.51 234.95)
+			(xy 397.51 241.3) (xy 397.51 238.76)
 		)
 		(stroke
 			(width 0)
@@ -13316,7 +13316,7 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 237.49) (xy 412.75 234.95)
+			(xy 412.75 240.03) (xy 412.75 238.76)
 		)
 		(stroke
 			(width 0)
@@ -13576,16 +13576,6 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 236.22) (xy 389.89 234.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b68a919-de17-4aad-a4cd-97507956e6c1")
-	)
-	(wire
-		(pts
 			(xy 176.53 166.37) (xy 179.07 166.37)
 		)
 		(stroke
@@ -13746,7 +13736,7 @@
 	)
 	(wire
 		(pts
-			(xy 405.13 237.49) (xy 405.13 234.95)
+			(xy 405.13 241.3) (xy 405.13 238.76)
 		)
 		(stroke
 			(width 0)
@@ -14296,7 +14286,7 @@
 	)
 	(wire
 		(pts
-			(xy 427.99 236.22) (xy 427.99 234.95)
+			(xy 427.99 240.03) (xy 427.99 238.76)
 		)
 		(stroke
 			(width 0)
@@ -14488,7 +14478,7 @@
 	)
 	(wire
 		(pts
-			(xy 401.32 237.49) (xy 405.13 237.49)
+			(xy 401.32 241.3) (xy 405.13 241.3)
 		)
 		(stroke
 			(width 0)
@@ -14638,7 +14628,7 @@
 	)
 	(wire
 		(pts
-			(xy 420.37 236.22) (xy 420.37 234.95)
+			(xy 420.37 240.03) (xy 420.37 238.76)
 		)
 		(stroke
 			(width 0)
@@ -16779,7 +16769,7 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 237.49) (xy 397.51 237.49)
+			(xy 393.7 241.3) (xy 397.51 241.3)
 		)
 		(stroke
 			(width 0)
@@ -36520,7 +36510,7 @@
 		(uuid "3d0f8b04-d5fa-44f2-8645-75095074df2e")
 	)
 	(label "SDA"
-		(at 401.32 237.49 0)
+		(at 401.32 241.3 0)
 		(effects
 			(font
 				(face "Bahnschrift")
@@ -36568,7 +36558,7 @@
 		(uuid "4bc8e102-07a3-4764-8d4e-29350c54b4a2")
 	)
 	(label "SCL"
-		(at 393.7 237.49 0)
+		(at 393.7 241.3 0)
 		(effects
 			(font
 				(face "Bahnschrift")
@@ -41715,7 +41705,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 405.13 234.95 0)
+		(at 405.13 238.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -41725,7 +41715,7 @@
 		(dnp no)
 		(uuid "2571d25e-d54d-492d-9ea2-af0860fbea86")
 		(property "Reference" "TP7"
-			(at 405.13 229.87 0)
+			(at 405.13 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41735,7 +41725,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 406.908 232.918 0)
+			(at 406.908 236.728 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41747,7 +41737,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 410.21 234.95 0)
+			(at 410.21 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41758,7 +41748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 410.21 234.95 0)
+			(at 410.21 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41769,7 +41759,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 405.13 234.95 0)
+			(at 405.13 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -41780,7 +41770,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 405.13 234.95 0)
+			(at 405.13 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41790,7 +41780,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 405.13 234.95 0)
+			(at 405.13 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -41800,7 +41790,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 405.13 234.95 0)
+			(at 405.13 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -43876,7 +43866,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 420.37 236.22 0)
+		(at 420.37 240.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -43886,7 +43876,7 @@
 		(dnp no)
 		(uuid "388e9c04-e1e2-401a-88d6-7db9fdc4afe2")
 		(property "Reference" "#PWR0129"
-			(at 420.37 242.57 0)
+			(at 420.37 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43897,7 +43887,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 420.37 240.03 0)
+			(at 420.37 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43908,7 +43898,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 420.37 236.22 0)
+			(at 420.37 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43919,7 +43909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 420.37 236.22 0)
+			(at 420.37 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43930,7 +43920,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 420.37 236.22 0)
+			(at 420.37 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50548,7 +50538,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 427.99 236.22 0)
+		(at 427.99 240.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -50558,7 +50548,7 @@
 		(dnp no)
 		(uuid "71e9924f-6755-4edb-8bc1-a3a71b3bf02e")
 		(property "Reference" "#PWR0135"
-			(at 427.99 242.57 0)
+			(at 427.99 246.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50569,7 +50559,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 427.99 240.03 0)
+			(at 427.99 243.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50580,7 +50570,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 427.99 236.22 0)
+			(at 427.99 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50591,7 +50581,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 427.99 236.22 0)
+			(at 427.99 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -50602,7 +50592,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 427.99 236.22 0)
+			(at 427.99 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52778,7 +52768,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 427.99 234.95 0)
+		(at 427.99 238.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -52788,7 +52778,7 @@
 		(dnp no)
 		(uuid "8e2c491a-2f39-4bee-a151-30bde6926de1")
 		(property "Reference" "TP13"
-			(at 427.99 229.87 0)
+			(at 427.99 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52798,7 +52788,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 429.768 232.918 0)
+			(at 429.768 236.728 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52810,7 +52800,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 433.07 234.95 0)
+			(at 433.07 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52821,7 +52811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 433.07 234.95 0)
+			(at 433.07 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52832,7 +52822,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 427.99 234.95 0)
+			(at 427.99 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -52843,7 +52833,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 427.99 234.95 0)
+			(at 427.99 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52853,7 +52843,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 427.99 234.95 0)
+			(at 427.99 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -52863,7 +52853,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 427.99 234.95 0)
+			(at 427.99 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53162,7 +53152,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 412.75 234.95 0)
+		(at 412.75 238.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -53172,7 +53162,7 @@
 		(dnp no)
 		(uuid "929ad301-8490-4f14-b4f2-d6f6a9d0ef70")
 		(property "Reference" "TP9"
-			(at 412.75 229.87 0)
+			(at 412.75 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53182,7 +53172,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 414.528 232.918 0)
+			(at 414.528 236.728 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53194,7 +53184,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 417.83 234.95 0)
+			(at 417.83 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53205,7 +53195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 417.83 234.95 0)
+			(at 417.83 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53216,7 +53206,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 412.75 234.95 0)
+			(at 412.75 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53227,7 +53217,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 412.75 234.95 0)
+			(at 412.75 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53237,7 +53227,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 412.75 234.95 0)
+			(at 412.75 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -53247,7 +53237,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 412.75 234.95 0)
+			(at 412.75 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54175,7 +54165,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 420.37 234.95 0)
+		(at 420.37 238.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -54185,7 +54175,7 @@
 		(dnp no)
 		(uuid "a34c6592-5ca0-481d-a336-63584bd1faed")
 		(property "Reference" "TP11"
-			(at 420.37 229.87 0)
+			(at 420.37 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54195,7 +54185,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 422.148 232.918 0)
+			(at 422.148 236.728 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54207,7 +54197,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 425.45 234.95 0)
+			(at 425.45 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54218,7 +54208,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 425.45 234.95 0)
+			(at 425.45 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54229,7 +54219,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 420.37 234.95 0)
+			(at 420.37 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -54240,7 +54230,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 420.37 234.95 0)
+			(at 420.37 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54250,7 +54240,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 420.37 234.95 0)
+			(at 420.37 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -54260,7 +54250,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 420.37 234.95 0)
+			(at 420.37 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57823,114 +57813,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 389.89 234.95 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ca71e8b4-0bf3-4a1c-8d4f-268c9222ae9e")
-		(property "Reference" "TP3"
-			(at 389.89 229.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 391.668 232.918 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 394.97 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 394.97 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 389.89 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 389.89 234.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 389.89 234.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 389.89 234.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f9ce4018-6b54-4883-a0d9-e9fbc4d9c639")
-		)
-		(instances
-			(project "SUMEC_MK_V"
-				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "+3V3_1")
 		(lib_id "power:+3V3")
 		(at 279.4 237.49 270)
@@ -58993,6 +58875,84 @@
 			(project "SUMEC_MK_V"
 				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
 					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 412.75 240.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d1fa4002-fb81-4280-bcef-ce693284e20a")
+		(property "Reference" "#PWR0148"
+			(at 412.75 246.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 412.75 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 412.75 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 412.75 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 412.75 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "774da5ac-eeac-45d3-8ee3-d9090c627c17")
+		)
+		(instances
+			(project "SUMEC_MK_V"
+				(path "/900bd7ac-cdf9-4a2f-8b1f-2c21e3760046"
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -62552,7 +62512,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 397.51 234.95 0)
+		(at 397.51 238.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -62562,7 +62522,7 @@
 		(dnp no)
 		(uuid "f0ce27b8-b545-45ee-bd74-d37add652801")
 		(property "Reference" "TP5"
-			(at 397.51 229.87 0)
+			(at 397.51 233.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -62572,7 +62532,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 399.288 232.918 0)
+			(at 399.288 236.728 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -62584,7 +62544,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 402.59 234.95 0)
+			(at 402.59 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -62595,7 +62555,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 402.59 234.95 0)
+			(at 402.59 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -62606,7 +62566,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 397.51 234.95 0)
+			(at 397.51 238.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -62617,7 +62577,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 397.51 234.95 0)
+			(at 397.51 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -62627,7 +62587,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 397.51 234.95 0)
+			(at 397.51 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -62637,7 +62597,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 397.51 234.95 0)
+			(at 397.51 238.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
