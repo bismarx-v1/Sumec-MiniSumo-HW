@@ -1,3 +1,0 @@
-## **Check pinouts? **
-test 
-test
