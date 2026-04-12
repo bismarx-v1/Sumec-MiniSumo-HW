@@ -11719,9 +11719,9 @@
 		)
 		(uuid "41bb5b6b-b555-4e54-96ae-172d36529510")
 	)
-	(text "PS1 (Pin 5)	PS0 (Pin 6)	Communication Interface\n0 (GND)		0 (GND)		Standard/Fast I²C (Default on most breakout boards)\n0 (GND)		1 (HIGH)	HID over I²C (Used for Windows plug-and-play sensor hubs)\n1 (HIGH)	0 (GND)		UART (Serial communication)\n1 (HIGH)	1 (HIGH)	Reserved (Do not use)"
+	(text "PS1 (Pin 5)	PS0 (Pin 6)	Communication Interface\n0 (GND)		0 (GND)		Standard/Fast I²C (Default on most breakout boards)\n0 (GND)		1 (HIGH)		HID over I²C (Used for Windows plug-and-play sensor hubs)\n1 (HIGH)		0 (GND)		UART (Serial communication)\n1 (HIGH)		1 (HIGH)		Reserved (Do not use)"
 		(exclude_from_sim no)
-		(at 288.544 335.788 0)
+		(at 285.496 335.788 0)
 		(effects
 			(font
 				(face "Courier New")
@@ -11881,6 +11881,16 @@
 			(justify left)
 		)
 		(uuid "65613505-9d24-45e9-939a-b52c34dd077b")
+	)
+	(text "I2C Addr.: 0x29 when COM3 tied to 3V3"
+		(exclude_from_sim no)
+		(at 279.654 326.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7427e81b-c80b-48ac-a59e-d707d130fb6f")
 	)
 	(text "MAIN SWITCH"
 		(exclude_from_sim no)
