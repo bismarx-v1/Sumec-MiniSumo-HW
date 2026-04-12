@@ -11719,6 +11719,19 @@
 		)
 		(uuid "41bb5b6b-b555-4e54-96ae-172d36529510")
 	)
+	(text "PS1 (Pin 5)	PS0 (Pin 6)	Communication Interface\n0 (GND)		0 (GND)		Standard/Fast I²C (Default on most breakout boards)\n0 (GND)		1 (HIGH)	HID over I²C (Used for Windows plug-and-play sensor hubs)\n1 (HIGH)	0 (GND)		UART (Serial communication)\n1 (HIGH)	1 (HIGH)	Reserved (Do not use)"
+		(exclude_from_sim no)
+		(at 288.544 335.788 0)
+		(effects
+			(font
+				(face "Courier New")
+				(size 1.016 1.016)
+				(color 0 72 0 1)
+			)
+			(justify left)
+		)
+		(uuid "44a54f0d-72fb-4691-b7f6-f74207975233")
+	)
 	(text "Digital distance sensor - Sharp GP2Y0D810Z0F\n\nSensor detects objects between 2 cm and 10 cm\nLow when detecting an object, high otherwise.\nOperating voltage 2.7V - 6.2V"
 		(exclude_from_sim no)
 		(at 200.025 316.23 0)
