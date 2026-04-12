@@ -1,6 +1,10 @@
 # STM32CubeIDE
 Debug/
 
+# IDEs and Editors
+.history/
+.vscode/
+
 # Apple macOS
 .DS_Store
 
@@ -9,7 +13,7 @@ Debug/
 
 /*-backups/
 
-# Temporary files
+# Temporary and Lock files (KiCad)
 *.000
 *.bak
 *.bck
@@ -25,6 +29,8 @@ _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
+*-save.kicad_sch
+*.lck
 fp-info-cache
 fp-lib-table
 
@@ -43,4 +49,5 @@ fp-lib-table
 desktop.ini
 
 # Inventor
+OldVersions/
 OldVesrions
