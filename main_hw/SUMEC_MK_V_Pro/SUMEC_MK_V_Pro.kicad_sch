@@ -39364,7 +39364,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cz.mouser.com/ProductDetail/YAGEO/PA0805FRE470R002L?qs=w%2Fv1CP2dgqowmpKkbnpTqw%3D%3D"
 			(at 76.2 154.94 0)
 			(hide yes)
 			(show_name no)
