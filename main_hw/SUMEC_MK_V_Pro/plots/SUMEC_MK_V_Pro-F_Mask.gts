@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,10.0.0*%
-%TF.CreationDate,2026-04-10T13:13:36+02:00*%
+%TF.CreationDate,2026-04-12T12:35:11+02:00*%
 %TF.ProjectId,SUMEC_MK_V_Pro,53554d45-435f-44d4-9b5f-565f50726f2e,v2.1.1*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 10.0.0) date 2026-04-10 13:13:36*
+G04 Created by KiCad (PCBNEW 10.0.0) date 2026-04-12 12:35:11*
 %MOMM*%
 %LPD*%
 G01*
