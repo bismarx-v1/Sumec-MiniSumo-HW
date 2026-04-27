@@ -11801,19 +11801,6 @@
 		)
 		(uuid "548cda0b-c458-45cd-bfb3-b80e7b908f0e")
 	)
-	(text "BNO055:   0x28\nEEPROM:  0x50\nFUSB302  0x25\nBQ2589:   0x6A\nGNSS:      0x3A"
-		(exclude_from_sim no)
-		(at 327.025 110.49 0)
-		(effects
-			(font
-				(face "Bahnschrift")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "58104621-05d0-4b67-afdd-d92f2cc0fef6")
-	)
 	(text "MOUNT."
 		(exclude_from_sim no)
 		(at 441.96 210.185 0)
